@@ -1,0 +1,23 @@
+[Desktop Entry]
+Categories=Development;
+Comment=A tool for inspecting Web Services over HTTP
+Comment[pt]=A tool for inspecting Web Services over HTTP
+Encoding=UTF-8
+Exec=/opt/demoiselle/tool/soapui-3.5/bin/soapui.sh 
+GenericName=
+GenericName[pt]=
+Icon=demoiselle-soapui-3.5.png
+MimeType=
+Name=Demoiselle soapUI 3.5
+Name[pt]=Demoiselle soapUI 3.5
+Path=/opt/demoiselle/tool/soapui-3.5
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+URL=
+X-KDE-SubstituteUID=false
+X-KDE-Username=root
+

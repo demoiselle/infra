@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Demoiselle Eclipse 3.7
+Comment=Eclipse IDE for Java Developers with plugins and features needed by Demoiselle
+Exec=/opt/demoiselle/ide/eclipse-3.7/eclipse
+Icon=demoiselle-eclipse-3.7.png
+Terminal=false
+Type=Application
+Categories=Development;
+StartupNotify=true

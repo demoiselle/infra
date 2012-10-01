@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#MAVEN_SETTINGS="/opt/demoiselle/tool/maven2/conf/settings.xml"
+#MAVEN_LOCAL_REPO="/opt/demoiselle/tool/maven2-local-repo/"
+
+#temp=/tmp/$$.xml
+#sed -e "/<settings>/a\ \\n\\t<localRepository>$MAVEN_LOCAL_REPO</localRepository>" $MAVEN_SETTINGS > $temp
+#mv $MAVEN_SETTINGS $MAVEN_SETTINGS.bkp
+#cp $temp $MAVEN_SETTINGS
+
+exit 0

@@ -1,0 +1,106 @@
+~~ Demoiselle Framework
+~~ Copyright (C) 2010 SERPRO
+~~ ============================================================================
+~~ This file is part of Demoiselle Framework.
+~~ 
+~~ Demoiselle Framework is free software; you can redistribute it and/or
+~~ modify it under the terms of the GNU Lesser General Public License version 3
+~~ as published by the Free Software Foundation.
+~~ 
+~~ This program is distributed in the hope that it will be useful,
+~~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+~~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+~~ GNU General Public License for more details.
+~~ 
+~~ You should have received a copy of the GNU Lesser General Public License version 3
+~~ along with this program; if not,  see <http://www.gnu.org/licenses/>
+~~ or write to the Free Software Foundation, Inc., 51 Franklin Street,
+~~ Fifth Floor, Boston, MA  02110-1301, USA.
+~~ ============================================================================
+~~ Este arquivo é parte do Framework Demoiselle.
+~~ 
+~~ O Framework Demoiselle é um software livre; você pode redistribuí-lo e/ou
+~~ modificá-lo dentro dos termos da GNU LGPL versão 3 como publicada pela Fundação
+~~ do Software Livre (FSF).
+~~ 
+~~ Este programa é distribuído na esperança que possa ser útil, mas SEM NENHUMA
+~~ GARANTIA; sem uma garantia implícita de ADEQUAÇÃO a qualquer MERCADO ou
+~~ APLICAÇÃO EM PARTICULAR. Veja a Licença Pública Geral GNU/LGPL em português
+~~ para maiores detalhes.
+~~ 
+~~ Você deve ter recebido uma cópia da GNU LGPL versão 3, sob o título
+~~ "LICENCA.txt", junto com esse programa. Se não, acesse <http://www.gnu.org/licenses/>
+~~ ou escreva para a Fundação do Software Livre (FSF) Inc.,
+~~ 51 Franklin St, Fifth Floor, Boston, MA 02111-1301, USA.
+
+Notas de Versão
+
+* v1.2.4
+
+  * Inclusão do pacote demoiselle-eclipse-3.7-SR2
+   
+  * Inclusão do pacote demoiselle-jboss-7.1
+
+  * Inclusão do pacote demoiselle-infra-1
+  
+  * Inclusão do pacote demoiselle-infra-2
+
+  * Atualização do pacote demoiselle-workspace colocando o template do eclipse 3.7-SR2 como padrão
+
+  * Atualização do pacote demoiselle-maven-local-repo para adição das bibliotecas do Demoiselle 2.3.x
+  
+  * Inclusão dos pacotes para ambientes Windows e Linux para as plataformas 32 bits e 64 bits
+  
+  * Duas novas sessões na área de pacotes para tratar dos pacotes das versão do Demoiselle Framework 1.x e versão 2.x
+  
+  * Atualização da página de Instalação para a distribução do Ubuntu Precise (12.04 LTS)
+  
+  * Atualização da página de Como Usar para inclusão dos pacotes do Windows
+  
+  * Atualização da página do Sumário com os novos pacotes
+
+* v1.2.3
+
+  * Inclusão do pacote demoiselle-eclipse-3.7
+  
+  * Atualização do pacote demoiselle-maven-local-repo para adição das bibliotecas do Demoiselle 2.x
+  
+  * Alteração do pacote demoiselle-dev atualizando suas dependencias para prepara-lo para o Demoiselle 2.x
+  
+  * Atualização do pacote demoiselle-workspace colocando o workspace do eclipse 3.7 como padrão
+
+* v1.2.2
+
+  * Inclusão da distribuição do pacote demoiselle-dev para Windows 32 bits
+  
+  * Inclusão da distribuição do pacote demoiselle-dev-extra para Windows 32 bits
+  
+  * Alterações no sistema para adicionar as informações para Windows
+
+* v1.2.1
+
+  * Inclusão do pacote demoiselle-tomcat-7.0 (Apache Tomcat 7.0)
+
+  * Inclusão do pacote demoiselle-jboss-6.0 (JBoss Application Server 6.0)
+  
+  * Modificação dos cabeçalhos de licença para LGPL versão 3
+  
+* v1.2.0
+
+  * Adicionadas instruções de utilização dos pacotes ("Como Usar")
+  
+  * Inclusão do pacote demoiselle-jboss-5.1 (JBoss Application Server 5.1)
+  
+  * Correções ortográficas na documentação do site
+
+* v1.1.0
+
+  * Inclusão do pacote demoiselle-eclipse-3.6 (IDE Eclipse 3.6 Helios)
+
+* v1.0.1
+
+  * Inclusão do repositório externo HTTP (http://demoiselle.c3sl.ufpr.br/)
+
+* v1.0.0
+
+  * Versão inicial do site

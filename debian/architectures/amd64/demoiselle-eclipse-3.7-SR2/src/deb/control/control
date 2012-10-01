@@ -1,0 +1,9 @@
+Package: [[name]]
+Version: [[version]]
+Section: universe/devel
+Priority: standard
+Architecture: amd64
+Depends: openjdk-6-jdk | sun-java6-jdk | openjdk-7-jdk
+Installed-Size: 715020
+Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
+Description: [[description]]

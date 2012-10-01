@@ -1,0 +1,16 @@
+#!/bin/bash
+
+PKGDIR="/opt/demoiselle/server/jboss-7.1"
+
+if [ ! -d $PKGDIR ]; then
+	echo "Diretório não encontrado: $PKGDIR"
+	exit 1
+fi
+
+find $PKGDIR -type d -exec chmod 777 {} \;
+find $PKGDIR -type f -exec chmod a+r,a+w {} \;
+
+rm -rf $PKGDIR/bin/*.lck
+rm -rf $PKGDIR/bin/*.log
+
+exit 0

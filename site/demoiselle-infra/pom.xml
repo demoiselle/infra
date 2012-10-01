@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Demoiselle Framework Copyright (C) 2010 SERPRO ============================================================================ 
+This file is part of Demoiselle Framework. Demoiselle Framework is free software; you can redistribute it and/or modify it 
+under the terms of the GNU Lesser General Public License version 3 as published by the Free Software Foundation. This program 
+is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy 
+of the GNU Lesser General Public License version 3 along with this program; if not, see <http://www.gnu.org/licenses/> or 
+write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA. ============================================================================ 
+Este arquivo é parte do Framework Demoiselle. O Framework Demoiselle é um software livre; você pode redistribuí-lo e/ou modificá-lo 
+dentro dos termos da GNU LGPL versão 3 como publicada pela Fundação do Software Livre (FSF). Este programa é distribuído 
+na esperança que possa ser útil, mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO a qualquer MERCADO ou 
+APLICAÇÃO EM PARTICULAR. Veja a Licença Pública Geral GNU/LGPL em português para maiores detalhes. Você deve ter recebido 
+uma cópia da GNU LGPL versão 3, sob o título "LICENCA.txt", junto com esse programa. Se não, acesse <http://www.gnu.org/licenses/> 
+ou escreva para a Fundação do Software Livre (FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA 02111-1301, USA. -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>br.gov.demoiselle.infra</groupId>
+    <artifactId>demoiselle-infra</artifactId>
+    <version>1.2.4</version>
+
+    <packaging>pom</packaging>
+
+    <name>Demoiselle Infra</name>
+    <description>Pacotes Debian para preparação do ambiente de desenvolvimento e produção do Demoiselle Framework.</description>
+    <url>http://demoiselle.sourceforge.net/infra/</url>
+
+    <organization>
+        <name>SERPRO</name>
+        <url>http://www.serpro.gov.br</url>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>LGPL</name>
+            <url>http://www.gnu.org/licenses/lgpl-3.0.txt</url>
+        </license>
+    </licenses>
+
+    <mailingLists>
+        <mailingList>
+            <name>Demoiselle Users</name>
+            <archive>https://sourceforge.net/mailarchive/forum.php?forum_name=demoiselle-infra</archive>
+            <post>demoiselle-infra@lists.sourceforge.net</post>
+            <subscribe>https://lists.sourceforge.net/lists/listinfo/demoiselle-infra</subscribe>
+            <unsubscribe>https://lists.sourceforge.net/lists/listinfo/demoiselle-infra</unsubscribe>
+        </mailingList>
+    </mailingLists>
+
+    <ciManagement>
+        <system>Continuum</system>
+        <notifiers>
+            <notifier>
+                <type>mail</type>
+                <sendOnError>true</sendOnError>
+                <sendOnFailure>true</sendOnFailure>
+                <sendOnSuccess>true</sendOnSuccess>
+                <sendOnWarning>true</sendOnWarning>
+                <configuration>
+                    <address>${continuum.address}</address>
+                </configuration>
+            </notifier>
+        </notifiers>
+    </ciManagement>
+
+    <issueManagement>
+        <system>Mantis</system>
+        <url>https://sourceforge.net/apps/mantisbt/demoiselle/main_page.php</url>
+    </issueManagement>
+
+    <properties>
+        <encoding.default>UTF-8</encoding.default>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>2.1</version>
+                <configuration>
+                    <inputEncoding>${encoding.default}</inputEncoding>
+                    <outputEncoding>${encoding.default}</outputEncoding>
+                    <locales>pt_BR,en</locales>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <distributionManagement>
+        <site>
+            <id>demoiselle.sourceforge.net</id>
+            <url>scp://shell.sourceforge.net/home/groups/d/de/demoiselle/htdocs/infra/${version}</url>
+        </site>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>demoiselle.sourceforge.net-release</id>
+            <url>http://demoiselle.sourceforge.net/repository/release</url>
+        </repository>
+    </repositories>
+
+
+    <developers>
+        <!--
+        <developer>
+            <name>Alexandre Haguiar</name>
+            <id>ahaguiar</id>
+            <email>alexandre.aguiar@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </developer>
+        -->
+        <developer>
+            <name>Clóvis Lemes Ferreira Júnior</name>
+            <email>clovis.ferreira@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </developer>
+        <developer>
+            <name>Emerson Sachio Saito</name>
+            <email>emerson.saito@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </developer>
+        <developer>
+            <name>Paulo Gladson Ximenes Pinheiro</name>
+            <email>paulo.pinheiro@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </developer>
+    </developers>
+
+    <contributors>
+        <contributor>
+            <name>Flavio Gomes da Silva Lisboa</name>
+            <email>flavio.lisboa@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </contributor>
+        <!--
+        <contributor>
+            <name>Emerson Sachio Saito</name>
+            <email>emerson.saito@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </contributor>
+        -->
+        <contributor>
+            <name>Rodrigo Hjort</name>
+            <email>rodrigo.hjort@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </contributor>
+        <contributor>
+            <name>Fabiano Castro Pereira</name>
+            <email>fabiano.pereira@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </contributor>
+        <contributor>
+            <name>Warley Duarte Reis</name>
+            <email>warley.reis@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </contributor>
+        <contributor>
+            <name>Flagner Vaz Camargo</name>
+            <email>flagner.camargo@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </contributor>
+        <contributor>
+            <name>Paulo Fernando Gontijo de Lima</name>
+            <email>paulo-fernando.gontijo@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </contributor>
+        <contributor>
+            <name>Cleverson Sacramento de Oliveira</name>
+            <email>cleverson.sacramento@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </contributor>
+        <contributor>
+            <name>Vanderlei Mokfa</name>
+            <email>vanderlei.mokfa@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </contributor>
+        <contributor>
+            <name>Antonio Carlos Tiboni</name>
+            <email>antonio.tiboni@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </contributor>
+        <contributor>
+            <name>Frederico Souza da Camara</name>
+            <email>frederico.camara@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </contributor>
+    </contributors>
+
+    <scm>
+        <url>https://github.com/demoiselle/infra</url>
+        <connection>scm:git:https://github.com/demoiselle/infra</connection>
+    </scm>
+</project>

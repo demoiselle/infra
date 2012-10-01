@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>demoiselle-tomcat-7.0</artifactId>
+    <version>7.0.5</version>
+    <packaging>pom</packaging>
+  
+    <description>
+        Apache Tomcat 7.0 Java Servlet and JSP Engine
+        Apache Tomcat is the reference implementation for the Java Servlet and JavaServer Pages technologies.
+        Homepage: http://tomcat.apache.org/
+    </description>
+
+   <parent>
+        <groupId>br.gov.frameworkdemoiselle.infra.all</groupId>
+        <artifactId>demoiselle-infra-all-parent</artifactId>
+        <version>1.0</version>
+        <relativePath>../../../parent/all/pom.xml</relativePath>
+    </parent>
+</project>

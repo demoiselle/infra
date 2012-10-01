@@ -1,0 +1,10 @@
+Package: [[name]]
+Version: [[version]]
+Section: universe/devel
+Priority: standard
+Architecture: i386
+Depends: demoiselle-eclipse-3.7 (>=3.7), demoiselle-maven2 (>=1.0), demoiselle-maven2-local-repo (>=1.0), demoiselle-workspace (>=1.2), demoiselle-tomcat-7.0 (>=7.0), demoiselle-jboss-6.1 (>=6.1)
+Suggests: demoiselle-dev-extra (>=1.0)
+Installed-Size: 12
+Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
+Description: [[description]]

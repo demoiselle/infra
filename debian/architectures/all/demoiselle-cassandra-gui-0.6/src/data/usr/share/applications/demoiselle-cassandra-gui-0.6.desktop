@@ -1,0 +1,23 @@
+[Desktop Entry]
+Categories=Development;
+Comment=A Java client for handling Apache Cassandra v0.6 databases
+Comment[pt]=A Java client for handling Apache Cassandra v0.6 databases
+Encoding=UTF-8
+Exec=/opt/demoiselle/tool/cassandra-gui-0.6/cassandra-gui.sh
+GenericName=
+GenericName[pt]=
+Icon=demoiselle-cassandra-gui-0.6.png
+MimeType=
+Name=Demoiselle Cassandra GUI 0.6
+Name[pt]=Demoiselle Cassandra GUI 0.6
+Path=/opt/demoiselle/tool/cassandra-gui-0.6
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+URL=
+X-KDE-SubstituteUID=false
+X-KDE-Username=root
+

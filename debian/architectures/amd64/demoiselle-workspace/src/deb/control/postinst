@@ -1,0 +1,37 @@
+#!/bin/bash
+
+ln -s /opt/demoiselle/tool/workspace/bin/demoiselle-workspace /usr/local/bin
+
+PKGDIR="/opt/demoiselle/tool/workspace"
+
+if [ ! -d $PKGDIR ]; then
+	echo "Diretório não encontrado: $PKGDIR"
+	exit 1
+fi
+
+template="$PKGDIR/template/"
+metadata="$template/$temp/.metadata/"
+
+find $template -type d -exec chmod 775 {} \;
+find $template -type f -exec chmod a+r {} \;
+
+chmod +x $PKGDIR/bin/demoiselle-workspace
+
+for temp in $template/*; do
+
+        rm -rf $metadata/.log
+        rm -rf $metadata/.lock
+        rm -rf $metadata/.bak_*.log
+
+        rm -rf $metadata/.plugins/org.eclipse.core.resources/.history/*
+	rm -rf $metadata/.plugins/org.jboss.tools.jst.web.kb/projects/*
+	rm -f $metadata/.plugins/org.maven.ide.eclipse/dialog_settings.xml
+	rm -rf $metadata/.plugins/org.maven.ide.eclipse/nexus/
+
+        rm -rf $metadata/.plugins/org.eclipse.wst.server.core/tmp0/logs/*
+        rm -rf $metadata/.plugins/org.eclipse.wst.server.core/tmp0/temp/*
+        rm -rf $metadata/.plugins/org.eclipse.wst.server.core/tmp0/webapps/*
+
+done
+
+exit 0

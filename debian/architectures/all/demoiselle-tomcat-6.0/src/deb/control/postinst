@@ -1,0 +1,13 @@
+#!/bin/bash
+
+PKGDIR="/opt/demoiselle/server/tomcat-6.0/"
+
+if [ ! -d $PKGDIR ]; then
+	echo "Diretório não encontrado: $PKGDIR"
+	exit 1
+fi
+
+find $PKGDIR -type d -exec chmod 777 {} \;
+find $PKGDIR -type f -exec chmod a+r,a+w {} \;
+
+exit 0

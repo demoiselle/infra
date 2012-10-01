@@ -1,0 +1,24 @@
+[Desktop Entry]
+Categories=Development;
+Comment=An automated processing tool for Demoiselle Framework
+Comment[pt]=An automated processing tool for Demoiselle Framework
+Encoding=UTF-8
+Exec=/opt/demoiselle/tool/nimble/bin/nimble-gui.sh
+GenericName=
+GenericName[pt]=
+Icon=demoiselle-nimble.png
+MimeType=
+Name=Demoiselle Nimble 1.0
+Name[pt]=Demoiselle Nimble 1.0
+Path=/tmp
+#Path=/opt/demoiselle/tool/nimble
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+URL=
+X-KDE-SubstituteUID=false
+X-KDE-Username=root
+

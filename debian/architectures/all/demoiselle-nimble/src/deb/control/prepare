@@ -1,0 +1,15 @@
+#!/bin/bash
+
+PKGDIR="./opt/demoiselle/tool/nimble/"
+
+if [ ! -d $PKGDIR ]; then
+	echo "Diretório não encontrado: $PKGDIR"
+	exit 1
+fi
+
+bindir="$PKGDIR/bin"
+
+#find $template -type d -exec chmod 775 {} \;
+#find $template -type f -exec chmod a+r {} \;
+
+chmod +x $bindir/*

@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>demoiselle-maven2</artifactId>
+    <version>2.2.2</version>
+    <packaging>pom</packaging>
+    
+    <description>
+        Java software project management and comprehension tool
+        Homepage: http://maven.apache.org/
+    </description>
+
+    <parent>
+        <groupId>br.gov.frameworkdemoiselle.infra.all</groupId>
+        <artifactId>demoiselle-infra-all-parent</artifactId>
+        <version>1.0</version>
+        <relativePath>../../../parent/all/pom.xml</relativePath>
+    </parent>
+</project>

@@ -1,0 +1,81 @@
+~~ Demoiselle Framework
+~~ Copyright (C) 2010 SERPRO
+~~ ============================================================================
+~~ This file is part of Demoiselle Framework.
+~~ 
+~~ Demoiselle Framework is free software; you can redistribute it and/or
+~~ modify it under the terms of the GNU Lesser General Public License version 3
+~~ as published by the Free Software Foundation.
+~~ 
+~~ This program is distributed in the hope that it will be useful,
+~~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+~~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+~~ GNU General Public License for more details.
+~~ 
+~~ You should have received a copy of the GNU Lesser General Public License version 3
+~~ along with this program; if not,  see <http://www.gnu.org/licenses/>
+~~ or write to the Free Software Foundation, Inc., 51 Franklin Street,
+~~ Fifth Floor, Boston, MA  02110-1301, USA.
+~~ ============================================================================
+~~ Este arquivo é parte do Framework Demoiselle.
+~~ 
+~~ O Framework Demoiselle é um software livre; você pode redistribuí-lo e/ou
+~~ modificá-lo dentro dos termos da GNU LGPL versão 3 como publicada pela Fundação
+~~ do Software Livre (FSF).
+~~ 
+~~ Este programa é distribuído na esperança que possa ser útil, mas SEM NENHUMA
+~~ GARANTIA; sem uma garantia implícita de ADEQUAÇÃO a qualquer MERCADO ou
+~~ APLICAÇÃO EM PARTICULAR. Veja a Licença Pública Geral GNU/LGPL em português
+~~ para maiores detalhes.
+~~ 
+~~ Você deve ter recebido uma cópia da GNU LGPL versão 3, sob o título
+~~ "LICENCA.txt", junto com esse programa. Se não, acesse <http://www.gnu.org/licenses/>
+~~ ou escreva para a Fundação do Software Livre (FSF) Inc.,
+~~ 51 Franklin St, Fifth Floor, Boston, MA 02111-1301, USA.
+
+FAQ (Perguntas mais frequentes)
+
+  Neste documento estão listadas as perguntas mais frequentes referentes ao <<Demoiselle Infra>> com as respectivas respostas.
+
+  No caso de uma nova questão, favor enviar um e-mail para a lista de discussões do projeto: {demoiselle-infra@lists.sourceforge.net}.
+
+%{toc|section=1|fromDepth=1|toDepth=3}
+
+* Os pacotes são exclusivos para os desenvolvedores?
+
+  Não. Pacotes de servidores de aplicação, por exemplo, podem ser instalados também em máquinas de produção.
+
+* Por que não estão sendo seguidos os padrões de diretórios e arquivos de um sistema Linux, tal como LSB?
+
+  Atualmente todos os pacotes do Demoiselle Infra são instalados no diretório </opt/demoiselle/>, incluindo arquivos de configuração, arquivos de log e binários das aplicações. Cada software instalado reside em um diretório específico com a estrutura original disponibilizada pelo fornecedor durante a instalação manual.
+
+* Qual a vantagem em se utilizar os metapacotes do Demoiselle Infra?
+
+  Ao utilizar um metapacote todos os pacotes que ele agrupa através de dependências são instalados automaticamente, facilitando o processo de instalação e atualização.
+
+* Existe dependência externa de algum pacote que tenha de ser instalado antes dos pacotes do Demoiselle Infra?
+
+  Sim, alguns pacotes possuem dependência externa. Todavia, todas essas dependências são referenciadas e devem ser resolvidas de forma automática durante a instalação.
+
+* Como posso colaborar com o Demoiselle Infra?
+
+  A melhor forma de colaborar é se tornando um membro ativo da comunidade. Ou seja, participando das discussões, relatando bugs, sugerindo melhorias, inscrevendo-se na lista, etc.
+
+* Posso colaborar com o projeto incluindo um pacote proprietário?
+
+  Não. Uma das premissas do projeto é incluir somente aplicações consideradas Software Livre. Todos são livres para fazer as alterações que quiserem, porém alterações que contemplem software proprietário não serão agregadas ao projeto ou mantidas pela comunidade Demoiselle.
+
+* Novos ambientes de desenvolvimento podem ser incluídos ao projeto?
+
+  Novos ambientes de desenvolvimento podem ser adicionados ao projeto desde que seja comprovado que eles existam, ou seja, casos reais em que tais ambientes sejam utilizados. A melhor forma para isso é apresentar tais situações à comunidade.
+
+* Como posso reportar bugs ou sugerir melhorias nos pacotes?
+
+  Requisições, defeitos, e funcionalidades podem ser submetidas para o seguinte sistema de gerenciamento de requisições: {{https://sourceforge.net/apps/mantisbt/demoiselle/main_page.php}}
+
+* Como posso fazer parte da lista de discussões?
+
+  Primeiramente é necessário ser um usuário cadastrado no SourceForge. Se você ainda não é um usuário cadastrado, cadastre-se aqui: {{https://sourceforge.net/account/registration/}}
+
+  Se você já é um usuário cadastrado, cadastre-se na lista através do link abaixo: {{https://lists.sourceforge.net/lists/listinfo/demoiselle-infra}}
+

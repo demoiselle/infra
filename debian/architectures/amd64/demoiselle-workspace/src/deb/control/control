@@ -1,0 +1,8 @@
+Package: [[name]]
+Version: [[version]]
+Section: universe/devel
+Priority: optional
+Architecture: amd64
+Installed-Size: 59468
+Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
+Description: [[description]]

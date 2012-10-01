@@ -1,0 +1,26 @@
+#!/bin/bash
+
+PKGDIR="./opt/demoiselle/ide/eclipse-3.6"
+
+if [ ! -d $PKGDIR ]; then
+	echo "Diretório não encontrado: $PKGDIR"
+	exit 1
+fi
+
+# remover arquivos de LOG
+rm -f $PKGDIR/configuration/*.log
+
+# remover lista de workspaces recentes
+PRFFILE="$PKGDIR/configuration/.settings/org.eclipse.ui.ide.prefs"
+temp=/tmp/$$
+sed "/^RECENT_WORKSPACES=/d" $PRFFILE > $temp
+mv $temp $PRFFILE
+
+# remover componente Demoiselle Wizard
+find $PKGDIR/ -name "br.gov.demoiselle.eclipse.*" -exec rm -rf {} \;
+
+# dar permissão de leitura e escrita a todos no eclipse.ini
+chmod a+r+w $PKGDIR/eclipse.ini
+chmod +x $PKGDIR/eclipse
+
+exit 0

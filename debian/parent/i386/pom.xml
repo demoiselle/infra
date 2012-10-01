@@ -1,0 +1,103 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>br.gov.frameworkdemoiselle.infra.i386</groupId>
+    <artifactId>demoiselle-infra-i386-parent</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+
+    <name>Infra i386 Parent</name>
+    
+    <properties>
+        <architeture>i386</architeture>
+        <buildDirectory>${project.basedir}/target</buildDirectory>
+    </properties>
+    
+    <distributionManagement>
+        <repository>
+            <id>ftp-repository</id>
+            <url>ftp://10.200.24.50:/var/www/repository/unstable/</url>
+        </repository>
+    </distributionManagement>
+  
+    <build>
+        <extensions>
+            <!-- Enabling the use of FTP -->
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-ftp</artifactId>
+                <version>2.2</version>
+            </extension>
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-ssh</artifactId>
+                <version>2.2</version>
+            </extension>
+        </extensions>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.7</version>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>jdeb</artifactId>
+                <groupId>org.vafer</groupId>
+                <version>0.11</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>jdeb</goal>
+                        </goals>
+                        <configuration>
+                            <verbose>true</verbose>
+                            <deb>${buildDirectory}/${project.artifactId}_${project.version}_${architeture}.deb</deb>
+                            <dataSet>
+                                <data>
+                                    <src>${project.basedir}/src/data</src>
+                                    <type>directory</type>
+                                    <mapper>
+                                        <type>perm</type>
+                                        <filemode>777</filemode>
+                                        <dirmode>777</dirmode>
+                                    </mapper>
+                                </data>
+                            </dataSet>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>wagon-maven-plugin</artifactId>
+                <version>1.0-beta-4</version>
+                <executions>
+                    <execution>
+                        <id>upload-deb</id>
+                        <phase>deploy</phase>
+                        <goals>
+                            <goal>upload</goal>
+                        </goals>
+                        <configuration>
+                            <fromDir>${project.basedir}/target</fromDir>
+                            <includes>*.deb</includes>                            
+                            <serverId>ftp-repository</serverId>
+                            <!--<url>ftp://10.200.24.50</url>
+                            <toDir>/var/www/repository/unstable</toDir>-->
+                            <url>file:///opt/laboratorio/demoiselle/infra_atual/debian/unstable</url>
+                            <!--<toDir>unstable</toDir>-->
+                            
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>  
+
+</project>
+
