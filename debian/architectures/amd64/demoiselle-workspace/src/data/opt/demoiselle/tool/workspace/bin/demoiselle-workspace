@@ -47,11 +47,11 @@ help()
    echo "  --help Exibe esta tela de ajuda"
    echo
    echo "Exemplos para criação ou atualização de workspaces:"
-   echo "  $ demoiselle-workspace                                 # pasta padrão para a versão padrão do Eclipse"
-   echo "  $ demoiselle-workspace /tmp/workspace                  # pasta '/tmp/workspace'"
-   echo "  $ demoiselle-workspace ~/workspace                     # pasta 'workspace' no home do usuário"
-   echo "  $ demoiselle-workspace --version=3.7                   # pasta padrão para a versão 3.7 do Eclipse"
-   echo "  $ demoiselle-workspace /tmp/workspace --version=3.7    # pasta '/tmp/workspace' para a versão 3.7 do Eclipse"
+   echo "  $ demoiselle-workspace                                  # pasta padrão para a versão padrão do Eclipse"
+   echo "  $ demoiselle-workspace /tmp/workspace                   # pasta '/tmp/workspace'"
+   echo "  $ demoiselle-workspace ~/workspace                      # pasta 'workspace' no home do usuário"
+   echo "  $ demoiselle-workspace --version=3.7-SR2                # pasta padrão para a versão 3.7-SR2 do Eclipse"
+   echo "  $ demoiselle-workspace /tmp/workspace --version=3.7-SR2 # pasta '/tmp/workspace' para a versão 3.7-SR2 do Eclipse"
    echo
    echo "Comunicar 'bugs' em <http://sourceforge.net/apps/mantisbt/demoiselle>"
 }
