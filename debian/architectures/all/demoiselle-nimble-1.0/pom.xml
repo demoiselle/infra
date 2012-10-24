@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>demoiselle-nimble</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+    
+    <description>
+        Automated processing tool for Demoiselle Framework
+        Homepage: http://demoiselle.sourceforge.net/tools/nimble/
+    </description>
+
+    <parent>
+        <groupId>br.gov.frameworkdemoiselle.infra.all</groupId>
+        <artifactId>demoiselle-infra-all-parent</artifactId>
+        <version>1.0</version>
+        <relativePath>../../../parent/all/pom.xml</relativePath>
+    </parent>
+</project>

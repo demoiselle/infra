@@ -4,6 +4,5 @@ Section: universe/java
 Priority: optional
 Architecture: all
 Depends: openjdk-6-jdk | sun-java6-jdk | openjdk-7-jdk
-Installed-Size: 157656
 Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
 Description: [[description]]

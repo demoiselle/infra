@@ -38,7 +38,7 @@ Instalação
 %{toc|section=1|fromDepth=1|toDepth=3}
 
   O projeto <<Demoiselle Infra>> disponibiliza instalações para as os ambientes <<Windows>> e <<GNU/Linux>> nas distribuições baseadas no <<Debian>>, tal como <<Ubuntu>>.\
-  Apartir da versão 2.x do projeto <<Demoiselle Framework>> esta sendo disponibilizado pacotes para as arquiteturas <<32 bits>> e <<64 bits>>.
+  A partir da versão 2.x do projeto <<Demoiselle Framework>> esta sendo disponibilizado pacotes para as arquiteturas <<32 bits>> e <<64 bits>>.
 
 * {Windows}
 
@@ -46,7 +46,7 @@ Instalação
 
     A distribuição para o sistema <<Windows>> tanto <<32 bits>> e <<64 bits>> são ofertadas em dois arquivos, um contendo o ambiente de desenvolvimento e outro contendo outras ferramentas adicionais conforme explicitado em {{{./packages.html}pacotes.}}
 
-    Para instalar o ambiente de desenvolvimento, o usuário deverá realizar o download do arquivo de instalação na página de {{{http://www.frameworkdemoiselle.gov.br/projetos/infra/unstable/}downloads}}e executa-lo. A instalação é auto-explicativa e o ambiente de desenvolvimento deverá ser instalado na pasta C:\Demoiselle.
+    Para instalar o ambiente de desenvolvimento, o usuário deverá realizar o download do arquivo de instalação na página de {{{https://sourceforge.net/projects/demoiselle/files/infra/}downloads}}e executa-lo. A instalação é auto-explicativa e o ambiente de desenvolvimento deverá ser instalado na pasta C:\Demoiselle.
 
 * {Debian e Ubuntu}
 
@@ -92,7 +92,13 @@ deb ftp://sagres.c3sl.ufpr.br/demoiselle <distribução> stable
 deb ftp://sagres.c3sl.ufpr.br/demoiselle precise stable
 +---------------------------------------------------------------------+
 
-    A segunda etapa consiste em atualizar os índices do APT localmente através do comando abaixo:
+    A segunda etapa consiste em adicionar a chave pública dos pacotes executando o comando abaixo :
+
++---------------------------------------------------------------------+
+# wget http://demoiselle.c3sl.ufpr.br/public_key.asc -O public_key.asc | sudo apt-key add public_key.asc
++---------------------------------------------------------------------+
+
+    A terceira etapa consiste em atualizar os índices do APT localmente através do comando abaixo:
 
 +---------------------------------------------------------------------+
 # apt-get update
@@ -110,12 +116,12 @@ $ apt-cache search demoiselle
 
 +---------------------------------------------------------------------+
 Para a versão 1.x do projeto Demoiselle Framework
-$ apt-cache show demoiselle-infra-1
+$ apt-cache show demoiselle-1-infra-1
 +---------------------------------------------------------------------+
 
 +---------------------------------------------------------------------+
 Para a versão 2.x do projeto <<Demoiselle Framework>>
-$ apt-cache show demoiselle-infra-2
+$ apt-cache show demoiselle-2-infra-1
 +---------------------------------------------------------------------+
 
     *<<{Instalação de pacotes}>>
@@ -124,10 +130,10 @@ $ apt-cache show demoiselle-infra-2
     
 +---------------------------------------------------------------------+
 Para a versão 1.x do projeto <<Demoiselle Framework>>
-# apt-get install demoiselle-infra-1
+# apt-get install demoiselle-1-infra-1
 +---------------------------------------------------------------------+
 
 +---------------------------------------------------------------------+
 Para a versão 2.x do projeto <<Demoiselle Framework>>
-# apt-get install demoiselle-infra-2
+# apt-get install demoiselle-2-infra-1
 +---------------------------------------------------------------------+

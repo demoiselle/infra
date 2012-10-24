@@ -37,7 +37,7 @@ Sobre
 
   <<Demoiselle Infra>> é um subprojeto que pretende ajudar desenvolvedores a instalar e configurar o ambiente de desenvolvimento e os técnicos de suporte a criarem e manterem um ambiente de produção. Para isso, o <<Demoiselle Infra>> inclui um conjunto de pacotes de software destinados a auxiliar no preparo dos ambientes de desenvolvimento, homologação e produção baseados no <<Demoiselle Framework>>.
 
-  Com poucos passos é possível ter de forma padronizada um ambiente de desenvolvimento com as ferramentas de mercado como o Eclipse, Maven, JBoss e Tomcat já configurados para o desenvolvimento com o <<Framework Demoiselle>>.
+  Com poucos passos é possível ter de forma padronizada um ambiente de desenvolvimento com as ferramentas de mercado como o Eclipse, Maven, JBoss e Tomcat já configurados para o desenvolvimento com o <<Demoiselle Framework>>.
 
   Atualmente são disponibilizados pacotes para as plataformas <<Windows>> e <<GNU/Linux>> nas distribuições baseadas no <<Debian>>, tal como <<Ubuntu>>.
 

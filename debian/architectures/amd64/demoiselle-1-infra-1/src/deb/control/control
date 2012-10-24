@@ -1,0 +1,9 @@
+Package: [[name]]
+Version: [[version]]
+Section: universe/devel
+Priority: standard
+Architecture: amd64
+Depends: demoiselle-eclipse-3.5 (>=3.5), demoiselle-maven2 (>=1.0), demoiselle-maven2-local-repo (>=1.0), demoiselle-workspace (>=1.0), demoiselle-tomcat-6.0 (>=6.0), demoiselle-jboss-6.0 (>=6.0)
+Suggests: demoiselle-1-infra-extra (>=1.0)
+Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
+Description: [[description]]

@@ -41,17 +41,19 @@ Notas de Versão
    
   * Inclusão do pacote demoiselle-jboss-7.1
 
-  * Inclusão do pacote demoiselle-infra-1
+  * Inclusão do pacote demoiselle-1-infra
   
-  * Inclusão do pacote demoiselle-infra-2
+  * Inclusão do pacote demoiselle-2-infra
+
+  * Atualização do Nimble para versão 1.1.0
 
   * Atualização do pacote demoiselle-workspace colocando o template do eclipse 3.7-SR2 como padrão
 
-  * Atualização do pacote demoiselle-maven-local-repo para adição das bibliotecas do Demoiselle 2.3.x
+  * Atualização do pacote demoiselle-maven-local-repo para adição das bibliotecas do Demoiselle 2.2.2
   
   * Inclusão dos pacotes para ambientes Windows e Linux para as plataformas 32 bits e 64 bits
   
-  * Duas novas sessões na área de pacotes para tratar dos pacotes das versão do Demoiselle Framework 1.x e versão 2.x
+  * Duas novas sessões na área de pacotes para tratar dos pacotes das versão do 1.x e 2.x do Demoiselle Framework
   
   * Atualização da página de Instalação para a distribução do Ubuntu Precise (12.04 LTS)
   

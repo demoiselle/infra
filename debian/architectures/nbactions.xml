@@ -2,10 +2,10 @@
 <actions>
         <action>
             <actionName>CUSTOM-clean deploy</actionName>
-            <displayName>clean deploy</displayName>
+            <displayName>clean package</displayName>
             <goals>
                 <goal>clean</goal>
-                <goal>deploy</goal>
+                <goal>package</goal>
             </goals>
         </action>
     </actions>

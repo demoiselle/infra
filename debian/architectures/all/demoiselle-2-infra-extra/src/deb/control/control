@@ -1,0 +1,9 @@
+Package: [[name]]
+Version: [[version]]
+Section: universe/devel
+Priority: standard
+Architecture: all
+Depends: demoiselle-ireport-3.0 (>=3.0), demoiselle-soapui-3.5 (>=3.5), demoiselle-squirrel-3.1 (>=3.1), demoiselle-nimble (>=1.1)
+Enhances: demoiselle-2-infra-1 (>=1.0)
+Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
+Description: [[description]]

@@ -37,11 +37,11 @@ Pacotes
 
   O projeto Demoiselle Framework evolui da versão 1.x para a versão 2.x e naturalmente seus pacotes também tiveram que evoluir.
 
-  Para se manter o histórico das versões e seus pacotes foi criado duas sessões para serem tratados separadamentes.
+  Para se manter o histórico das versões e seus pacotes, foram criadas duas sessões para serem tratados separadamentes.
 
-  * {{{./packages/demoiselle-infra-1.html}Demoiselle Infra 1}} - trata de todos os pacotes utilizados na versão 1.x do <<Framework Demoiselle>>.
+  * {{{./packages/demoiselle-1-infra.html}Demoiselle Infra 1}} - trata de todos os pacotes utilizados na versão 1.x do <<Framework Demoiselle>>.
    
-  * {{{./packages/demoiselle-infra-2.html}Demoiselle Infra 2}} - trata de todos os pacotes utilizados na versão 2.x do <<Framework Demoiselle>>.
+  * {{{./packages/demoiselle-2-infra.html}Demoiselle Infra 2}} - trata de todos os pacotes utilizados na versão 2.x do <<Framework Demoiselle>>.
   
     [] 
 

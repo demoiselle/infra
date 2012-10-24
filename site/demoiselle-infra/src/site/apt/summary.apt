@@ -82,7 +82,7 @@ Sumário
 *-----------------------------+---------------------------+------------*---------------------------------------------------+
 | demoiselle-tomcat-6.0       | Apache Tomcat             | 6.0.24     | {{http://tomcat.apache.org/}}                     |
 *-----------------------------+---------------------------+------------*---------------------------------------------------+
-| demoiselle-nimble           | Demoiselle Nimble         | 1.0.4      | {{http://demoiselle.sourceforge.net/tools/nimble}}|
+| demoiselle-nimble           | Demoiselle Nimble         | 1.1.0      | {{http://demoiselle.sourceforge.net/tools/nimble}}|
 *-----------------------------+---------------------------+------------*---------------------------------------------------+
 | demoiselle-wizard           | Demoiselle Wizard         | 1.1.3      | {{http://demoiselle.sourceforge.net/wizard/}}     |
 *-----------------------------+---------------------------+------------*---------------------------------------------------+
@@ -95,11 +95,13 @@ Sumário
 *-------------------------+-------------------+-------------*
 | <<Metapacote>>          | <<Descrição>>     | <<Pacotes>> |
 *-------------------------+-------------------+-------------*
-| demoiselle-infra-1      | Ambiente completo de desenvolvimento para o Demoiselle Framework 1.x. | demoiselle-eclipse-3.5, demoiselle-maven2, demoiselle-maven2-local-repo, demoiselle-workspace, demoiselle-tomcat-6.0, demoiselle-jboss-4.2 |
+| demoiselle-1-infra      | Ambiente completo de desenvolvimento para o Demoiselle Framework 1.x. | demoiselle-eclipse-3.5, demoiselle-maven2, demoiselle-maven2-local-repo, demoiselle-workspace, demoiselle-tomcat-6.0, demoiselle-jboss-4.2 |
 *-------------------------+-------------------+-------------*
-| demoiselle-infra-2      | Ambiente completo de desenvolvimento para o Demoiselle Framework 2.x. | demoiselle-eclipse-3.7-SR2, demoiselle-maven2, demoiselle-maven2-local-repo, demoiselle-workspace, demoiselle-tomcat-7.0, demoiselle-jboss-6.1, demoiselle-jboss-7.1 |
+| demoiselle-2-infra      | Ambiente completo de desenvolvimento para o Demoiselle Framework 2.x. | demoiselle-eclipse-3.7-SR2, demoiselle-maven2, demoiselle-maven2-local-repo, demoiselle-workspace, demoiselle-tomcat-7.0, demoiselle-jboss-6.1, demoiselle-jboss-7.1 |
 *-------------------------+-------------------+-------------*
-| demoiselle-dev-extra    | Ferramentas adicionais para o ambiente de desenvolvimento. | demoiselle-ireport-3.0, demoiselle-soapui-3.5, demoiselle-squirrel-3.1, demoiselle-nimble |
+| demoiselle-1-infra-extra    | Ferramentas adicionais para o ambiente de desenvolvimento. | demoiselle-ireport-3.0, demoiselle-soapui-3.5, demoiselle-squirrel-3.1, demoiselle-nimble|
+*-------------------------+-------------------+-------------*
+| demoiselle-2-infra-extra    | Ferramentas adicionais para o ambiente de desenvolvimento. | demoiselle-ireport-3.0, demoiselle-soapui-3.5, demoiselle-squirrel-3.1, demoiselle-nimble|
 *-------------------------+-------------------+-------------*
 
 * {Softwares nos pacotes Windows}
@@ -107,7 +109,7 @@ Sumário
 *-------------------------+-------------------+-------------*
 | <<Metapacote>>          | <<Descrição>>     | <<Pacotes>> |
 *-------------------------+-------------------+-------------*
-| demoiselle-infra-2      | Ambiente completo de desenvolvimento para o Demoiselle Framework. | demoiselle-eclipse-3.7-SR2, demoiselle-nimble, demoiselle-maven2, demoiselle-maven2-local-repo, demoiselle-workspace, demoiselle-tomcat-7.0, demoiselle-jboss-6.1, demoiselle-jboss-7.1 |
+| demoiselle-2-infra      | Ambiente completo de desenvolvimento para o Demoiselle Framework. | demoiselle-eclipse-3.7-SR2, demoiselle-nimble, demoiselle-maven2, demoiselle-maven2-local-repo, demoiselle-workspace, demoiselle-tomcat-7.0, demoiselle-jboss-6.1, demoiselle-jboss-7.1 |
 *-------------------------+-------------------+-------------*
-| demoiselle-dev-extra    | Ferramentas adicionais para o ambiente de desenvolvimento. | demoiselle-ireport-3.0, demoiselle-soapui-4.0, demoiselle-squirrel-3.2 demoiselle-nimble |
+| demoiselle-2-infra-extra    | Ferramentas adicionais para o ambiente de desenvolvimento. | demoiselle-ireport-3.0, demoiselle-soapui-4.0, demoiselle-squirrel-3.2, demoiselle-nimble |
 *-------------------------+-------------------+-------------*

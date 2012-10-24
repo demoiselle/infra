@@ -79,3 +79,27 @@ FAQ (Perguntas mais frequentes)
 
   Se você já é um usuário cadastrado, cadastre-se na lista através do link abaixo: {{https://lists.sourceforge.net/lists/listinfo/demoiselle-infra}}
 
+* Estou recebendo erro NO_PUBKEY 698F76A5632038DF, o que eu faço ?
+
+  Esse problema é causado por que a chave pública não esta instalado no seu repositório, existem duas maneiras de resolver isso:
+
+  1) executar o seguinte comando no terminal
+
++----------------------------------------------------------------------------+
+ gpg --keyserver pgp.mit.edu --recv-keys 632038DF
++----------------------------------------------------------------------------+
+
+  ou
+
+  2) executar o seguinte comando no terminal
+
++----------------------------------------------------------------------------+
+ # wget http://demoiselle.c3sl.ufpr.br/public_key.asc -O public_key.asc | sudo apt-key add public_key.asc
++----------------------------------------------------------------------------+
+
+  Após o comando escolhido for executado, execute a atualização do repositório
+
++-----------------------------------------------------------------------------+
+ # apt-get update
++-----------------------------------------------------------------------------+
+

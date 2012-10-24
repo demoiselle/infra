@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm -f /usr/local/bin/demoiselle
+rm -f /usr/local/bin/startDemoiselle
+rm -f /etc/bash_completion.d/demoiselle-completion.sh
+
+exit 0

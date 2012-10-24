@@ -4,6 +4,5 @@ Section: universe/devel
 Priority: standard
 Architecture: i386
 Depends: openjdk-6-jdk | sun-java6-jdk | openjdk-7-jdk
-Installed-Size: 706652
 Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
 Description: [[description]]

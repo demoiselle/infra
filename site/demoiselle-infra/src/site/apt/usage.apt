@@ -45,8 +45,8 @@ Como Usar
 +---------------------------------------------------------------------+
 <local_de_instalação>
 `-- ide
-    |-- eclipse-3.6
-    |-- eclipse-3.7-SR2
+    `-- eclipse-3.6
+    `-- eclipse-3.7-SR2
 +---------------------------------------------------------------------+
 
   Para iniciar o Eclipse, basta acessar o menu <Aplicativos>, <Desenvolvimento> ou executar
@@ -65,9 +65,9 @@ Como Usar
   
 +---------------------------------------------------------------------+
 <local_de_instalação>
-|-- server
-    |-- jboss-6.0
-    |-- tomcat-7.0
+`-- server
+    `-- jboss-6.0
+    `-- tomcat-7.0
 +---------------------------------------------------------------------+
 
   * <<{demoiselle-jboss}>>
@@ -88,13 +88,13 @@ Como Usar
   
 +---------------------------------------------------------------------+
 <local_de_instalação>
-|-- tool
-    |-- ireport-3.0
-    |-- maven2
-    |-- maven2-local-repo
-    |-- soapui-3.5
-    |-- squirrel-3.1
-    |-- workspace
+`-- tool
+    `-- ireport-3.0
+    `-- maven2
+    `-- maven2-local-repo
+    `-- soapui-3.5
+    `-- squirrel-3.1
+    `-- workspace
 +---------------------------------------------------------------------+
 
   * <<{demoiselle-ireport}>>

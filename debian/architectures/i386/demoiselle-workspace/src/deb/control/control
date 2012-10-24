@@ -3,6 +3,5 @@ Version: [[version]]
 Section: universe/devel
 Priority: optional
 Architecture: i386
-Installed-Size: 115964
 Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
 Description: [[description]]

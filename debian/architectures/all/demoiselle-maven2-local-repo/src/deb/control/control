@@ -4,6 +4,5 @@ Section: universe/devel
 Priority: optional
 Architecture: all
 Depends: demoiselle-maven2 (>=2.2)
-Installed-Size: 284948
 Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
 Description: [[description]]

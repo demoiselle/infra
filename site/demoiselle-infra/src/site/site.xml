@@ -65,8 +65,8 @@
         <menu name="${project.name}">
             <item name="Sobre" href="index.html" />
             <item name="Pacotes" href="packages.html">
-                <item name="Demoiselle Infra 1" href="packages/demoiselle-infra-1.html"/>
-                <item name="Demoiselle Infra 2" href="packages/demoiselle-infra-2.html"/>
+                <item name="Demoiselle Infra 1" href="packages/demoiselle-1-infra.html"/>
+                <item name="Demoiselle Infra 2" href="packages/demoiselle-2-infra.html"/>
             </item>
             <item name="Instalação" href="install.html" />
             <item name="Como Usar" href="usage.html" />
