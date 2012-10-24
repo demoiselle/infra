@@ -79,7 +79,7 @@
                 <executions>
                     <execution>
                         <id>upload-deb</id>
-                        <phase>deploy</phase>
+                        <phase>package</phase>
                         <goals>
                             <goal>upload</goal>
                         </goals>
@@ -88,10 +88,9 @@
                             <includes>*.deb</includes>                            
                             <serverId>ftp-repository</serverId>
                             <!--<url>ftp://10.200.24.50</url>
-                            <toDir>/var/www/repository/unstable</toDir>-->
+                            <toDir>/home/ctcta/demoiselle-infra/unstable/</toDir>-->
                             <url>file:///opt/laboratorio/demoiselle/infra_atual/debian/unstable</url>
                             <!--<toDir>unstable</toDir>-->
-                            
                         </configuration>
                     </execution>
                 </executions>
