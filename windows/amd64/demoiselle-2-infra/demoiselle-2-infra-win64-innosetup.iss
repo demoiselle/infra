@@ -1,5 +1,5 @@
 #define MyAppName "Framework Demoiselle"
-#define MyAppVersion "2.3.0"
+#define MyAppVersion "2.2.2"
 #define MyAppPublisher "Comunidade Demoiselle"
 #define MyAppURL "http://www.frameworkdemoiselle.gov.br"
 #define MyAppExeName "\ide\eclipse-3.7-SR2\eclipse.exe"
@@ -8,7 +8,7 @@
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{7E8F53F9-9FBD-41EE-A4C4-ABC019B61B9F}}
+AppId={{616866B5-2C53-4BAB-9C8F-2C0B921EC563}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -20,13 +20,13 @@ DefaultDirName=C:\Demoiselle
 DisableDirPage=yes
 DefaultGroupName={#MyAppName}
 OutputDir=.
-OutputBaseFilename=demoiselle-infra-2-win32-{#MyAppVersion}
+OutputBaseFilename=demoiselle-2-infra-win64-{#MyAppVersion}
 Compression=lzma
 SolidCompression=yes
 WizardImageFile=fundo1.bmp
 WizardSmallImageFile=fundo2.bmp
-ArchitecturesAllowed=x86
-;ArchitecturesInstallIn64BitMode=x64
+ArchitecturesAllowed=x64
+ArchitecturesInstallIn64BitMode=x64
 
 [Languages]
 Name: english; MessagesFile: compiler:Default.isl
@@ -81,7 +81,7 @@ begin
     //do nothing
    end else
    begin
-    if ( Versions[I][2]='.' ) and ( ( StrToInt(Versions[I][1]) > 1 ) or ( ( StrToInt(Versions[I][1]) = 1 ) and ( StrToInt(Versions[I][3]) = 6 ) ) ) then
+    if ( Versions[I][2]='.' ) and ( ( StrToInt(Versions[I][1]) > 1 ) or ( ( StrToInt(Versions[I][1]) = 1 ) and ( StrToInt(Versions[I][3]) >= 6 ) ) ) then
     begin
      JavaInstalled := true;
 
@@ -101,7 +101,7 @@ begin
   Result := true;
  end else
     begin
-  Result1 := MsgBox('This tool requires Java Development Kit 1.6 update 33 to run. Please download and install the JDK and run this setup again. Do you want to download it now?',
+  Result1 := MsgBox('This tool requires Java Development Kit more than 1.6 to run. Please download and install the JDK and run this setup again. Do you want to download it now?',
    mbConfirmation, MB_YESNO) = idYes;
   if Result1 = false then
   begin
@@ -110,7 +110,7 @@ begin
   begin
    Result:=false;
    ShellExec('open',
-    'http://www.oracle.com/technetwork/java/javase/downloads/jdk6-downloads-1637591.html',
+    'http://www.oracle.com/technetwork/java/javase/downloads/',
     '','',SW_SHOWNORMAL,ewNoWait,ErrorCode);
   end;
     end;
