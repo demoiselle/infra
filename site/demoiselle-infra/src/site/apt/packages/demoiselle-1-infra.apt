@@ -33,15 +33,15 @@
 ~~ ou escreva para a Fundação do Software Livre (FSF) Inc.,
 ~~ 51 Franklin St, Fifth Floor, Boston, MA 02111-1301, USA.
 
-Demoiselle Infra 1
+Demoiselle 1 Infra
 
 %{toc|section=1|fromDepth=1|toDepth=3}
 
-  O metapacote Demoiselle Infra 1 foi criado para substituir o metapacote <demoiselle-dev> que era utilizado na versão 1.x do Demoiselle Framework.
+  O metapacote <demoiselle-1-infra> foi criado para substituir o metapacote <demoiselle-dev>.
   A necessidade de renomear o pacote já existente foi motivado com a evolução do Demoiselle Framework para a versão 2.x pois os pacotes como Eclipse
   não são os mesmos da versão 1.x do Demoiselle Framework e para evitar que ocorra a sobreposição dos pacotes em caso de atualização.
 
-  Os pacotes de software disponibilizados pelo <<Demoiselle Infra 1>> estão agrupados logicamente em
+  Os pacotes de software disponibilizados pelo <<Demoiselle 1 Infra>> estão agrupados logicamente em
 
     * Ambiente de Desenvolvimento (<ide>)
 
@@ -57,7 +57,7 @@ Demoiselle Infra 1
 
   * <<{demoiselle-eclipse-3.5}>>
   
-  O Eclipse é um ambiente de desenvolvimento altamente plugável e de código aberto mantido pelo grupo {{{http://www.eclipse.org}Eclipse}}\
+  O Eclipse é um ambiente de desenvolvimento altamente plugável e de código aberto mantido pelo grupo {{{http://www.eclipse.org}Eclipse}}
 
   O pacote <<demoiselle-eclipse-3.5>> embarca a IDE Eclipse 3.5.2 (Galileo) com os seguintes plugins configurados:
   
@@ -144,11 +144,6 @@ Demoiselle Infra 1
 
   Criador de <workspaces> pré-configurados. Com este <shell script> você poupará tempo de configuração
   do Eclipse referente à servidores, ferramentas externas, formatação de código, dentre outros.
-
-  * <<{demoiselle-nimble}>>
-
-  O Demoiselle Nimble é um processador automatizado de templates, sendo estes genéricos e podendo inclusive ser criados pelo próprio utilizador. Podemos considerá-lo como uma evolução da ferramenta Demoiselle Wizard Eclipse Plugin que como o próprio nome já diz é um especificamente um plugin para a IDE Eclipse leia mais a repeito do nimble no {{{http://demoiselle.sourceforge.net/docs/guide-nimble/}Guia do Usuário}}.
-  
 
 * {Metapacotes}
 

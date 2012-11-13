@@ -66,8 +66,8 @@ ou escreva para a Fundação do Software Livre (FSF) Inc., 51 Franklin St, Fifth
     </ciManagement>
 
     <issueManagement>
-        <system>Mantis</system>
-        <url>https://sourceforge.net/apps/mantisbt/demoiselle/main_page.php</url>
+        <system>JIRA</system>
+        <url>https://demoiselle.atlassian.net/secure/IssueNavigator.jspa</url>
     </issueManagement>
 
     <properties>

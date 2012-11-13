@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>demoiselle-eclipse-3.7-SR2</artifactId>
-    <version>3.7.2.SR2</version>
+    <version>3.7.2</version>
     <packaging>pom</packaging>
   
     <description>
@@ -15,6 +15,7 @@
         including C, C++, COBOL, Python, Perl, PHP, and others.
         Additional plugins
                SVN
+               Git
                Nimble
                Jboss Tools Indigo
                Groovy

@@ -46,7 +46,7 @@ Instalação
 
     A distribuição para o sistema <<Windows>> tanto <<32 bits>> e <<64 bits>> são ofertadas em dois arquivos, um contendo o ambiente de desenvolvimento e outro contendo outras ferramentas adicionais conforme explicitado em {{{./packages.html}pacotes.}}
 
-    Para instalar o ambiente de desenvolvimento, o usuário deverá realizar o download do arquivo de instalação na página de {{{https://sourceforge.net/projects/demoiselle/files/infra/}downloads}}e executa-lo. A instalação é auto-explicativa e o ambiente de desenvolvimento deverá ser instalado na pasta C:\Demoiselle.
+    Para instalar o ambiente de desenvolvimento, o usuário deverá realizar o download do arquivo de instalação na página de {{{https://sourceforge.net/projects/demoiselle/files/infra/}downloads}}e executá-lo. A instalação é auto-explicativa e o ambiente de desenvolvimento deverá ser instalado na pasta C:\Demoiselle.
 
 * {Debian e Ubuntu}
 
@@ -92,16 +92,25 @@ deb ftp://sagres.c3sl.ufpr.br/demoiselle <distribução> stable
 deb ftp://sagres.c3sl.ufpr.br/demoiselle precise stable
 +---------------------------------------------------------------------+
 
-    A segunda etapa consiste em adicionar a chave pública dos pacotes executando o comando abaixo :
+    O segundo passo consiste em adicionar a chave pública dos pacotes executando o comando abaixo :
 
 +---------------------------------------------------------------------+
-# wget http://demoiselle.c3sl.ufpr.br/public_key.asc -O public_key.asc | sudo apt-key add public_key.asc
+$ wget http://demoiselle.c3sl.ufpr.br/public_key.asc -O public_key.asc 
+$ sudo apt-key add public_key.asc
 +---------------------------------------------------------------------+
 
-    A terceira etapa consiste em atualizar os índices do APT localmente através do comando abaixo:
+    ou
+
++----------------------------------------------------------------------------+
+$ gpg --keyserver pgp.mit.edu --recv-keys 632038DF
+$ gpg --export --armor 632038DF > public_key.asc
+$ sudo apt-key add public_key.asc
++----------------------------------------------------------------------------+
+
+    O terceiro passo consiste em atualizar os índices do APT localmente através do comando abaixo:
 
 +---------------------------------------------------------------------+
-# apt-get update
+$ sudo apt-get update
 +---------------------------------------------------------------------+
 
     *<<{Busca e consulta de pacotes}>>
@@ -120,7 +129,7 @@ $ apt-cache show demoiselle-1-infra-1
 +---------------------------------------------------------------------+
 
 +---------------------------------------------------------------------+
-Para a versão 2.x do projeto <<Demoiselle Framework>>
+Para a versão 2.x do projeto Demoiselle Framework
 $ apt-cache show demoiselle-2-infra-1
 +---------------------------------------------------------------------+
 
@@ -129,11 +138,29 @@ $ apt-cache show demoiselle-2-infra-1
     Finalmente, para instalar um pacote no Debian ou Ubuntu, utilize o comando <<apt-get install>>, sempre com o usuário <<root>>:
     
 +---------------------------------------------------------------------+
-Para a versão 1.x do projeto <<Demoiselle Framework>>
-# apt-get install demoiselle-1-infra-1
+Para a versão 1.x do projeto Demoiselle Framework
+$ sudo apt-get install demoiselle-1-infra-1
 +---------------------------------------------------------------------+
 
 +---------------------------------------------------------------------+
-Para a versão 2.x do projeto <<Demoiselle Framework>>
-# apt-get install demoiselle-2-infra-1
+Para a versão 2.x do projeto Demoiselle Framework
+$ sudo apt-get install demoiselle-2-infra-1
++---------------------------------------------------------------------+
+
+    *<<{Pós instalação - Configuração do workspace}>>
+
+    Para que seu workspace possa estar configurado para trabalhar com o Demoiselle Framework é necessário utilizar 
+    o Demoiselle Workspace que consiste em um Shell Script e templates para a criação de workspaces pré-configurados
+    para a IDE Eclipse. Para executá-lo, é preciso abrir um terminal e executar o seguinte comando:
+
++---------------------------------------------------------------------+
+$ demoiselle-workspace
++---------------------------------------------------------------------+
+
+    Neste caso, o workspace padrão será criado no diretório <~/workspace> do usuário otimizado para a última
+    versão do Eclipse. Para maiores informações sobre o script e as opções disponíveis nele, execute o comando
+    a seguir:
+
++---------------------------------------------------------------------+
+$ demoiselle-workspace --help
 +---------------------------------------------------------------------+

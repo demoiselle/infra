@@ -1,5 +1,5 @@
 Package: [[name]]
-Version: [[version]]
+Version: 5.1.0-3
 Section: universe/java
 Priority: optional
 Architecture: all

@@ -47,9 +47,9 @@ Notas de Versão
 
   * Atualização do Nimble para versão 1.1.0
 
-  * Atualização do pacote demoiselle-workspace colocando o template do eclipse 3.7-SR2 como padrão
+  * Atualização do pacote demoiselle-workspace adicionando o template do eclipse 3.7-SR2 como template padrão
 
-  * Atualização do pacote demoiselle-maven-local-repo para adição das bibliotecas do Demoiselle 2.2.2
+  * Atualização do pacote demoiselle-maven-local-repo com a adição das bibliotecas do Demoiselle Framework 2.2.2
   
   * Inclusão dos pacotes para ambientes Windows e Linux para as plataformas 32 bits e 64 bits
   
@@ -59,7 +59,9 @@ Notas de Versão
   
   * Atualização da página de Como Usar para inclusão dos pacotes do Windows
   
-  * Atualização da página do Sumário com os novos pacotes
+  * Atualização da página do Sumário com os novos pacotes e remoção das versões dos pacotes
+
+  * Atualização da página de FAQ de como resolver o problema da chave pública (NO_PUBKEY)
 
 * v1.2.3
 

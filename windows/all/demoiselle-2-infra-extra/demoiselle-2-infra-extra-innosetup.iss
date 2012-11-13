@@ -1,7 +1,8 @@
-#define MyAppName "Framework Demoiselle - Extras"
+#define MyAppName "Demoiselle 2 Infra - Extras"
 #define MyAppVersion "1.0"
 #define MyAppPublisher "Comunidade Demoiselle"
 #define MyAppURL "http://www.frameworkdemoiselle.gov.br"
+#define MyAppFrameworkDemoiselle "Framework Demoiselle"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -36,15 +37,18 @@ Name: brazilianportuguese; MessagesFile: compiler:Languages\BrazilianPortuguese.
 ;Name: quicklaunchicon; Description: {cm:CreateQuickLaunchIcon}; GroupDescription: {cm:AdditionalIcons}; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: C:\Demoiselle\tool\ireport-3.0\*; DestDir: {app}\tool\ireport-3.0\; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: C:\Demoiselle\tool\ireport-4.0\*; DestDir: {app}\tool\ireport-4.0\; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: C:\Demoiselle\tool\soapui-4.5\*; DestDir: {app}\tool\soapui-4.5\; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: C:\Demoiselle\tool\squirrel-3.4\*; DestDir: {app}\tool\squirrel-3.4\; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: C:\Demoiselle\tool\nimble\*; DestDir: {app}\tool\nimble\; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: C:\Demoiselle\tool\soapui-4.0\*; DestDir: {app}\tool\soapui-4.0\; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: C:\Demoiselle\tool\squirrel-3.2\*; DestDir: {app}\tool\squirrel-3.2\; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
-;Name: {group}\{#MyAppName}; Filename: {app}\{#MyAppExeName}
-;Name: {group}\{cm:ProgramOnTheWeb,{#MyAppName}}; Filename: {#MyAppURL}
-;Name: {group}\{cm:UninstallProgram,{#MyAppName}}; Filename: {uninstallexe}
+Name: {group}\iReport 4.0; Filename: {app}\tool\ireport-4.0\bin\ireport.exe
+Name: {group}\SoapUI 4.5; Filename: {app}\tool\soapui-4.5\bin\soapui.bat; IconFilename: {app}\tool\soapui-4.5\bin\soapui32.ico
+Name: {group}\SQuirreL 3.4; Filename: {app}\tool\squirrel-3.4\squirrel-sql.bat; IconFilename: {app}\tool\squirrel-3.4\icons\acorn.ico
+Name: {group}\Nimble 1.1; Filename: {app}\tool\nimble\bin\demoiselle.bat
+Name: {group}\{cm:ProgramOnTheWeb,{#MyAppFrameworkDemoiselle}}; Filename: {#MyAppURL}
+Name: {group}\{cm:UninstallProgram,{#MyAppName}}; Filename: {uninstallexe}
 ;Name: {commondesktop}\{#MyAppName}; Filename: {app}\{#MyAppExeName}; Tasks: desktopicon
 ;Name: {userappdata}\Microsoft\Internet Explorer\Quick Launch\{#MyAppName}; Filename: {app}\{#MyAppExeName}; Tasks: quicklaunchicon
 

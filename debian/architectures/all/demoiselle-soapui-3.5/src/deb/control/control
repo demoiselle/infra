@@ -1,5 +1,5 @@
 Package: [[name]]
-Version: [[version]]
+Version: 3.5.1-5
 Section: universe/devel
 Priority: standard
 Architecture: all

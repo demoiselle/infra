@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Demoiselle iReport 4.0
+Comment=iReport is the free, open source report designer for JasperReports
+Exec=/opt/demoiselle/tool/ireport-4.0/bin/ireport
+Icon=demoiselle-ireport-4.0.png
+Terminal=false
+Type=Application
+Categories=Development;
+StartupNotify=true

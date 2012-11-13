@@ -27,8 +27,11 @@
         <module>demoiselle-nimble-1.1</module>
         <module>demoiselle-wizard</module>
         <module>demoiselle-squirrel-3.1</module>
+        <module>demoiselle-squirrel-3.4</module>
         <module>demoiselle-soapui-3.5</module>
+        <module>demoiselle-soapui-4.5</module>
         <module>demoiselle-ireport-3.0</module>
+        <module>demoiselle-ireport-4.0</module>
         <module>demoiselle-mongobrowser-0.1</module>
         <module>demoiselle-1-infra-extra</module>
         <module>demoiselle-2-infra-extra</module>

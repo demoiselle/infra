@@ -81,12 +81,14 @@ FAQ (Perguntas mais frequentes)
 
 * Estou recebendo erro NO_PUBKEY 698F76A5632038DF, o que eu faço ?
 
-  Esse problema é causado por que a chave pública não esta instalado no seu repositório, existem duas maneiras de resolver isso:
+  Esse problema é causado por que a chave pública não esta instalada no seu repositório, existem duas maneiras de resolver isso:
 
   1) executar o seguinte comando no terminal
 
 +----------------------------------------------------------------------------+
- gpg --keyserver pgp.mit.edu --recv-keys 632038DF
+$ gpg --keyserver pgp.mit.edu --recv-keys 632038DF
+$ gpg --export --armor 632038DF > public_key.asc
+$ sudo apt-key add public_key.asc
 +----------------------------------------------------------------------------+
 
   ou
@@ -94,12 +96,13 @@ FAQ (Perguntas mais frequentes)
   2) executar o seguinte comando no terminal
 
 +----------------------------------------------------------------------------+
- # wget http://demoiselle.c3sl.ufpr.br/public_key.asc -O public_key.asc | sudo apt-key add public_key.asc
+ $ wget http://demoiselle.c3sl.ufpr.br/public_key.asc -O public_key.asc 
+ $ sudo apt-key add public_key.asc
 +----------------------------------------------------------------------------+
 
   Após o comando escolhido for executado, execute a atualização do repositório
 
 +-----------------------------------------------------------------------------+
- # apt-get update
+ $ sudo apt-get update
 +-----------------------------------------------------------------------------+
 
