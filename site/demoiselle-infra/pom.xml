@@ -92,7 +92,7 @@ ou escreva para a Fundação do Software Livre (FSF) Inc., 51 Franklin St, Fifth
     <distributionManagement>
         <site>
             <id>demoiselle.sourceforge.net</id>
-            <url>scp://shell.sourceforge.net/home/groups/d/de/demoiselle/htdocs/infra/${version}</url>
+            <url>sftp://web.sourceforge.net/home/project-web/demoiselle/htdocs/infra/${version}</url>
         </site>
     </distributionManagement>
 
