@@ -3,19 +3,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.gov.frameworkdemoiselle.infra</groupId>
-    <artifactId>demoiselle-infra-build</artifactId>
+    <artifactId>demoiselle-infra-debian-build</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
-
-    <name>Build Aggregator</name>
-    <description>
-        Projeto que agrega todas as arquiteturas dos pacotes (.deb) do demoiselle infra
-    </description>
-
+    <name>debian</name>
+    
     <modules>
         <module>architectures</module>
     </modules>
-    
+
     <build>
         <plugins>
             <plugin>
@@ -27,7 +23,7 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>  
+    </build>
 
 </project>
 
