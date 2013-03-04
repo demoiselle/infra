@@ -21,21 +21,8 @@
         <buildDirectory>${project.basedir}/target</buildDirectory>
     </properties>
 
-    <distributionManagement>
-        <repository>
-            <id>ftp-repository</id>
-            <url>${ftp-unstable}</url>
-        </repository>
-    </distributionManagement>
-
     <build>
         <extensions>
-            <!-- Enabling the use of FTP -->
-            <extension>
-                <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-ftp</artifactId>
-                <version>2.2</version>
-            </extension>
             <extension>
                 <groupId>org.apache.maven.wagon</groupId>
                 <artifactId>wagon-ssh</artifactId>
