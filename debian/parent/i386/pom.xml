@@ -8,19 +8,19 @@
     <packaging>pom</packaging>
 
     <name>Infra i386 Parent</name>
-    
+
     <properties>
         <architeture>i386</architeture>
         <buildDirectory>${project.basedir}/target</buildDirectory>
     </properties>
-    
+
     <distributionManagement>
         <repository>
             <id>ftp-repository</id>
-            <url>ftp://10.200.24.50:/var/www/repository/unstable/</url>
+            <url>${ftp-unstable}</url>
         </repository>
     </distributionManagement>
-  
+
     <build>
         <extensions>
             <!-- Enabling the use of FTP -->
@@ -85,18 +85,15 @@
                         </goals>
                         <configuration>
                             <fromDir>${project.basedir}/target</fromDir>
-                            <includes>*.deb</includes>                            
+                            <includes>*.deb</includes>
                             <serverId>ftp-repository</serverId>
-                            <!--<url>ftp://10.200.24.50</url>
-                            <toDir>/home/ctcta/demoiselle-infra/unstable/</toDir>-->
-                            <url>file:///opt/laboratorio/demoiselle/infra_atual/debian/unstable</url>
-                            <!--<toDir>unstable</toDir>-->
+                            <url>${files-unstable}</url>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
-    </build>  
+    </build>
 
 </project>
 
