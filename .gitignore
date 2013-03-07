@@ -1,0 +1,47 @@
+/debian/architectures/i386/demoiselle-dev/target/
+/debian/architectures/i386/demoiselle-eclipse-3.5/target/
+/debian/architectures/i386/demoiselle-eclipse-3.6/target/
+/debian/architectures/i386/demoiselle-eclipse-3.7/target/
+/debian/architectures/i386/demoiselle-eclipse-3.7-SR2/target/
+/debian/architectures/i386/demoiselle-workspace/target/
+/debian/architectures/amd64/demoiselle-dev/target/
+/debian/architectures/amd64/demoiselle-eclipse-3.5/target/
+/debian/architectures/i386/demoiselle-2-infra/target/
+/debian/architectures/i386/demoiselle-1-infra/target/
+/debian/architectures/amd64/demoiselle-eclipse-3.7-SR2/target/
+/debian/architectures/amd64/demoiselle-workspace/target/
+/debian/architectures/all/demoiselle-maven2/target/
+/debian/architectures/amd64/demoiselle-1-infra/target/
+/debian/architectures/amd64/demoiselle-2-infra/target/
+/debian/architectures/all/demoiselle-maven2-local-repo/target/
+/debian/architectures/all/demoiselle-cassandra-gui-0.6/target/
+/debian/architectures/all/demoiselle-tomcat-7.0/target/
+/debian/architectures/all/demoiselle-tomcat-6.0/target/
+/debian/architectures/all/demoiselle-jboss-7.1/target/
+/debian/architectures/all/demoiselle-jboss-6.1/target/
+/debian/architectures/all/demoiselle-jboss-6.0/target/
+/debian/architectures/all/demoiselle-jboss-5.1/target/
+/debian/architectures/all/demoiselle-jboss-4.2/target/
+/debian/architectures/all/demoiselle-nimble/target/
+/debian/architectures/all/demoiselle-wizard/target/
+/debian/architectures/all/demoiselle-squirrel-3.1/target/
+/debian/architectures/all/demoiselle-soapui-3.5/target/
+/debian/architectures/all/demoiselle-ireport-3.0/target/
+/debian/architectures/all/demoiselle-dev-extra/target/
+/debian/architectures/all/demoiselle-mongobrowser-0.1/target/
+/debian/architectures/all/demoiselle-nimble-1.0/target/
+/debian/architectures/all/demoiselle-nimble-1 (cópia).0/target/
+/debian/architectures/all/demoiselle-nimble-1.1/target/
+/debian/architectures/all/demoiselle-2-infra-extras/target/
+/debian/architectures/all/demoiselle-squirrel-3 (cópia).1/target/
+/debian/architectures/all/demoiselle-squirrel-3.4/target/
+/debian/architectures/all/demoiselle-soapui-3 (cópia).5/target/
+/debian/architectures/all/demoiselle-soapui-4.5/target/
+/debian/architectures/all/demoiselle-ireport-3 (cópia).0/target/
+/debian/architectures/all/demoiselle-ireport-4.0/target/
+/debian/architectures/i386/demoiselle-1-infra-1/target/
+/debian/architectures/i386/demoiselle-2-infra-1/target/
+/debian/architectures/amd64/demoiselle-2-infra-1/target/
+/debian/architectures/amd64/demoiselle-1-infra-1/target/
+/debian/architectures/all/demoiselle-1-infra-extra/target/
+/debian/architectures/all/demoiselle-2-infra-extra/target/

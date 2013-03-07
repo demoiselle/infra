@@ -3,7 +3,7 @@ Version: 1.0-1
 Section: universe/devel
 Priority: standard
 Architecture: i386
-Depends: demoiselle-eclipse-3.7-SR2 (>=3.7), demoiselle-maven2 (>=1.0), demoiselle-maven2-local-repo (>=1.0), demoiselle-workspace (>=1.0), demoiselle-tomcat-7.0 (>=7.0), demoiselle-jboss-6.1 (>=6.1), demoiselle-jboss-7.1 (>=7.1)
+Depends: demoiselle-eclipse-3.7-SR2 (>=3.7), demoiselle-maven2 (>=1.0), demoiselle-maven2-local-repo (>=1.0), demoiselle-workspace (>=1.3), demoiselle-tomcat-7.0 (>=7.0), demoiselle-jboss-6.1 (>=6.1), demoiselle-jboss-7.1 (>=7.1)
 Suggests: demoiselle-2-infra-extra (>=1.0)
 Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
 Description: [[description]]
