@@ -6,9 +6,9 @@
     <artifactId>demoiselle-infra-parent-build</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
-    
+
     <name>Parent Build Aggregator</name>
-    
+
     <build>
         <plugins>
             <plugin>
@@ -20,7 +20,12 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build> 
+    </build>
+
+    <properties>
+        <verbose>false</verbose>
+        <versionJdeb>1.0.1</versionJdeb>
+    </properties>
 
 </project>
 

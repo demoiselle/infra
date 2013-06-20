@@ -9,6 +9,13 @@
 
     <name>Infra i386 Parent</name>
 
+    <parent>
+        <groupId>br.gov.frameworkdemoiselle.infra</groupId>
+        <artifactId>demoiselle-infra-parent-build</artifactId>
+        <version>1.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
     <properties>
         <architeture>i386</architeture>
         <buildDirectory>${project.basedir}/target</buildDirectory>
@@ -20,7 +27,7 @@
             <plugin>
                 <artifactId>jdeb</artifactId>
                 <groupId>org.vafer</groupId>
-                <version>1.0.1</version>
+                <version>${versionJdeb}</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -28,7 +35,7 @@
                             <goal>jdeb</goal>
                         </goals>
                         <configuration>
-                            <verbose>true</verbose>
+                            <verbose>${verbose}</verbose>
                             <controlDir>${basedir}/src/deb/control</controlDir>
                             <deb>${buildDirectory}/${project.artifactId}_${project.version}_${architeture}.deb</deb>
                             <dataSet>

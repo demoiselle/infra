@@ -34,7 +34,7 @@
             <plugin>
                 <artifactId>jdeb</artifactId>
                 <groupId>org.vafer</groupId>
-                <version>1.0.1</version>
+                <version>${versionJdeb}</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -42,7 +42,7 @@
                             <goal>jdeb</goal>
                         </goals>
                         <configuration>
-                            <verbose>true</verbose>
+                            <verbose>${verbose}</verbose>
                             <controlDir>${basedir}/src/deb/control</controlDir>
                             <deb>${buildDirectory}/${project.artifactId}_${project.version}_${architeture}.deb</deb>
                             <dataSet>
