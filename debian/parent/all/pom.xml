@@ -42,6 +42,8 @@
                             <goal>jdeb</goal>
                         </goals>
                         <configuration>
+                            <verbose>true</verbose>
+                            <controlDir>${basedir}/src/deb/control</controlDir>
                             <deb>${buildDirectory}/${project.artifactId}_${project.version}_${architeture}.deb</deb>
                             <dataSet>
                                 <data>
