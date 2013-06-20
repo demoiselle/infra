@@ -1,8 +1,0 @@
-Package: [[name]]
-Version: 3.0.0-4
-Section: universe/devel
-Priority: standard
-Architecture: all
-Depends: sun-java6-jdk | sun-java5-jdk | openjdk-6-jdk | openjdk-7-jdk
-Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
-Description: [[description]]

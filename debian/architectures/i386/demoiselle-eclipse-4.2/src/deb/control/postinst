@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PKGDIR="/opt/demoiselle/ide/eclipse-3.7-SR2"
+PKGDIR="/opt/demoiselle/ide/eclipse-4.2"
 
 if [ ! -d $PKGDIR ]; then
 	echo "Diretório não encontrado: $PKGDIR"

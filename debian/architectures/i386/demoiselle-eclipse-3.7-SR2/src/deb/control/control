@@ -1,8 +1,0 @@
-Package: [[name]]
-Version: 3.7.2-1
-Section: universe/devel
-Priority: standard
-Architecture: i386
-Depends: openjdk-6-jdk | sun-java6-jdk | openjdk-7-jdk
-Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
-Description: [[description]]
