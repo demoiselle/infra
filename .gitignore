@@ -49,3 +49,7 @@
 /debian/architectures/amd64/demoiselle-eclipse-4.2/target/
 /debian/architectures/i386/demoiselle-2-infra-2/target/
 /debian/architectures/amd64/demoiselle-2-infra-2/target/
+/debian/architectures/all/demoiselle-jboss-7 (cópia).1/target/
+/debian/architectures/all/demoiselle-glassfish-4.0/target/
+/debian/architectures/all/demoiselle-ireport-5 (cópia).1/target/
+/debian/architectures/all/demoiselle-netbeans-7.3/target/
