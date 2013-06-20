@@ -15,11 +15,13 @@
     <modules>
         <module>demoiselle-eclipse-3.5</module>
         <module>demoiselle-eclipse-3.7-SR2</module>
+        <module>demoiselle-eclipse-4.2</module>
         <module>demoiselle-workspace</module>
         <module>demoiselle-1-infra-1</module>
         <module>demoiselle-2-infra-1</module>
+        <module>demoiselle-2-infra-2</module>
     </modules>
-    
+
     <parent>
         <groupId>br.gov.frameworkdemoiselle.infra</groupId>
         <artifactId>demoiselle-infra-parent-build</artifactId>

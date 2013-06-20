@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>demoiselle-nimble</artifactId>
+    <artifactId>demoiselle-nimble-1.1</artifactId>
     <version>1.1</version>
     <packaging>pom</packaging>
-    
+
     <description>
         Automated processing tool for Demoiselle Framework
         Homepage: http://demoiselle.sourceforge.net/tools/nimble/

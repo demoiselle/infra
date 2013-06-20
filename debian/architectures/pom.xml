@@ -6,15 +6,15 @@
     <artifactId>demoiselle-infra-architectures-build</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
-    
+
     <modules>
         <module>i386</module>
         <module>amd64</module>
         <module>all</module>
     </modules>
-    
+
     <name>Build Aggregator Architectures</name>
-    
+
     <parent>
         <groupId>br.gov.frameworkdemoiselle.infra</groupId>
         <artifactId>demoiselle-infra-parent-build</artifactId>

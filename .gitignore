@@ -45,3 +45,5 @@
 /debian/architectures/amd64/demoiselle-1-infra-1/target/
 /debian/architectures/all/demoiselle-1-infra-extra/target/
 /debian/architectures/all/demoiselle-2-infra-extra/target/
+/debian/architectures/all/demoiselle-ireport-5.1/target/
+/debian/architectures/amd64/demoiselle-eclipse-4.2/target/
