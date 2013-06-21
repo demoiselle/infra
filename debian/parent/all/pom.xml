@@ -30,7 +30,7 @@
                     <skip>true</skip>
                 </configuration>
             </plugin>
-         <plugin>
+            <plugin>
                 <artifactId>jdeb</artifactId>
                 <groupId>org.vafer</groupId>
                 <version>${versionJdeb}</version>
@@ -80,9 +80,9 @@
             </plugin>
         </plugins>
     </build>
-   
 
-  
+
+
 
 </project>
 

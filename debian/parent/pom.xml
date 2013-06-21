@@ -9,11 +9,9 @@
 
     <name>Parent Build Aggregator</name>
 
-
-
     <properties>
-	<phaseDeploy>package</phaseDeploy>
-        <verbose>false</verbose>
+        <phaseDeploy>package</phaseDeploy>
+        <verbose>true</verbose>
         <versionJdeb>1.0.1</versionJdeb>
     </properties>
 
