@@ -53,3 +53,5 @@
 /debian/architectures/all/demoiselle-glassfish-4.0/target/
 /debian/architectures/all/demoiselle-ireport-5 (cópia).1/target/
 /debian/architectures/all/demoiselle-netbeans-7.3/target/
+/debian/architectures/all/demoiselle-maven-repo/target/
+/debian/architectures/all/demoiselle-maven-3/target/

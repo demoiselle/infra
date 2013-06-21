@@ -13,8 +13,8 @@
     </description>
 
     <modules>
-        <module>demoiselle-maven3</module>
-        <module>demoiselle-maven3-local-repo</module>
+        <module>demoiselle-maven-3</module>
+        <module>demoiselle-maven-repo</module>
         <module>demoiselle-tomcat-7.0</module>
 	<module>demoiselle-glassfish-4.0</module>
 	<module>demoiselle-netbeans-7.3</module>
