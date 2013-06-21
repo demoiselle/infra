@@ -2,15 +2,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>demoiselle-maven3-local-repo</artifactId>
+    <artifactId>demoiselle-maven-repo</artifactId>
     <version>3.0.5</version>
     <packaging>pom</packaging>
-    
+
     <description>
         Initial Maven local repository and settings for sharing it among all system users
         Homepage: http://demoiselle.sourceforge.net/infra/demoiselle-maven2-local-repo/
     </description>
-    
+
     <parent>
         <groupId>br.gov.frameworkdemoiselle.infra.all</groupId>
         <artifactId>demoiselle-infra-all-parent</artifactId>

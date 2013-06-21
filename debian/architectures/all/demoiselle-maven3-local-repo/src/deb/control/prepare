@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PKGDIR="./opt/demoiselle/tool/maven3-local-repo/"
+PKGDIR="./opt/demoiselle/tool/maven-repo/"
 
 if [ ! -d $PKGDIR ]; then
 	echo "Diretório não encontrado: $PKGDIR"

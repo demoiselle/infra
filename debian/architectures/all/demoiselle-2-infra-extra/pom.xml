@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>demoiselle-2-infra-extra</artifactId>
-    <version>1.0</version>
+    <version>2.0</version>
     <packaging>pom</packaging>
-    
+
     <description>
         Extra tools on development environment for Demoiselle Framework
         Homepage: http://demoiselle.sourceforge.net/infra/

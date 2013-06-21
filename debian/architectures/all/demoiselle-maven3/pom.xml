@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>demoiselle-maven3</artifactId>
+    <artifactId>demoiselle-maven-3</artifactId>
     <version>3.0.5</version>
     <packaging>pom</packaging>
-    
+
     <description>
         Java software project management and comprehension tool
         Homepage: http://maven.apache.org/
