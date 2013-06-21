@@ -67,7 +67,7 @@
                 <version>1.7</version>
                 <executions>
                     <execution>
-                        <phase>install</phase>
+                        <phase>${phaseDeploy}</phase>
                         <configuration>
                             <tasks>
                                 <copy file="${buildDirectory}/${project.artifactId}_${project.version}_${architeture}.deb" todir="/var/www/repository/unstable/" />

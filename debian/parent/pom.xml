@@ -12,6 +12,7 @@
 
 
     <properties>
+	<phaseDeploy>package</phaseDeploy>
         <verbose>false</verbose>
         <versionJdeb>1.0.1</versionJdeb>
     </properties>
