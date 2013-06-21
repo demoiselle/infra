@@ -20,7 +20,6 @@
         <architeture>all</architeture>
         <buildDirectory>${project.basedir}/target</buildDirectory>
     </properties>
-
     <build>
         <plugins>
             <plugin>
@@ -31,7 +30,7 @@
                     <skip>true</skip>
                 </configuration>
             </plugin>
-            <plugin>
+         <plugin>
                 <artifactId>jdeb</artifactId>
                 <groupId>org.vafer</groupId>
                 <version>${versionJdeb}</version>
@@ -81,6 +80,9 @@
             </plugin>
         </plugins>
     </build>
+   
+
+  
 
 </project>
 
