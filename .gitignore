@@ -55,3 +55,5 @@
 /debian/architectures/all/demoiselle-netbeans-7.3/target/
 /debian/architectures/all/demoiselle-maven-repo/target/
 /debian/architectures/all/demoiselle-maven-3/target/
+/debian/architectures/i386/demoiselle-eclipse-4.2/target/
+/debian/architectures/all/demoiselle-squirrel-3.5/target/

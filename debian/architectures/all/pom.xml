@@ -16,7 +16,7 @@
         <module>demoiselle-maven-3</module>
         <module>demoiselle-maven-repo</module>
         <module>demoiselle-tomcat-7.0</module>
-	<module>demoiselle-glassfish-4.0</module>
+	<!--<module>demoiselle-glassfish-4.0</module>-->
 	<module>demoiselle-netbeans-7.3</module>
         <module>demoiselle-jboss-7.1</module>
         <module>demoiselle-nimble-1.1</module>
