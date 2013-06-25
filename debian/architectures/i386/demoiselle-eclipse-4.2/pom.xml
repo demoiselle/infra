@@ -5,7 +5,9 @@
     <artifactId>demoiselle-eclipse-4.2</artifactId>
     <version>4.2</version>
     <packaging>pom</packaging>
-  
+
+    <name>${project.artifactId}</name>
+    <url>http://www.frameworkdemoiselle.gov.br</url>
     <description>
         Eclipse IDE for Java Developers with plugins and features
         Eclipse is a multi-language software development environment comprising an
@@ -14,13 +16,13 @@
         Java and, by means of the various plug-ins, in other languages as well,
         including C, C++, COBOL, Python, Perl, PHP, and others.
         Additional Plugins
-               SVN
-               Nimble
-               Jboss Tools Indigo
-               Groovy
-               M2E Integration
-               Vaddin
-               Findbugs
+        SVN
+        Nimble
+        Jboss Tools Indigo
+        Groovy
+        M2E Integration
+        Vaddin
+        Findbugs
         Homepage: http://www.frameworkdemoiselle.gov.br/
     </description>
 

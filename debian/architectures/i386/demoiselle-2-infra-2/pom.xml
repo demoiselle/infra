@@ -5,7 +5,9 @@
     <artifactId>demoiselle-2-infra-2</artifactId>
     <version>2.0</version>
     <packaging>pom</packaging>
-  
+
+    <name>${project.artifactId}</name>
+    <url>http://www.frameworkdemoiselle.gov.br</url>
     <description>
         Complete development environment for Demoiselle Framework 2.x
         Homepage: http://demoiselle.sourceforge.net/infra/
