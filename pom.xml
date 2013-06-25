@@ -6,15 +6,15 @@
     <artifactId>demoiselle-infra-build</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
-    <name>Infra</name>
 
+    <name>Infra</name>
     <description>
         Projeto que agrega todas as arquiteturas dos pacotes (.deb) do demoiselle infra
     </description>
 
-   <modules>
+    <modules>
         <module>debian</module>
-   </modules>
+    </modules>
 
 </project>
 

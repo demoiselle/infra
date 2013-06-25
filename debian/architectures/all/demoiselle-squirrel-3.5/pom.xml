@@ -6,6 +6,8 @@
     <version>3.5.0</version>
     <packaging>pom</packaging>
 
+    <name>${project.artifactId}</name>
+    <url>http://www.frameworkdemoiselle.gov.br</url>
     <description>
         Universal SQL Client written in Java and based on JDBC drivers
         SQuirreL SQL Client is a graphical Java program that will allow you to view the structure of a JDBC compliant database, browse the data in tables, issue SQL commands etc.

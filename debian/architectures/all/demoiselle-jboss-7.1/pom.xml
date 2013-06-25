@@ -5,7 +5,9 @@
     <artifactId>demoiselle-jboss-7.1</artifactId>
     <version>7.1.1</version>
     <packaging>pom</packaging>
-    
+
+    <name>${project.artifactId}</name>
+    <url>http://www.frameworkdemoiselle.gov.br</url>
     <description>
         JBoss Application Server 7.1.1.Final
         JBoss Application Server is an open-source Java EE-based application server.

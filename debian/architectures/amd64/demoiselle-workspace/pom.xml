@@ -5,7 +5,9 @@
     <artifactId>demoiselle-workspace</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
-  
+
+    <name>${project.artifactId}</name>
+    <url>http://www.frameworkdemoiselle.gov.br</url>
     <description>
         Default workspace templates for Demoiselle Eclipse
         Homepage: http://demoiselle.sourceforge.net/infra/demoiselle-workspace/

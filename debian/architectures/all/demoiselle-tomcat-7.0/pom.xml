@@ -5,14 +5,16 @@
     <artifactId>demoiselle-tomcat-7.0</artifactId>
     <version>7.0.5</version>
     <packaging>pom</packaging>
-  
+
+    <name>${project.artifactId}</name>
+    <url>http://www.frameworkdemoiselle.gov.br</url>
     <description>
         Apache Tomcat 7.0 Java Servlet and JSP Engine
         Apache Tomcat is the reference implementation for the Java Servlet and JavaServer Pages technologies.
         Homepage: http://tomcat.apache.org/
     </description>
 
-   <parent>
+    <parent>
         <groupId>br.gov.frameworkdemoiselle.infra.all</groupId>
         <artifactId>demoiselle-infra-all-parent</artifactId>
         <version>1.0</version>

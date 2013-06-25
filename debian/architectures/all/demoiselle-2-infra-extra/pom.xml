@@ -6,6 +6,8 @@
     <version>2.0</version>
     <packaging>pom</packaging>
 
+    <name>${project.artifactId}</name>
+    <url>http://www.frameworkdemoiselle.gov.br</url>
     <description>
         Extra tools on development environment for Demoiselle Framework
         Homepage: http://demoiselle.sourceforge.net/infra/

@@ -6,6 +6,8 @@
     <version>3.0.5</version>
     <packaging>pom</packaging>
 
+    <name>${project.artifactId}</name>
+    <url>http://www.frameworkdemoiselle.gov.br</url>
     <description>
         Java software project management and comprehension tool
         Homepage: http://maven.apache.org/
