@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Name=Demoiselle Eclipse 4.3
+Comment=Eclipse IDE for Java Developers with plugins and features needed by Demoiselle
+Exec=/opt/demoiselle/ide/eclipse-4.3/eclipse
+Icon=demoiselle-eclipse-4.3.xpm
+Terminal=false
+Type=Application
+Categories=Development;
+StartupNotify=true
+Name[pt_BR]=Demoiselle Eclipse 4.3

@@ -13,7 +13,7 @@
     </description>
 
     <modules>
-        <module>demoiselle-eclipse-4.2</module>
+        <module>demoiselle-eclipse-4.3</module>
         <module>demoiselle-workspace</module>
         <module>demoiselle-2-infra-2</module>
     </modules>

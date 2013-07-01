@@ -57,3 +57,6 @@
 /debian/architectures/all/demoiselle-maven-3/target/
 /debian/architectures/i386/demoiselle-eclipse-4.2/target/
 /debian/architectures/all/demoiselle-squirrel-3.5/target/
+/debian/architectures/i386/demoiselle-eclipse-4 (cópia).2/target/
+/debian/architectures/i386/demoiselle-eclipse-4.3/target/
+/debian/architectures/amd64/demoiselle-eclipse-4.3/target/
