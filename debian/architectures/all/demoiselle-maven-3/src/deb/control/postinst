@@ -4,6 +4,7 @@ MAVEN_HOME="/opt/demoiselle/tool/maven3"
 
 chmod +x $MAVEN_HOME/bin/mvn
 chmod +x $MAVEN_HOME/bin/mvnDebug
+export MAVEN_OPTS=-Dmaven.artifact.threads=4
 
 for a in mvn mvnDebug
 do
