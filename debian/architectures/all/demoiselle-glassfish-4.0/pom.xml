@@ -20,7 +20,6 @@
         GlassFish is based on source code released by Sun and Oracle Corporation's TopLink persistence system.
         It uses a derivative of Apache Tomcat as the servlet container for serving Web content, with an added component
         called Grizzly which uses Java New I/O (NIO) for scalability and speed.
-        
         https://glassfish.java.net/
     </description>
 
