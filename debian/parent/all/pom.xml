@@ -70,6 +70,13 @@
                             <tasks>
                                 <copy file="${buildDirectory}/${project.artifactId}_${project.version}_${architeture}.deb" todir="/var/www/repository/unstable/" />
                             </tasks>
+<!--                            <target>
+                                <exec executable="debuild" dir="${project.build.outputDirectory}">
+                                    <arg line="-us" />
+                                    <arg line="-uc" />
+                                    <arg line="-B" />
+                                </exec>
+                            </target>-->
                         </configuration>
                         <goals>
                             <goal>run</goal>
