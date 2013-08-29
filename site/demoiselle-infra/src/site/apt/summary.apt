@@ -2,32 +2,32 @@
 ~~ Copyright (C) 2010 SERPRO
 ~~ ============================================================================
 ~~ This file is part of Demoiselle Framework.
-~~ 
+~~
 ~~ Demoiselle Framework is free software; you can redistribute it and/or
 ~~ modify it under the terms of the GNU Lesser General Public License version 3
 ~~ as published by the Free Software Foundation.
-~~ 
+~~
 ~~ This program is distributed in the hope that it will be useful,
 ~~ but WITHOUT ANY WARRANTY; without even the implied warranty of
 ~~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ~~ GNU General Public License for more details.
-~~ 
+~~
 ~~ You should have received a copy of the GNU Lesser General Public License version 3
 ~~ along with this program; if not,  see <http://www.gnu.org/licenses/>
 ~~ or write to the Free Software Foundation, Inc., 51 Franklin Street,
 ~~ Fifth Floor, Boston, MA  02110-1301, USA.
 ~~ ============================================================================
 ~~ Este arquivo é parte do Framework Demoiselle.
-~~ 
+~~
 ~~ O Framework Demoiselle é um software livre; você pode redistribuí-lo e/ou
 ~~ modificá-lo dentro dos termos da GNU LGPL versão 3 como publicada pela Fundação
 ~~ do Software Livre (FSF).
-~~ 
+~~
 ~~ Este programa é distribuído na esperança que possa ser útil, mas SEM NENHUMA
 ~~ GARANTIA; sem uma garantia implícita de ADEQUAÇÃO a qualquer MERCADO ou
 ~~ APLICAÇÃO EM PARTICULAR. Veja a Licença Pública Geral GNU/LGPL em português
 ~~ para maiores detalhes.
-~~ 
+~~
 ~~ Você deve ter recebido uma cópia da GNU LGPL versão 3, sob o título
 ~~ "LICENCA.txt", junto com esse programa. Se não, acesse <http://www.gnu.org/licenses/>
 ~~ ou escreva para a Fundação do Software Livre (FSF) Inc.,
@@ -52,23 +52,23 @@ Sumário
 *-----------------------------+---------------------------+------------*---------------------------------------------------+
 | <<Pacote>>                  | <<Descrição>>             | <<Versão>> | <<Site>>                                          |
 *-----------------------------+---------------------------+------------*---------------------------------------------------+
-| demoiselle-eclipse          | IDE Eclipse SDK + plugins | 3.7.2 SR2  | {{http://www.eclipse.org/}}                       |
+| demoiselle-eclipse          | IDE Eclipse SDK + plugins | 4.3  | {{http://www.eclipse.org/}}                       |
 *-----------------------------+---------------------------+------------*---------------------------------------------------+
-| demoiselle-ireport          | iReport                   | 4.0.1      | {{http://jasperforge.org/projects/ireport/}}      |
+| demoiselle-ireport          | iReport                   | 5.1      | {{http://jasperforge.org/projects/ireport/}}      |
 *-----------------------------+---------------------------+------------*---------------------------------------------------+
-| demoiselle-jboss            | JBoss AS                  | 7.1.0      | {{http://www.jboss.org/}}                         |
+| demoiselle-jboss            | JBoss AS                  | 7.1      | {{http://www.jboss.org/}}                         |
 *----------------------------+---------------------------+------------*---------------------------------------------------+
-| demoiselle-maven2           | Apache Maven              | 2.2.1      | {{http://maven.apache.org/}}                      |
+| demoiselle-maven3           | Apache Maven              | 3.0      | {{http://maven.apache.org/}}                      |
 *----------------------------+---------------------------+------------*---------------------------------------------------+
-| demoiselle-maven2-local-repo| Repositório Local Apache Maven | 2.2.1 | {{http://demoiselle.sourceforge.net/infra/site/usage.html#demoiselle-maven2-local-repo}}                      |
+| demoiselle-maven-repo| Repositório Local Apache Maven | 3.0 | {{http://demoiselle.sourceforge.net/infra/site/usage.html#demoiselle-maven-repo}}                      |
 *-----------------------------+---------------------------+------------*---------------------------------------------------+
 | demoiselle-soapui           | soapUI                    | 4.5.1      | {{http://www.soapui.org/}}                        |
 *-----------------------------+---------------------------+------------*---------------------------------------------------+
-| demoiselle-squirrel         | SQuirreL SQL              | 3.4.0      | {{http://squirrel-sql.sourceforge.net/}}          |
+| demoiselle-squirrel         | SQuirreL SQL              | 3.5.0      | {{http://squirrel-sql.sourceforge.net/}}          |
 *-----------------------------+---------------------------+------------*---------------------------------------------------+
 | demoiselle-tomcat           | Apache Tomcat             | 7.0.5      | {{http://tomcat.apache.org/}}                     |
 *-----------------------------+---------------------------+------------*---------------------------------------------------+
-| demoiselle-nimble           | Demoiselle Nimble         | 1.1.0      | {{http://demoiselle.sourceforge.net/tools/nimble}}|
+| demoiselle-nimble           | Demoiselle Nimble         | 1.1.1      | {{http://demoiselle.sourceforge.net/tools/nimble}}|
 *-----------------------------+---------------------------+------------*---------------------------------------------------+
 | demoiselle-wizard           | Demoiselle Wizard         | 1.1.3      | {{http://demoiselle.sourceforge.net/wizard/}}     |
 *-----------------------------+---------------------------+------------*---------------------------------------------------+
@@ -85,9 +85,11 @@ Sumário
 *-------------------------+-------------------+-------------*
 | demoiselle-2-infra-1    | Ambiente completo de desenvolvimento para o Demoiselle Framework 2.x. | demoiselle-eclipse-3.7-SR2, demoiselle-maven2, demoiselle-maven2-local-repo, demoiselle-workspace, demoiselle-tomcat-7.0, demoiselle-jboss-6.1, demoiselle-jboss-7.1 |
 *-------------------------+-------------------+-------------*
+| demoiselle-2-infra-2    | Ambiente completo de desenvolvimento para o Demoiselle Framework 2.x. | demoiselle-eclipse-4.3, demoiselle-maven3, demoiselle-maven-repo, demoiselle-workspace, demoiselle-tomcat-7.0, demoiselle-jboss-7.1 |
+*-------------------------+-------------------+-------------*
 | demoiselle-1-infra-extra    | Ferramentas adicionais para o ambiente de desenvolvimento. | demoiselle-ireport-3.0, demoiselle-soapui-3.5, demoiselle-squirrel-3.1|
 *-------------------------+-------------------+-------------*
-| demoiselle-2-infra-extra    | Ferramentas adicionais para o ambiente de desenvolvimento. | demoiselle-ireport-4.0, demoiselle-soapui-4.5, demoiselle-squirrel-3.4, demoiselle-nimble|
+| demoiselle-2-infra-extra    | Ferramentas adicionais para o ambiente de desenvolvimento. | demoiselle-ireport-5.1, demoiselle-soapui-4.5, demoiselle-squirrel-3.5, demoiselle-nimble|
 *-------------------------+-------------------+-------------*
 
 * {Softwares nos pacotes Windows}
@@ -99,7 +101,9 @@ Sumário
 *-------------------------+-------------------+-------------*
 | demoiselle-1-infra-extra    | Ferramentas adicionais para o ambiente de desenvolvimento. | demoiselle-ireport-3.0, demoiselle-soapui-4.0, demoiselle-squirrel-3.2 |
 *-------------------------+-------------------+-------------*
-| demoiselle-2-infra      | Ambiente completo de desenvolvimento para o Demoiselle Framework. | demoiselle-eclipse-3.7-SR2, demoiselle-nimble, demoiselle-maven2, demoiselle-maven2-local-repo, demoiselle-workspace, demoiselle-tomcat-7.0, demoiselle-jboss-6.1, demoiselle-jboss-7.1 |
+| demoiselle-2-infra-1      | Ambiente completo de desenvolvimento para o Demoiselle Framework. | demoiselle-eclipse-3.7-SR2, demoiselle-nimble, demoiselle-maven2, demoiselle-maven2-local-repo, demoiselle-workspace, demoiselle-tomcat-7.0, demoiselle-jboss-6.1, demoiselle-jboss-7.1 |
 *-------------------------+-------------------+-------------*
-| demoiselle-2-infra-extra    | Ferramentas adicionais para o ambiente de desenvolvimento. | demoiselle-ireport-4.0, demoiselle-soapui-4.5, demoiselle-squirrel-3.4, demoiselle-nimble |
+| demoiselle-2-infra-2    | Ambiente completo de desenvolvimento para o Demoiselle Framework 2.x. | demoiselle-eclipse-4.3, demoiselle-maven3, demoiselle-maven-repo, demoiselle-workspace, demoiselle-tomcat-7.0, demoiselle-jboss-7.1 |
+*-------------------------+-------------------+-------------*
+| demoiselle-2-infra-extra    | Ferramentas adicionais para o ambiente de desenvolvimento. | demoiselle-ireport-5.1, demoiselle-soapui-4.5, demoiselle-squirrel-3.5, demoiselle-nimble |
 *-------------------------+-------------------+-------------*

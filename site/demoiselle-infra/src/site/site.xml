@@ -4,32 +4,32 @@
  Copyright (C) 2010 SERPRO
  ============================================================================
  This file is part of Demoiselle Framework.
- 
+
  Demoiselle Framework is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public License version 3
  as published by the Free Software Foundation.
- 
+
  This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
- 
+
  You should have received a copy of the GNU Lesser General Public License version 3
  along with this program; if not,  see <http://www.gnu.org/licenses/>
  or write to the Free Software Foundation, Inc., 51 Franklin Street,
  Fifth Floor, Boston, MA  02110-1301, USA.
  ============================================================================
  Este arquivo é parte do Framework Demoiselle.
- 
+
  O Framework Demoiselle é um software livre; você pode redistribuí-lo e/ou
  modificá-lo dentro dos termos da GNU LGPL versão 3 como publicada pela Fundação
  do Software Livre (FSF).
- 
+
  Este programa é distribuído na esperança que possa ser útil, mas SEM NENHUMA
  GARANTIA; sem uma garantia implícita de ADEQUAÇÃO a qualquer MERCADO ou
  APLICAÇÃO EM PARTICULAR. Veja a Licença Pública Geral GNU/LGPL em português
  para maiores detalhes.
- 
+
  Você deve ter recebido uma cópia da GNU LGPL versão 3, sob o título
  "LICENCA.txt", junto com esse programa. Se não, acesse <http://www.gnu.org/licenses/>
  ou escreva para a Fundação do Software Livre (FSF) Inc.,
@@ -42,22 +42,23 @@
         <src>images/logo-l.png</src>
         <href>${project.url}</href>
     </bannerLeft>
-	
+
     <bannerRight>
         <src>images/logo-r.png</src>
     </bannerRight>
-	
+
     <publishDate position="left" format="dd/MM/yyyy hh:mm:ss a"/>
-	
+
     <version position="left"/>
-	
+
     <skin>
         <groupId>br.gov.component.demoiselle.skins</groupId>
         <artifactId>demoiselle-default-skin</artifactId>
         <version>1.0.1</version>
     </skin>
-	
+
     <body>
+
         <links>
             <item name="Projeto" href="http://sourceforge.net/projects/demoiselle/" />
             <item name="Portal" href="http://www.frameworkdemoiselle.gov.br" />
@@ -75,6 +76,25 @@
             <item name="Notas de Versão" href="release-notes.html" />
         </menu>
         <menu ref="reports"/>
+
+        <head>
+            <script type="text/javascript">
+                (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+                ga('create', 'UA-33820437-1', 'frameworkdemoiselle.gov.br');
+                ga('send', 'pageview');
+            </script>
+        </head>
     </body>
-	
+
 </project>

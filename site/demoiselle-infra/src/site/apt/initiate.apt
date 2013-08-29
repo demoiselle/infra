@@ -2,32 +2,32 @@
 ~~ Copyright (C) 2010 SERPRO
 ~~ ============================================================================
 ~~ This file is part of Demoiselle Framework.
-~~ 
+~~
 ~~ Demoiselle Framework is free software; you can redistribute it and/or
 ~~ modify it under the terms of the GNU Lesser General Public License version 3
 ~~ as published by the Free Software Foundation.
-~~ 
+~~
 ~~ This program is distributed in the hope that it will be useful,
 ~~ but WITHOUT ANY WARRANTY; without even the implied warranty of
 ~~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ~~ GNU General Public License for more details.
-~~ 
+~~
 ~~ You should have received a copy of the GNU Lesser General Public License version 3
 ~~ along with this program; if not,  see <http://www.gnu.org/licenses/>
 ~~ or write to the Free Software Foundation, Inc., 51 Franklin Street,
 ~~ Fifth Floor, Boston, MA  02110-1301, USA.
 ~~ ============================================================================
 ~~ Este arquivo é parte do Framework Demoiselle.
-~~ 
+~~
 ~~ O Framework Demoiselle é um software livre; você pode redistribuí-lo e/ou
 ~~ modificá-lo dentro dos termos da GNU LGPL versão 3 como publicada pela Fundação
 ~~ do Software Livre (FSF).
-~~ 
+~~
 ~~ Este programa é distribuído na esperança que possa ser útil, mas SEM NENHUMA
 ~~ GARANTIA; sem uma garantia implícita de ADEQUAÇÃO a qualquer MERCADO ou
 ~~ APLICAÇÃO EM PARTICULAR. Veja a Licença Pública Geral GNU/LGPL em português
 ~~ para maiores detalhes.
-~~ 
+~~
 ~~ Você deve ter recebido uma cópia da GNU LGPL versão 3, sob o título
 ~~ "LICENCA.txt", junto com esse programa. Se não, acesse <http://www.gnu.org/licenses/>
 ~~ ou escreva para a Fundação do Software Livre (FSF) Inc.,
@@ -41,59 +41,59 @@ Como Iniciar
 
 ~~  Os pacotes de ambientes de desenvolvimento são instalados no diretório </opt/demoiselle/ide/> para a plataforma <<Debian GNU/Linux>> e <C:\Demoiselle\ide\\> para plataforma <<Windows>>,
 ~~  tal como ilustrado abaixo:
-  
+
 ~~+- -+
 ~~<local_de_instalação>
 ~~`- - ide
 ~~    `- - eclipse-3.6
-~~    `- - eclipse-3.7-SR2
+~~    `- - eclipse-4.3
 ~~+- -+
 
 ~~  Para iniciar o Eclipse, basta acessar o menu <Aplicativos>, <Desenvolvimento> ou executar
-~~  diretamente o comando através de um terminal (ex: </opt/demoiselle/ide/eclipse-3.7/eclipse>) para a plataforma <<Debian GNU/Linux>> ou executar o programa 
-~~  (ex: <C:\Demoiselle\ide\eclipse-3.7\eclipse.exe>) para plataforma <<Windows>>.
-  
+~~  diretamente o comando através de um terminal (ex: </opt/demoiselle/ide/eclipse-4.3/eclipse>) para a plataforma <<Debian GNU/Linux>> ou executar o programa
+~~  (ex: <C:\Demoiselle\ide\eclipse-4.3\eclipse.exe>) para plataforma <<Windows>>.
+
 ~~* <<{demoiselle-wizard}>>
-~~  
+~~
 ~~O plug-in do Demoiselle Wizard é instalado no diretório </plugins> da respectiva IDE Eclipse. Para acessá-lo,
-~~basta clicar com o botão direito em um projeto na visão <Package Explorer> e acessar o menu <Demoiselle>. 
+~~basta clicar com o botão direito em um projeto na visão <Package Explorer> e acessar o menu <Demoiselle>.
 
 ~~* {Servidores}
 
 ~~  Os pacotes de servidores Web e de aplicação Java EE são instalados no diretório </opt/demoiselle/server/> na plataforma <<Debian GNU/Linux>> e <C:\Demoiselle\server\\> na plataforma <<Windows>>,
 ~~  tal como ilustrado abaixo:
-~~  
+~~
 ~~+- -+
 ~~<local_de_instalação>
 ~~`- - server
-~~    `- - jboss-6.0
+~~    `- - jboss-7.1
 ~~    `- - tomcat-7.0
 ~~+- -+
 ~~
 ~~  * <<{demoiselle-jboss}>>
-~~  
+~~
 ~~  O JBoss AS pode ser executado em modo runtime a partir da IDE Eclipse, após devidamente configurado
 ~~  (menu <Window> > <Preferences> > <Server> > <Runtime Environments>) ou então executado diretamente via
-~~  terminal (ex: </opt/demoiselle/server/jboss-6.1/bin/run.sh>) para a plataforma <<Debian GNU/Linux>> ou (ex: <C:\Demoiselle\server\jboss-6.1\bin\run.bat>) para plataforma <<Windows>>.
+~~  terminal (ex: </opt/demoiselle/server/jboss-6.1/bin/run.sh>) para a plataforma <<Debian GNU/Linux>> ou (ex: <C:\Demoiselle\server\jboss-7.1\bin\run.bat>) para plataforma <<Windows>>.
 ~~
 ~~  * <<{demoiselle-tomcat}>>
-~~  
+~~
 ~~  O Apache Tomcat, tal como o JBoss AS, pode ser executado em modo runtime pelo Eclipse ou diretamente
 ~~  via terminal (ex: </opt/demoiselle/server/tomcat-7.0/bin/startup.sh>) na plataforma <<Debian GNU/Linux>> e (ex: <C:\Demoiselle\server\tomcat-7.0\bin\Tomcat7.exe>) na plataforma <<Windows>>.
-~~  
+~~
 * {Ferramentas}
 
-  Os pacotes referentes a ferramentas opcionais para o desenvolvimento são instalados no diretório </opt/demoiselle/tool/> na plataforma <<Debian GNU/Linux>> e <C:\Demoiselle\tool\\> na plataforma <<Windows>>, 
+  Os pacotes referentes a ferramentas opcionais para o desenvolvimento são instalados no diretório </opt/demoiselle/tool/> na plataforma <<Debian GNU/Linux>> e <C:\Demoiselle\tool\\> na plataforma <<Windows>>,
   tal como ilustrado abaixo:
-  
+
 +---------------------------------------------------------------------+
 <local_de_instalação>
 `-- tool
-    `-- ireport-4.0
-    `-- maven2
-    `-- maven2-local-repo
+    `-- ireport-5.1
+    `-- maven3
+    `-- maven-repo
     `-- soapui-4.5
-    `-- squirrel-3.4
+    `-- squirrel-3.5
     `-- workspace
 +---------------------------------------------------------------------+
 
@@ -120,48 +120,48 @@ $ demoiselle-workspace --help
 
 
   * <<{demoiselle-ireport}>>
-  
+
   Para iniciar o iReport, basta acessar o menu <Aplicativos> > <Desenvolvimento> ou executar diretamente
-  o comando através de um terminal (ex: </opt/demoiselle/tool/ireport-4.0/bin/ireport>) na plataforma <<Debian GNU/Linux>> e 
-  (ex: <C:\Demoiselle\tool\ireport-4.0\bin\ireport.exe>) na plataforma <<Windows>>.
+  o comando através de um terminal (ex: </opt/demoiselle/tool/ireport-5.1/bin/ireport>) na plataforma <<Debian GNU/Linux>> e
+  (ex: <C:\Demoiselle\tool\ireport-5.1\bin\ireport.exe>) na plataforma <<Windows>>.
 
 +------------------------------------------------------------------+
 Observação
 
-Para que a versão do iReport 4.0.1 funcione é importante que a variável de ambiente JAVA_HOME esteja setada corretamente e que 
+Para que a versão do iReport 5.1 funcione é importante que a variável de ambiente JAVA_HOME esteja setada corretamente e que
 ela esteja setada na variável de ambiente PATH do seu Windows.
 Para configurar as variáveis de ambiente JAVA_HOME e PATH siga os passos abaixo:
 
 1 - Abra um console (Iniciar > Executar > cmd.exe)
-2 - Digite o comando: SET JAVA_HOME=<diretório onde o java foi instalado>  
-3 - Digite o comando: SET PATH=%PATH%;%JAVA_HOME%\bin  
+2 - Digite o comando: SET JAVA_HOME=<diretório onde o java foi instalado>
+3 - Digite o comando: SET PATH=%PATH%;%JAVA_HOME%\bin
 +------------------------------------------------------------------+
-  
-  * <<{demoiselle-maven2}>>
-  
+
+  * <<{demoiselle-maven3}>>
+
   O Apache Maven pode ser executado de modo integrado com a IDE Eclipse (após devidamente configurado no
   menu <Window> > <Preferences> > <Maven> > <Installations>) ou manualmente através de um terminal usando o
-  comando <mvn> (ou </opt/demoiselle/tool/maven2/bin/mvn>) na plataforma <<Debian GNU/Linux>> e 
-  (ex: <C:\Demoiselle\tool\maven2\bin\mvn.bat>) na plataforma <<Windows>>.
+  comando <mvn> (ou </opt/demoiselle/tool/maven3/bin/mvn>) na plataforma <<Debian GNU/Linux>> e
+  (ex: <C:\Demoiselle\tool\maven3\bin\mvn.bat>) na plataforma <<Windows>>.
 
-  * <<{demoiselle-maven2-local-repo}>>
+  * <<{demoiselle-maven-repo}>>
 
   Este pacote tem como principal objetivo agilizar o preparo de um repositório Maven local, o qual tende
   a ser demorado nas primeiras execuções devido as bibliotecas serem baixadas automaticamente. Contém as
   principais bibliotecas Java necessárias para a construção de aplicações com o Demoiselle Framework.
-  
-  O repositório local se encontra no diretório </opt/demoiselle/tool/maven2-local-repo/> na plataforma <<Debian GNU/Linux>> e 
-  <C:\Demoiselle\tool\maven2-local-repo\\> na plataforma <<Windows>> e será compartilhado
+
+  O repositório local se encontra no diretório </opt/demoiselle/tool/maven-repo/> na plataforma <<Debian GNU/Linux>> e
+  <C:\Demoiselle\tool\maven-repo\\> na plataforma <<Windows>> e será compartilhado
   por todos os possíveis usuários de uma mesma estação, em oposição ao comumente usado <~/.m2/repository>.
-  
+
   * <<{demoiselle-soapui}>>
-  
+
   Para iniciar o soapUI, basta acessar o menu <Aplicativos> > <Desenvolvimento> ou executar diretamente
-  o comando através de um terminal (ex: </opt/demoiselle/tool/soapui-4.5/bin/soapui.sh>) na plataforma <<Debian GNU/Linux>> e 
+  o comando através de um terminal (ex: </opt/demoiselle/tool/soapui-4.5/bin/soapui.sh>) na plataforma <<Debian GNU/Linux>> e
   (ex: <C:\Demoiselle\tool\soapui-4.5\bin\soapui.bat>) na plataforma <<Windows>>.
 
   * <<{demoiselle-squirrel}>>
 
   Para iniciar o SQuirreL, basta acessar o menu <Aplicativos> > <Desenvolvimento> ou executar diretamente
-  o comando através de um terminal (ex: </opt/demoiselle/tool/squirrel-3.4/squirrel-sql.sh>) para a plataforma <<Debian GNU/Linux>> e 
-  (ex: <C:\Demoiselle\tool\tool\squirrel-3.4\squirrel-sql.bat>) na plataforma <<Windows>>.
+  o comando através de um terminal (ex: </opt/demoiselle/tool/squirrel-3.5/squirrel-sql.sh>) para a plataforma <<Debian GNU/Linux>> e
+  (ex: <C:\Demoiselle\tool\tool\squirrel-3.5\squirrel-sql.bat>) na plataforma <<Windows>>.

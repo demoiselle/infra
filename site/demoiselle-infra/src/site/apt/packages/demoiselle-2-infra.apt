@@ -2,32 +2,32 @@
 ~~ Copyright (C) 2010 SERPRO
 ~~ ============================================================================
 ~~ This file is part of Demoiselle Framework.
-~~ 
+~~
 ~~ Demoiselle Framework is free software; you can redistribute it and/or
 ~~ modify it under the terms of the GNU Lesser General Public License version 3
 ~~ as published by the Free Software Foundation.
-~~ 
+~~
 ~~ This program is distributed in the hope that it will be useful,
 ~~ but WITHOUT ANY WARRANTY; without even the implied warranty of
 ~~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ~~ GNU General Public License for more details.
-~~ 
+~~
 ~~ You should have received a copy of the GNU Lesser General Public License version 3
 ~~ along with this program; if not,  see <http://www.gnu.org/licenses/>
 ~~ or write to the Free Software Foundation, Inc., 51 Franklin Street,
 ~~ Fifth Floor, Boston, MA  02110-1301, USA.
 ~~ ============================================================================
 ~~ Este arquivo é parte do Framework Demoiselle.
-~~ 
+~~
 ~~ O Framework Demoiselle é um software livre; você pode redistribuí-lo e/ou
 ~~ modificá-lo dentro dos termos da GNU LGPL versão 3 como publicada pela Fundação
 ~~ do Software Livre (FSF).
-~~ 
+~~
 ~~ Este programa é distribuído na esperança que possa ser útil, mas SEM NENHUMA
 ~~ GARANTIA; sem uma garantia implícita de ADEQUAÇÃO a qualquer MERCADO ou
 ~~ APLICAÇÃO EM PARTICULAR. Veja a Licença Pública Geral GNU/LGPL em português
 ~~ para maiores detalhes.
-~~ 
+~~
 ~~ Você deve ter recebido uma cópia da GNU LGPL versão 3, sob o título
 ~~ "LICENCA.txt", junto com esse programa. Se não, acesse <http://www.gnu.org/licenses/>
 ~~ ou escreva para a Fundação do Software Livre (FSF) Inc.,
@@ -43,83 +43,44 @@ Demoiselle 2 Infra
 
     * Ambiente de Desenvolvimento (<ide>)
 
-    * Servidores (<server>) 
+    * Servidores (<server>)
 
     * Ferramentas (<tool>)
 
   Adicionalmente são oferecidos os <<metapacotes>>, os quais automatizam a instalação de múltiplos pacotes com funções em comum.
-  
+
 * {Desenvolvimento}
 
   Estão disponíveis aqui os principais ambientes de desenvolvimento integrado (IDE) prontos para uso com o Demoiselle.
-  
+
   O Eclipse é um ambiente de desenvolvimento altamente plugável e de código aberto mantido pelo grupo {{{http://www.eclipse.org}Eclipse}}
 
-  * <<{demoiselle-eclipse-3.6}>>
-  
-  O pacote <<demoiselle-eclipse-3.6>> embarca a IDE Eclipse 3.6.1 (Helios) com os seguintes plugins configurados:
-  
-    * {{{http://www.jboss.org/tools.html}JBoss Tools 3.2}}
-    
-    * {{{http://www.eclipse.org/m2e/}Maven Integration for Eclipse 0.10.0}}
-    
-    * {{{http://www.eclipse.org/ajdt/}Eclipse AspectJ Development Tools 2.1.0}}
-    
-    * {{{http://subclipse.tigris.org/}Subeclipse Integration 1.6.14}}
-    
-    * {{{http://desktop-eclipse.open.collab.net/}CollabNet 2.2.1}}
-    
-    * {{{http://findbugs.sourceforge.net/}FindBugs 1.3.9}}
-    
-      []
-      
+   * <<{demoiselle-eclipse-4.3}>>
 
-  
-  * <<{demoiselle-eclipse-3.7}>>
-  
-  O pacote <<demoiselle-eclipse-3.7>> embarca a IDE Eclipse 3.7.1 (Indigo) com os seguintes plugins configurados:
-  
-    * {{{http://www.jboss.org/tools.html}JBoss Tools 3.3}}
-    
-    * {{{http://www.eclipse.org/m2e/}Maven Integration for Eclipse 1.0.0}}
-    
-    * {{{http://www.eclipse.org/ajdt/}Eclipse AspectJ Development Tools 2.1.3}}
-    
-    * {{{http://www.eclipse.org/subversive/}Subversive 1.0.0}}
-    
-    * {{{http://findbugs.sourceforge.net/}FindBugs 2.0.0}}
-    
-    * {{{http://www.eclipse.org/egit/}Eclipse EGit 1.1.0}}
-    
-    * {{{http://demoiselle.sourceforge.net/tools/nimble/}Demoiselle Nimble 1.0.3}}
-    
-    * {{{http://pmd.sourceforge.net/pmd-5.0.0/}PMD 3.2.6}}
-    
-      []
-  
-  * <<{demoiselle-eclipse-3.7-SR2}>>
-  
-  O pacote <<demoiselle-eclipse-3.7-SR2>> embarca a IDE Eclipse 3.5.2 (Indigo) com os seguintes plugins configurados:
-  
-    * {{{http://www.jboss.org/tools.html}JBoss Tools 3.3}}
-    
-    * {{{http://www.eclipse.org/m2e/}Maven Integration for Eclipse 1.0.2}}
-    
-    * {{{http://www.eclipse.org/subversive/}Subversive 1.0.0}}
-    
-    * {{{http://findbugs.sourceforge.net/}FindBugs 2.0.0}}
-    
-    * {{{http://www.eclipse.org/egit/}Eclipse EGit 1.3.0}}
-    
-    * {{{http://demoiselle.sourceforge.net/tools/nimble/}Demoiselle Nimble 1.1.0}}
-    
-    * {{{http://groovy.codehaus.org/Eclipse+Plugin}Groovy Plugin for Eclipse 2.7.0}}
-    
-    * {{{http://vaadin.com/eclipse/}Vaadin Plugin for Eclipse 2.0.1}}
-    
+  O pacote <<demoiselle-eclipse-4.3>> embarca a IDE Eclipse 4.3 (Kepler) com os seguintes plugins configurados:
+
+    * {{{http://www.jboss.org/tools.html}JBoss Tools 4.1 }}
+
+    * {{{http://www.eclipse.org/m2e/}Maven Integration for Eclipse 1.4 }}
+
+    * {{{http://www.eclipse.org/subversive/}Subversive 1.1.1}}
+
+    * {{{http://findbugs.sourceforge.net/}FindBugs 2.0.2}}
+
+    * {{{http://www.eclipse.org/egit/}Eclipse EGit 3.0.1}}
+
+    * {{{http://demoiselle.sourceforge.net/tools/nimble/}Demoiselle Nimble 1.1.1}}
+
+    * {{{http://groovy.codehaus.org/Eclipse+Plugin}Groovy Plugin for Eclipse 3.0.0}}
+
+    * {{{http://vaadin.com/eclipse/}Vaadin Plugin for Eclipse 2.1}}
+
+
       []
 
-  
+
+
+
 [../images/eclipse-logo.png]
 
 * {Servidores}
@@ -128,20 +89,20 @@ Demoiselle 2 Infra
   tais como <Application Servers>, <Web Servers> e <Servlet Containers>.
 
   * <<{demoiselle-jboss}>>
-  
+
   Famoso servidor de aplicação de código aberto conhecido como JBoss AS do grupo {{{http://www.jboss.org/jbossas}JBoss}} \
   As versões do JBoss AS distribuídas pelo <<Demoiselle Infra>> são:
-  
+
     * JBoss AS 6.1.0
 
-    * JBoss AS 7.1.0
-        
+    * JBoss AS 7.1.1
+
     []
-    
+
 [../images/jboss-logo.png]
 
   * <<{demoiselle-tomcat-7.0}>>
-  
+
   O Tomcat é um <Servlet Container> de código aberto da fundação {{{http://www.apache.org/}Apache}}
 
 [../images/tomcat-logo.png]
@@ -150,32 +111,32 @@ Demoiselle 2 Infra
 
   Todos os pacotes aqui descritos são opcionais para a preparação do ambiente de desenvolvimento.
 
-  * <<{demoiselle-ireport-4.0}>>
-  
+  * <<{demoiselle-ireport-5.1}>>
+
   Ferramenta bastante utilizada pelos programadores Java para criar relatórios para suas aplicações.
 
 [../images/ireport-logo.png]
 
-  * <<{demoiselle-maven2}>>
-  
+  * <<{demoiselle-maven3}>>
+
   Automatizador de build e gerenciador de dependências de projetos Java.
 
 [../images/maven-logo.png]
 
-  * <<{demoiselle-maven2-local-repo}>>
+  * <<{demoiselle-maven-repo}>>
 
-  Repositório Maven local contendo diversos artefatos comumente utilizados pelos projetos baseados no 
+  Repositório Maven local contendo diversos artefatos comumente utilizados pelos projetos baseados no
   <<Demoiselle Framework>>.
 
   * <<{demoiselle-soapui-4.5}>>
-  
+
   Provê uma interface prática para acessar <Web Services>. Muito útil para testar serviços.
 
 [../images/soapui-logo.png]
 
-  * <<{demoiselle-squirrel-3.4}>>
+  * <<{demoiselle-squirrel-3.5}>>
 
-  Use o SQuirreL para executar comandos, fazer consultas e gerenciar as estruturas dos bancos de dados 
+  Use o SQuirreL para executar comandos, fazer consultas e gerenciar as estruturas dos bancos de dados
   de sua aplicação.
 
 [../images/squirrel-logo.png]
@@ -187,23 +148,23 @@ Demoiselle 2 Infra
 
   * <<{demoiselle-nimble}>>
 
-  O Demoiselle Nimble é um processador automatizado de templates, sendo estes genéricos e podendo inclusive ser criados pelo próprio utilizador. Podemos considerá-lo como uma evolução da ferramenta Demoiselle Wizard Eclipse Plugin que como o próprio nome já diz é um especificamente um plugin para a IDE Eclipse leia mais a repeito do nimble no {{{http://demoiselle.sourceforge.net/docs/guide-nimble/}Guia do Usuário}}.
-  
+  O Demoiselle Nimble é um processador automatizado de templates, sendo estes genéricos e podendo inclusive ser criados pelo próprio utilizador. Podemos considerá-lo como uma evolução da ferramenta Demoiselle Wizard Eclipse Plugin que como o próprio nome já diz é um especificamente um plugin para a IDE Eclipse leia mais a repeito do nimble no {{{http://demoiselle.sourceforge.net/docs/tools/nimble/1.1.1/}Guia do Usuário}}.
+
 
 * {Metapacotes}
 
   Uma opção prática para instalar o ambiente completo é utilizar os metapacotes, que são agrupamentos de
   pacotes.
-  
-  * <<{demoiselle-2-infra}>>
-  
+
+  * <<{demoiselle-2-infra-2}>>
+
   Pacote que instala o ambiente de desenvolvimento com a IDE Eclipse, Maven, Servidores Tomcat e JBoss e o script <<demoiselle-workspace>>
-  
-[../images/demoiselle-2-infra-1.png]
+
+[../images/demoiselle-2-infra-2.png]
 
   * <<{demoiselle-2-infra-extra}>>
 
   Pacote que instala ferramentas adicionais para o ambiente de desenvolvimento.
 
-[../images/demoiselle-2-infra-extra.png]
+[../images/demoiselle-2-infra-extra-2.png]
 
