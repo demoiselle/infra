@@ -61,3 +61,7 @@
 /debian/architectures/i386/demoiselle-eclipse-4.3/target/
 /debian/architectures/amd64/demoiselle-eclipse-4.3/target/
 /site/demoiselle-infra/target/
+/debian/target/
+/target/
+/debian/architectures/all/demoiselle-2-infra-extra (cópia)/target/
+/debian/architectures/all/demoiselle-2-infra-lab/target/

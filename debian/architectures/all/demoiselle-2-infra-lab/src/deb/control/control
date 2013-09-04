@@ -1,8 +1,8 @@
 Package: [[name]]
-Version: 7.0.5-2
-Section: universe/java
-Priority: optional
+Version: 2.0.0-1
+Section: universe/devel
+Priority: standard
 Architecture: all
-Depends: openjdk-7-jdk | openjdk-6-jdk | sun-java6-jdk 
+Depends: demoiselle-netbeans-7.3 (>=1.0), demoiselle-glassfish-4.0 (>=1.0)
 Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
 Description: [[description]]

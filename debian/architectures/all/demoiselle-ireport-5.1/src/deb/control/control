@@ -3,6 +3,6 @@ Version: 4.0.1-1
 Section: universe/devel
 Priority: standard
 Architecture: all
-Depends: sun-java6-jdk | sun-java5-jdk | openjdk-6-jdk | openjdk-7-jdk
+Depends:  openjdk-7-jdk | sun-java6-jdk | sun-java5-jdk | openjdk-6-jdk
 Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
 Description: [[description]]
