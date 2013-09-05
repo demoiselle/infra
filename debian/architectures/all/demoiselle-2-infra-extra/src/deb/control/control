@@ -3,7 +3,7 @@ Version: 2.0.0-1
 Section: universe/devel
 Priority: standard
 Architecture: all
-Depends: demoiselle-ireport-5.1 (>=1.0), demoiselle-soapui-4.5 (>=1.0), demoiselle-squirrel-3.5 (>=1.0), demoiselle-nimble (>=1.0)
+Depends: demoiselle-ireport-5.1 (>=1.0), demoiselle-soapui-4.5 (>=1.0), demoiselle-squirrel-3.5 (>=1.0), demoiselle-nimble-1.1 (>=1.0)
 Enhances: demoiselle-2-infra-2 (>=2.0)
 Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
 Description: [[description]]

@@ -1,5 +1,5 @@
-#define MyAppName "Demoiselle 2 Infra"
-#define MyAppVersion "1.0"
+#define MyAppName "Demoiselle 2 Infra 2"
+#define MyAppVersion "2.0"
 #define MyAppPublisher "Comunidade Demoiselle"
 #define MyAppDesktopName "Demoiselle Eclipse 3.7 SR2"
 #define MyAppURL "http://www.frameworkdemoiselle.gov.br"

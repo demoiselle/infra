@@ -1,4 +1,4 @@
-#define MyAppName "Demoiselle 2 Infra"
+#define MyAppName "Demoiselle 2 Infra 2"
 #define MyAppVersion "1.0"
 #define MyAppPublisher "Comunidade Demoiselle"
 #define MyAppDesktopName "Demoiselle Eclipse 3.7 SR2"

@@ -10,7 +10,7 @@
     <url>http://www.frameworkdemoiselle.gov.br</url>
     <description>
         Initial Maven local repository and settings for sharing it among all system users
-        Homepage: http://demoiselle.sourceforge.net/infra/demoiselle-maven2-local-repo/
+        Homepage: http://demoiselle.sourceforge.net/infra/
     </description>
 
     <parent>
