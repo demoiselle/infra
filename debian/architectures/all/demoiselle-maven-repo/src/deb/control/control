@@ -3,6 +3,6 @@ Version: 3.0.5-1
 Section: universe/devel
 Priority: optional
 Architecture: all
-Depends: demoiselle-maven-3 (>=3.0.5)
-Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
+Depends: demoiselle-maven-3 (>=3.0.5) | maven (>=3.0.4) 
+Maintainer: Demoiselle Framework <demoiselle-users@lists.sourceforge.net>
 Description: [[description]]

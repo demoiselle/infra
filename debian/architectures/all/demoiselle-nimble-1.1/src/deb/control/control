@@ -1,8 +1,0 @@
-Package: [[name]]
-Version: 1.2-1
-Section: universe/devel
-Priority: optional
-Architecture: all
-Depends: demoiselle-maven-3 (>= 1.0)
-Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
-Description: [[description]]

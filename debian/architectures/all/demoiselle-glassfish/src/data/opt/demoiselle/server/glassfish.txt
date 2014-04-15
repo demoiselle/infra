@@ -1,0 +1,1 @@
+criar diretório identificando a versão e copiar o conteúdo de instalação do Glassfish

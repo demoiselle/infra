@@ -1,7 +1,7 @@
 Package: [[name]]
-Version: 1.5-1
+Version: 2.0
 Section: universe/devel
 Priority: optional
 Architecture: i386
-Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
+Maintainer: Demoiselle Framework <demoiselle-users@lists.sourceforge.net>
 Description: [[description]]

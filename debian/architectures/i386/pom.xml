@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>demoiselle-infra-i386-build</artifactId>
-    <version>1.0</version>
+    <version>2.0</version>
     <packaging>pom</packaging>
 
     <name>Package i386 Build Aggregator</name>
@@ -13,9 +13,9 @@
     </description>
 
     <modules>
-        <module>demoiselle-eclipse-4.3</module>
+        <module>demoiselle-eclipse</module>
         <module>demoiselle-workspace</module>
-        <module>demoiselle-2-infra-2</module>
+        <module>demoiselle-2-infra</module>
     </modules>
 
      <parent>

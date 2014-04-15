@@ -20,7 +20,6 @@
         <architeture>i386</architeture>
         <buildDirectory>${project.basedir}/target</buildDirectory>
     </properties>
-
     <build>
         <plugins>
             <plugin>
@@ -60,7 +59,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
+<!--            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-antrun-plugin</artifactId>
                 <version>1.7</version>
@@ -78,7 +77,7 @@
                     </execution>
 
                 </executions>
-            </plugin>
+            </plugin> -->
         </plugins>
     </build>
    

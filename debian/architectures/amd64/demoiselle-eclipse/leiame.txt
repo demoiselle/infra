@@ -1,0 +1,10 @@
+Para geração de pacotes:
+
+- Alterar a versão no POM.XML 
+- Incluir os arquivos de instalação do Eclipse (para 64 bits) no diretório /src/data/opt/demoiselle/ide/
+- No diretório /src/data/usr/share/applications/
+   - Editar no arquivo demoiselle-eclipse.desktop: Name=, Exec=, Name[pt_BR]=
+- No diretório /src/data/usr/share/pixmaps/   
+   - Caso tenha mudado, substituir o demoiselle-eclipse.xpm
+- No diretório /src/deb/control/
+   - Editar no arquivo control: Version, e depends

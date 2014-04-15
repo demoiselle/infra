@@ -59,7 +59,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
+<!--            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-antrun-plugin</artifactId>
                 <version>1.7</version>
@@ -70,21 +70,20 @@
                             <tasks>
                                 <copy file="${buildDirectory}/${project.artifactId}_${project.version}_${architeture}.deb" todir="/var/www/repository/unstable/" />
                             </tasks>
-<!--                            <target>
+                            <target>
                                 <exec executable="debuild" dir="${project.build.outputDirectory}">
                                     <arg line="-us" />
                                     <arg line="-uc" />
                                     <arg line="-B" />
                                 </exec>
-                            </target>-->
+                            </target>
                         </configuration>
                         <goals>
                             <goal>run</goal>
                         </goals>
                     </execution>
-
                 </executions>
-            </plugin>
+            </plugin> -->
         </plugins>
     </build>
 

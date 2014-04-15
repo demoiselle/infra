@@ -3,7 +3,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>demoiselle-workspace</artifactId>
-    <version>1.5</version>
     <packaging>pom</packaging>
 
     <name>${project.artifactId}</name>
@@ -19,4 +18,5 @@
         <version>1.0</version>
         <relativePath>../../../parent/i386/pom.xml</relativePath>
     </parent>
+    <version>2.0</version>
 </project>

@@ -1,8 +1,0 @@
-Package: [[name]]
-Version: 7.3.1-1
-Section: universe/devel
-Priority: standard
-Architecture: all
-Depends: sun-java7-jdk | openjdk-7-jdk
-Maintainer: Demoiselle Framework <demoiselle-infra@lists.sourceforge.net>
-Description: [[description]]

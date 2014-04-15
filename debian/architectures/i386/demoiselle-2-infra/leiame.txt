@@ -1,0 +1,3 @@
+- Alterar o versão no POM.XML
+- No diretório /src/deb/control/
+   - Editar no arquivo control: Version e Depends(de acordo com os novos pacotes)

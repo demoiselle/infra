@@ -1,0 +1,8 @@
+Package: [[name]]
+Version: 8.0.0
+Section: universe/java
+Priority: optional
+Architecture: all
+Depends: openjdk-7-jdk | oracle-jdk7-installer
+Maintainer: Demoiselle Framework <demoiselle-users@lists.sourceforge.net>
+Description: [[description]]

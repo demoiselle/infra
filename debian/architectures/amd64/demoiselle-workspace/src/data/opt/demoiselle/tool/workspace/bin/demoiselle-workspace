@@ -57,7 +57,7 @@ help()
 }
 
 if [ "x$P_VERSION" = "x" ]; then
-   P_VERSION=4.3
+   P_VERSION=4.3.2
 fi
 
 if [ "x$P_WORKSPACE" = "x" ]; then

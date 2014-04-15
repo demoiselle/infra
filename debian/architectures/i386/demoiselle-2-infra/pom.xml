@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>demoiselle-2-infra-3</artifactId>
+    <packaging>pom</packaging>
+
+    <name>${project.artifactId}</name>
+    <url>http://www.frameworkdemoiselle.gov.br</url>
+    <description>
+        Complete development environment for Demoiselle Framework 2.x
+        Homepage: http://demoiselle.sourceforge.net/infra/
+    </description>
+
+    <parent>
+        <groupId>br.gov.frameworkdemoiselle.infra.i386</groupId>
+        <artifactId>demoiselle-infra-i386-parent</artifactId>
+        <version>1.0</version>
+        <relativePath>../../../parent/i386/pom.xml</relativePath>
+    </parent>
+</project>

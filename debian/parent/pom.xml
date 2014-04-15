@@ -13,6 +13,11 @@
         <phaseDeploy>package</phaseDeploy>
         <verbose>false</verbose>
         <versionJdeb>1.0.1</versionJdeb>
+        <sshUser>usuario</sshUser>
+        <sshKeyFile>/.ssh/chave_rsa</sshKeyFile>
+    	<sshPassword>senha</sshPassword>
+    	<sshHost>nome.host</sshHost>
+    	<sshDirCopyTo>/repository/unstable/</sshDirCopyTo>
     </properties>
 
 </project>

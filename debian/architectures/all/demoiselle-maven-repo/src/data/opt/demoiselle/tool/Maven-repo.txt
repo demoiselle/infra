@@ -1,0 +1,1 @@
+copiar o conteúdo do repositório local Maven com as novas bibliotecas.
