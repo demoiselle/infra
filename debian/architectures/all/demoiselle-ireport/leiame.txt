@@ -1,0 +1,10 @@
+Para geração de pacotes:
+
+- Alterar Artifact Id e Version no POM.XML
+- Incluir os arquivos de instalação do IReport (ex: /ireport-x.x) no diretório /src/data/opt/demoiselle/tool/
+- No diretório /src/data/usr/share/applications/
+   - Editar no arquivo demoiselle-ireport.desktop: Name=, Exec=, Name[pt_BR]=
+- No diretório /src/data/usr/share/pixmaps/   
+   - Caso tenha mudado, substituir o demoiselle-ireport.xpm
+- No diretório /src/deb/control/
+   - Editar no arquivo control: Version, e depends

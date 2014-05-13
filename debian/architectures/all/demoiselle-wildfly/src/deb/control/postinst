@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PKGDIR="/opt/demoiselle/server/wildfly-8.0.0.Final"  
+PKGDIR="/opt/demoiselle/server/wildfly-8.0"  
 
 if [ ! -d $PKGDIR ]; then
 	echo "Diretório não encontrado: $PKGDIR"

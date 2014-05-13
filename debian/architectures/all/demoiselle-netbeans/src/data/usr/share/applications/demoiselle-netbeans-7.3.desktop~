@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Demoiselle Netbeans 7.3
+Comment=iReport is the free, open source report designer for JasperReports
+Exec=/opt/demoiselle/ide/netbeans-7.3/bin/netbeans
+Icon=demoiselle-netbeans.xpm
+Terminal=false
+Type=Application
+Categories=Development;
+StartupNotify=true

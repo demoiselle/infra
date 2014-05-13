@@ -57,9 +57,7 @@
 									passphrase="${sshPassword}" trust="true">
 								</scp>
 								<sshexec host="${sshHost}"  username="${sshUser}" keyfile="${sshKeyFile}"
-									passphrase="${sshPassword}" command="/home/ctcta/repository/gerarepo_unstable.sh" />
-								<!-- <sshexec host="somehost" username="dude" keyfile="${user.home}/.ssh/id_dsa" 
-									passphrase="yo its a secret" command="/home/ctcta/repository/gerarepo_unstable.sh"/> -->
+									passphrase="${sshPassword}" command="${sshCommand}" />
 							</tasks>
 						</configuration>
 					</execution>
@@ -67,6 +65,6 @@
 			</plugin>
 
 		</plugins>
-	</build>
+	</build>	
 	<version>4.3.2</version>
 </project>

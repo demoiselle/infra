@@ -1,0 +1,3 @@
+- Este projeto reúne a estrutura para os pacotes 32 bits ( Eclipse, Workspace e meta-pacote Infra)
+- Permite a geração dos três pacotes em um passo, ao invés da geração em separado.
+  

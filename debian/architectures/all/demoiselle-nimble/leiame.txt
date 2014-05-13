@@ -1,0 +1,10 @@
+Para geração de pacotes:
+
+- Alterar Artifact Id e Version no POM.XML
+- Incluir os arquivos de instalação do Nimble (ex: nimble-X.x.x) no diretório /src/data/opt/demoiselle/tool/
+- No diretório /src/data/usr/share/applications/
+   - Editar no arquivo demoiselle-nimble.desktop: modificar as propriedade referentes à versão.
+- No diretório /src/data/usr/share/pixmaps/   
+   - Caso tenha mudado, substituir o demoiselle-nimble.png
+- No diretório /src/deb/control/
+   - Editar no arquivo control: Version, e depends

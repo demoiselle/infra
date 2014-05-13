@@ -1,7 +1,7 @@
 Para geração de pacotes:
 
 - Alterar a versão no POM.XML 
-- Incluir os arquivos de instalação do Eclipse (para 32 bits) no diretório /src/data/opt/demoiselle/ide/
+- Incluir os arquivos de instalação do Eclipse para 32 bits (ex: eclipse-x.x.x) no diretório /src/data/opt/demoiselle/ide/
 - No diretório /src/data/usr/share/applications/
    - Editar no arquivo demoiselle-eclipse.desktop: Name=, Exec=, Name[pt_BR]=
 - No diretório /src/data/usr/share/pixmaps/   

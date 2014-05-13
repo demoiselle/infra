@@ -13,11 +13,12 @@
         <phaseDeploy>package</phaseDeploy>
         <verbose>false</verbose>
         <versionJdeb>1.0.1</versionJdeb>
-        <sshUser>usuario</sshUser>
-        <sshKeyFile>/.ssh/chave_rsa</sshKeyFile>
-    	<sshPassword>senha</sshPassword>
-    	<sshHost>nome.host</sshHost>
-    	<sshDirCopyTo>/repository/unstable/</sshDirCopyTo>
+        <sshUser>ctcta</sshUser>
+        <sshKeyFile>/home/80621732915/.ssh/demoinfra_rsa</sshKeyFile>
+    	<sshPassword>d3m0infra@)!$</sshPassword>
+    	<sshHost>10.200.24.50</sshHost>
+    	<sshDirCopyTo>/var/www/repository/unstable/</sshDirCopyTo>
+    	<sshCommand>/home/ctcta/repository/gerarepo_unstable.sh</sshCommand>
     </properties>
 
 </project>

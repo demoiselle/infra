@@ -1,23 +1,59 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-    <artifactId>demoiselle-wildfly-8</artifactId>
-    <version>8.0.0</version>
-    <packaging>pom</packaging>
+	<artifactId>demoiselle-wildfly-8</artifactId>
+	<version>8.0.0</version>
+	<packaging>pom</packaging>
 
-    <name>${project.artifactId}</name>
-    <url>http://www.frameworkdemoiselle.gov.br</url>
-    <description>
+	<name>${project.artifactId}</name>
+	<url>http://www.frameworkdemoiselle.gov.br</url>
+	<description>
         JBoss WildFly Application Server 8.0.0.Final
         JBoss WildFly Application Server is an open-source Java EE7 Certified application server. 
         Homepage: http://wildfly.org
     </description>
 
-    <parent>
-        <groupId>br.gov.frameworkdemoiselle.infra.all</groupId>
-        <artifactId>demoiselle-infra-all-parent</artifactId>
-        <version>1.0</version>
-        <relativePath>../../../parent/all/pom.xml</relativePath>
-    </parent>
+	<parent>
+		<groupId>br.gov.frameworkdemoiselle.infra.all</groupId>
+		<artifactId>demoiselle-infra-all-parent</artifactId>
+		<version>1.0</version>
+		<relativePath>../../../parent/all/pom.xml</relativePath>
+	</parent>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>1.7</version>
+				<dependencies>
+					<dependency>
+						<groupId>org.apache.ant</groupId>
+						<artifactId>ant-jsch</artifactId>
+						<version>1.9.3</version>
+					</dependency>
+				</dependencies>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<tasks>
+								<scp
+									file="${buildDirectory}/${project.artifactId}_${project.version}_${architeture}.deb"
+									todir="${sshUser}@${sshHost}:${sshDirCopyTo}" keyfile="${sshKeyFile}"
+									passphrase="${sshPassword}" trust="true">
+								</scp>
+								<sshexec host="${sshHost}" username="${sshUser}"
+									keyfile="${sshKeyFile}" passphrase="${sshPassword}" command="${sshCommand}" />
+							</tasks>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
 </project>

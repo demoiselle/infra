@@ -1,0 +1,10 @@
+Para geração de pacotes:
+
+- Alterar Artifact Id e Version no POM.XML
+- Incluir os arquivos de instalação do Squirrel (ex: /squirrell-x.x) no diretório /src/data/opt/demoiselle/tool/
+- No diretório /src/data/usr/share/applications/
+   - Editar no arquivo demoiselle-squirrel.desktop: alterar as propriedades referentes à versão.
+- No diretório /src/data/usr/share/pixmaps/   
+   - Caso tenha mudado, substituir o demoiselle-squirrel.png
+- No diretório /src/deb/control/
+   - Editar no arquivo control: Version, e depends

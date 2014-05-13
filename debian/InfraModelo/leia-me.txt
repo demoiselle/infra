@@ -1,0 +1,3 @@
+Contem os arquivos e estruturas necessárias para geração do repositórios Linux/Debian.
+
+veja o documento Manual.odt na raiz do projeto Infra.

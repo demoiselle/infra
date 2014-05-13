@@ -18,12 +18,12 @@ ou escreva para a Fundação do Software Livre (FSF) Inc., 51 Franklin St, Fifth
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.gov.demoiselle.infra</groupId>
-    <artifactId>demoiselle-infra</artifactId>
+    <artifactId>demoiselle-infra-site</artifactId>
     <version>1.3.0</version>
 
     <packaging>pom</packaging>
 
-    <name>Demoiselle Infra</name>
+    <name>Site Maven - Demoiselle Infra</name>
     <description>Pacotes Debian para preparação do ambiente de desenvolvimento e produção do Demoiselle Framework.</description>
     <url>http://demoiselle.sourceforge.net/infra/</url>
 
@@ -42,30 +42,14 @@ ou escreva para a Fundação do Software Livre (FSF) Inc., 51 Franklin St, Fifth
     <mailingLists>
         <mailingList>
             <name>Demoiselle Users</name>
-            <archive>https://sourceforge.net/mailarchive/forum.php?forum_name=demoiselle-infra</archive>
-            <post>demoiselle-infra@lists.sourceforge.net</post>
-            <subscribe>https://lists.sourceforge.net/lists/listinfo/demoiselle-infra</subscribe>
-            <unsubscribe>https://lists.sourceforge.net/lists/listinfo/demoiselle-infra</unsubscribe>
+            <archive>https://sourceforge.net/mailarchive/forum.php?forum_name=demoiselle-users</archive>
+            <post>demoiselle-users@lists.sourceforge.net</post>
+            <subscribe>https://lists.sourceforge.net/lists/listinfo/demoiselle-users</subscribe>
+            <unsubscribe>https://lists.sourceforge.net/lists/listinfo/demoiselle-users</unsubscribe>
         </mailingList>
     </mailingLists>
 
-    <ciManagement>
-        <system>Continuum</system>
-        <notifiers>
-            <notifier>
-                <type>mail</type>
-                <sendOnError>true</sendOnError>
-                <sendOnFailure>true</sendOnFailure>
-                <sendOnSuccess>true</sendOnSuccess>
-                <sendOnWarning>true</sendOnWarning>
-                <configuration>
-                    <address>${continuum.address}</address>
-                </configuration>
-            </notifier>
-        </notifiers>
-    </ciManagement>
-
-    <issueManagement>
+     <issueManagement>
         <system>JIRA</system>
         <url>https://demoiselle.atlassian.net/secure/IssueNavigator.jspa</url>
     </issueManagement>
@@ -112,12 +96,7 @@ ou escreva para a Fundação do Software Livre (FSF) Inc., 51 Franklin St, Fifth
 
 
     <developers>
-        <developer>
-            <name>Clóvis Lemes Ferreira Júnior</name>
-            <email>clovis.ferreira@serpro.gov.br</email>
-            <organization>SERPRO</organization>
-            <roles />
-        </developer>
+        
         <developer>
             <name>Emerson Sachio Saito</name>
             <email>emerson.saito@serpro.gov.br</email>
@@ -133,27 +112,22 @@ ou escreva para a Fundação do Software Livre (FSF) Inc., 51 Franklin St, Fifth
     </developers>
 
     <contributors>
-        <contributor>
-            <name>Flavio Gomes da Silva Lisboa</name>
-            <email>flavio.lisboa@serpro.gov.br</email>
+
+	<contributor>
+            <name>Cleverson Sacramento de Oliveira</name>
+            <email>cleverson.sacramento@serpro.gov.br</email>
             <organization>SERPRO</organization>
             <roles />
         </contributor>
-        <contributor>
-            <name>Rodrigo Hjort</name>
-            <email>rodrigo.hjort@serpro.gov.br</email>
+	<contributor>
+            <name>Clóvis Lemes Ferreira Júnior</name>
+            <email>clovis.ferreira@serpro.gov.br</email>
             <organization>SERPRO</organization>
             <roles />
         </contributor>
-        <contributor>
+	<contributor>
             <name>Fabiano Castro Pereira</name>
             <email>fabiano.pereira@serpro.gov.br</email>
-            <organization>SERPRO</organization>
-            <roles />
-        </contributor>
-        <contributor>
-            <name>Warley Duarte Reis</name>
-            <email>warley.reis@serpro.gov.br</email>
             <organization>SERPRO</organization>
             <roles />
         </contributor>
@@ -164,14 +138,26 @@ ou escreva para a Fundação do Software Livre (FSF) Inc., 51 Franklin St, Fifth
             <roles />
         </contributor>
         <contributor>
+            <name>Flavio Gomes da Silva Lisboa</name>
+            <email>flavio.lisboa@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </contributor>
+        <contributor>
+            <name>Frederico Souza da Camara</name>
+            <email>frederico.camara@serpro.gov.br</email>
+            <organization>SERPRO</organization>
+            <roles />
+        </contributor>
+        <contributor>
             <name>Paulo Fernando Gontijo de Lima</name>
             <email>paulo-fernando.gontijo@serpro.gov.br</email>
             <organization>SERPRO</organization>
             <roles />
         </contributor>
         <contributor>
-            <name>Cleverson Sacramento de Oliveira</name>
-            <email>cleverson.sacramento@serpro.gov.br</email>
+            <name>Rodrigo Hjort</name>
+            <email>rodrigo.hjort@serpro.gov.br</email>
             <organization>SERPRO</organization>
             <roles />
         </contributor>
@@ -182,17 +168,12 @@ ou escreva para a Fundação do Software Livre (FSF) Inc., 51 Franklin St, Fifth
             <roles />
         </contributor>
         <contributor>
-            <name>Antonio Carlos Tiboni</name>
-            <email>antonio.tiboni@serpro.gov.br</email>
+            <name>Warley Duarte Reis</name>
+            <email>warley.reis@serpro.gov.br</email>
             <organization>SERPRO</organization>
             <roles />
-        </contributor>
-        <contributor>
-            <name>Frederico Souza da Camara</name>
-            <email>frederico.camara@serpro.gov.br</email>
-            <organization>SERPRO</organization>
-            <roles />
-        </contributor>
+       </contributor>
+       
     </contributors>
 
     <scm>

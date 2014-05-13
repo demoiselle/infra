@@ -1,0 +1,6 @@
+Para geração de pacotes:
+
+- Alterar Artifact Id e Version no POM.XML
+- Incluir o diretório do repositório (/maven-repo) do Maven em /src/data/opt/demoiselle/tool/
+- No diretório /src/deb/control/
+   - Editar no arquivo control: Version, e depends

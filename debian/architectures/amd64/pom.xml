@@ -18,12 +18,6 @@
         <module>demoiselle-2-infra</module>
     </modules>
 
-    <parent>
-        <groupId>br.gov.frameworkdemoiselle.infra</groupId>
-        <artifactId>demoiselle-infra-parent-build</artifactId>
-        <version>1.0</version>
-        <relativePath>../../parent/pom.xml</relativePath>
-     </parent>
-
+    <groupId>br.gov.frameworkdemoiselle.infra</groupId>
 </project>
 

@@ -1,0 +1,7 @@
+Para geração de pacotes:
+
+- Alterar Artifact Id e Version no POM.XML
+- Incluir os arquivos de instalação do WildFly (ex: wildfly-x.x) no diretório /src/data/opt/demoiselle/server/
+- No diretório /src/deb/control/
+   - Editar no arquivo control: Version, e depends
+   - Editar no arquivo postinst: diretório da versão

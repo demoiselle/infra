@@ -1,0 +1,3 @@
+- Alterar o Artifact Id e version no POM.XML
+- No diretório /src/deb/control/
+   - Editar no arquivo control: Version e Depends(de acordo com os novos pacotes)

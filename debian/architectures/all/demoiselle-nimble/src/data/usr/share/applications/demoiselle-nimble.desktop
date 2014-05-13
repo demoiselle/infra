@@ -1,17 +1,16 @@
 [Desktop Entry]
 Categories=Development;
-Comment=An automated processing tool for Demoiselle Framework
-Comment[pt]=An automated processing tool for Demoiselle Framework
+Comment=Template processing tool for generate Code for Demoiselle Framework
+Comment[pt_BR]=Processador de templates para geração de código para o Demoiselle Framework.
 Encoding=UTF-8
-Exec=/opt/demoiselle/tool/nimble-1.1.0/bin/nimble-gui.sh
-GenericName=
-GenericName[pt]=
+Exec=/opt/demoiselle/tool/nimble-1.2.0/bin/nimble-gui.sh
+GenericName= Demoiselle Nimble
+GenericName[pt_BR]= Demoiselle Nimble
 Icon=demoiselle-nimble.png
 MimeType=
-Name=Demoiselle Nimble 1.1
-Name[pt]=Demoiselle Nimble 1.1
+Name=Demoiselle Nimble 1.2.0
+Name[pt_BR]=Demoiselle Nimble 1.2.0
 Path=/tmp
-#Path=/opt/demoiselle/tool/nimble
 ServiceTypes=
 SwallowExec=
 SwallowTitle=

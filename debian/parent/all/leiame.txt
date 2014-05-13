@@ -1,0 +1,2 @@
+- Artefato Parent para definir a arquitetura do tipo ALL (genérica).
+  
