@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+<book xmlns:xi="http://www.w3.org/2001/XInclude">
+
+	<xi:include href="bookinfo.xml"/>
+
+	<preface>
+		<title>Guia do Usuário</title>
+		<para>
+			Apresentamos o guia do usuário do Demoiselle-Infra, que é um projeto que tem o o objetivo de fornecer o conjunto básico de softwares necessários para desenvolvimento com  <emphasis>Demoiselle Framework</emphasis>.
+		</para>
+		<important>
+			<para>
+				O Demoiselle-Infra está disponível para o usuário final nos seguintes sistemas operacionais :
+				<itemizedlist>
+					<listitem>GNU/LINUX: Distribuição <ulink url="https://www.debian.org/index.pt.html">Debian</ulink>  e derivadas como por exemplo <ulink url="http://ubuntu-br.org/">Ubuntu</ulink> e <ulink url="http://www.linuxmint.com.br/">Mint</ulink>. </listitem>
+					<listitem>MS-Windows®: Algumas versões foram testadas: XP, 7 e 8</listitem>
+				</itemizedlist>
+			</para>
+		</important>
+	</preface>
+
+	<xi:include href="about.xml"/>
+
+</book>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+<chapter id="quickstart" >
+	<abstract><para>Guia de instalação dos softwares fornecidos pelo Demoiselle-Infra</para></abstract>
+	<title>Instalação</title>
+	  <para><caution> Esse guia de instalação é voltado para uso da Comunidade, para funcionários e clientes do SERPRO (fundador e patrocinador do Demoiselle) há procedimento próprio através da Central de Pacotes do SERPRO. </caution></para>
+		<para> São fornecidos instaladores para os seguintes sistemas operacional:	</para>
+		<section id="QS_LX" xreflabel="Instalação Linux">
+			<title>GNU/LINUX</title>
+				<para><important>Para executar essas tarefas é necessário permissões de administração do sistema. No caso do Ubuntu, estar no grupo: sudo </important></para>
+				<para> Nas distribuições baseadas em Debian GNU/Linux, o sistema de gerenciamento de pacotes utilizado é o APT (Advanced Package Tool), 
+				o qual manipula arquivos no formato .DEB e que possui diversas ferramentas para automatizar essa tarefa. 
+				Entre essas ferramentas, gráficas e em modo texto, podemos citar: <ulink url="http://wiki.ubuntu-br.org/AptGet">apt-get</ulink> , <ulink url="https://wiki.debian.org/Aptitude">aptitude</ulink>  e <ulink url="https://wiki.debian.org/Synaptic">synaptic</ulink> .
+				</para>
+				<para>Faremos um exemplo para interface gráfica e outro para linha de comando.</para>
+				<section id="interfacegrafica" xreflabel="Instalação Ubuntu - Interface Gráfica"> 
+					<title>Synaptic</title>
+						<para>Nas distribuições Debian tradicionais e a maioria das derivadas, o Synaptic já é incluído na instalação do sistema operacional, neste exemplo
+						usamos o Ubuntu e é um caso onde o Synaptic não é instalado por padrão, caso esteja usando outra distribuição não é preciso o passo abaixo.</para>
+						<para>Podemos instalar o Synaptic no Ubuntu através da Central de Programas.</para>
+						<para>Para executar a central, na instalação padrão haverá um icone na barra lateral esquerda do sistema. É o ícone de uma sacola da cor laranja com a letra <emphasis>A</emphasis></para>
+						<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/centralProgramasMenu.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/centralProgramasMenu.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Central de Programas do Ubuntu - Menu do sistema.</phrase>
+								</textobject>
+								<caption>
+									<para>Central de Programas do Ubuntu - Menu do sistema.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Caso não esteja no menu, basta fazer uma busca pela palavra <emphasis>Central</emphasis> que o 
+        			programa será motrado.</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/centralProgramasBusca.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/centralProgramasBusca.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Pesquisar por: Central de Programas do Ubuntu.</phrase>
+								</textobject>
+								<caption>
+									<para>Pesquisar por: Central de Programas do Ubuntu.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Depois de aberta a Central de Programas, no campo de busca, que fica no canto superior direito e tem uma lupa, pesquise pela palavra <emphasis>synaptic</emphasis> 
+        			que deverá trazer as opções de instalação. Procure o item  <quote>"Gerenciador de Pacotes Synaptic"</quote>  e depois clique no botão <guibutton><emphasis>Instalar</emphasis></guibutton>  </para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/synapticCentral.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/synapticCentral.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Pesquisar por Synaptic na central de programas.</phrase>
+								</textobject>
+								<caption>
+									<para>Pesquisar por Synaptic na central de programas.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Depois de instalado, o Synaptic deverá ter um icone no menu esquerdo do sistema, ou pode ser encontrado como foi exemplificado para a central de programas.</para>
+        			<para>Antes de usar o Synaptic, vamos baixar 2 (dois) arquivos que serão necessários. São duas chaves públicas correspondentes aos certificados que foram usados
+        			para assinar os pacotes. São duas chaves porque os pacotes mais recentes são assinados com uma chave em nome da comunidade Demoiselle, os anteriores usavam uma
+        			chave do fundador (SERPRO). </para>
+        			<para> As chaves são estas:
+        				<itemizedlist>
+						<listitem> <ulink url="http://demoiselle.c3sl.ufpr.br/ComunidadeFrameworkDemoiselle.asc">Chave Pública da Comunidade</ulink> </listitem>
+						<listitem> <ulink url="http://demoiselle.c3sl.ufpr.br/public_key.asc">Chave Pública Antiga (patrocinador)</ulink> </listitem>
+						</itemizedlist>
+        			</para>
+        			<para>Grave os arquivos em uma área acessível do seu computador.</para>
+        			<para>Ao abrir o programa, no menu principal selecione os itens: Configurações -> Repositórios </menuchoice> </para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/configureRepositories.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/configureRepositories.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Configuração dos Repositórios no Synaptic.</phrase>
+								</textobject>
+								<caption>
+									<para>Configuração dos Repositórios no Synaptic.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Será aberta uma tela chamada Programas e Atualizações, nesta tela selecione a aba: Autenticação</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/synapticChaves.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/synapticChaves.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Importação das chaves públicas.</phrase>
+								</textobject>
+								<caption>
+									<para>Importação de chaves públicas.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+				</section>				
+		</section>
+</chapter>

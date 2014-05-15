@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+<chapter id="about">
+	<abstract>Informações básicas sobre o projeto</abstract>
+	<title>Sobre Demoiselle Infra</title>	
+	<section id="sobre">
+		<title>O que é?</title>
+		<para>O <emphasis>Demoiselle Infra</emphasis> é um projeto mantido pela comunidade Demoiselle que têm o objetivo de fornecer ferramentas que ajudem o desenvolvedor na tarefa 
+		de criação do ambiente de Desenvolvimento.</para>		
+	</section>
+	<section id="porque">
+		<title>Porquê utilizá-lo?</title>
+			<para>Os softwares disponibilizados pelo Demoiselle-Infra são testados pelos próprios desenvolvedores do Framework, 
+		e desta forma, a possibilidade de incompatibilidade de versões é bastante minimizada.</para>
+		<para>Alguns softwares, como o <ulink url="http://www.eclipse.org/">Eclipse</ulink> por exemplo, necessitam de alguns acessários (plugins) para serem utilizados
+		de forma pela para desenvolver com o Framework Demoiselle e nestes casos estes acessórios já estarão embutidos.</para>
+	</section>
+</chapter>
