@@ -109,6 +109,8 @@
         				</screenshot> 
         			</para>
         			<para>Será aberta uma tela chamada Programas e Atualizações, nesta tela selecione a aba: Autenticação</para>
+        			<para>Nesta aba há um botão chamado <emphasis>"Importar Arquivo de Chave..."</emphasis>, clique nele para fazer a importação dos arquivos que foram baixados anteriormente, 
+        			repetindo o passo para cada um dos dois arquivos. </para>
         			<para>
 						   <screenshot>
 						      <mediaobject>
@@ -127,6 +129,87 @@
         					</mediaobject>
         				</screenshot> 
         			</para>
+        			<para>Depois disso o certificado deverá aparecer na lista</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/ChaveImportada.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/ChaveImportada.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Lista com a chave pública importada.</phrase>
+								</textobject>
+								<caption>
+									<para>Lista com a chave pública importada.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Caso a chave não tenha sido importada, ocorrerá uma mensagem de aviso como na figura abaixo. Mas isso não impedirá a instalação dos pacotes.</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/erroSemChave.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/erroSemChave.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Erro causado pela falta da chave pública.</phrase>
+								</textobject>
+								<caption>
+									<para>Erro causado pela falta da chave pública.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Em seguida iremos adicionar a configuração do endereço do repositório que é este: <emphasis>deb http://demoiselle.c3sl.ufpr.br universal stable</emphasis>  </para>
+        			<para>Abra novamente a tela: Programas e Atualizações (Menu: Configurações -> Repositórios) e selecione a aba:<emphasis>Outros Programas</emphasis>  </para>
+        			<para>Neste aba clique no botão "Adicionar ..."</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/synapticIncluirRepo.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/synapticIncluirRepo.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Incluindo novo repositório no Synaptic.</phrase>
+								</textobject>
+								<caption>
+									<para>Incluindo novo repositório no Synaptic.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Em seguida abrirá uma caixa de diálogo que pede a "Linha do APT", neste campo digite: deb http://demoiselle.c3sl.ufpr.br universal stable</para>
+        			<para>E clique no botão: Adicionar Fonte</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/synapticIncluirRepoApt.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/synapticIncluirRepoApt.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Configuração dos Repositórios no Synaptic.</phrase>
+								</textobject>
+								<caption>
+									<para>Configuração dos Repositórios no Synaptic.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			
+        			
 				</section>				
 		</section>
 </chapter>

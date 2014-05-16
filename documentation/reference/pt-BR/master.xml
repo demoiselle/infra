@@ -22,5 +22,6 @@
 	</preface>
 
 	<xi:include href="about.xml"/>
+	<xi:include href="quickstart.xml"/>
 
 </book>
