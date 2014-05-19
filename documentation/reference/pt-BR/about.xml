@@ -15,5 +15,8 @@
 		e desta forma, a possibilidade de incompatibilidade de versões é bastante minimizada.</para>
 		<para>Alguns softwares, como o <ulink url="http://www.eclipse.org/">Eclipse</ulink> por exemplo, necessitam de alguns acessários (plugins) para serem utilizados
 		de forma pela para desenvolver com o Framework Demoiselle e nestes casos estes acessórios já estarão embutidos.</para>
+		
+		<note><para>Em caso de dúvidas ou sugestões sobre esse guia, use a <ulink url="https://lists.sourceforge.net/lists/listinfo/demoiselle-users/">Lista de usuários do Demoiselle</ulink>  </para></note> 
 	</section>
+	
 </chapter>

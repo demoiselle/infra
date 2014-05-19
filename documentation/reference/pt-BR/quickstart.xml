@@ -89,7 +89,7 @@
 						</itemizedlist>
         			</para>
         			<para>Grave os arquivos em uma área acessível do seu computador.</para>
-        			<para>Ao abrir o programa, no menu principal selecione os itens: Configurações -> Repositórios </menuchoice> </para>
+        			<para>Ao abrir o programa, no menu principal selecione os itens: Configurações -> Repositórios </para>
         			<para>
 						   <screenshot>
 						      <mediaobject>
@@ -189,7 +189,7 @@
         				</screenshot> 
         			</para>
         			<para>Em seguida abrirá uma caixa de diálogo que pede a "Linha do APT", neste campo digite: deb http://demoiselle.c3sl.ufpr.br universal stable</para>
-        			<para>E clique no botão: Adicionar Fonte</para>
+        			<para>E clique no botão: Adicionar Fonte.  Depois que voltar a tela anterior, clique no botão Fechar.</para>
         			<para>
 						   <screenshot>
 						      <mediaobject>
@@ -200,16 +200,244 @@
 		  	            			<imagedata fileref="images/synapticIncluirRepoApt.png"  format="PNG" align="center"/>
 		        				</imageobject>
 	       	    				<textobject>
-									<phrase>Configuração dos Repositórios no Synaptic.</phrase>
+									<phrase>Incluindo a linha do APT no Synaptic.</phrase>
 								</textobject>
 								<caption>
-									<para>Configuração dos Repositórios no Synaptic.</para>
+									<para>Incluindo a linha do APT no Synaptic.</para>
 								</caption>		        	    
         					</mediaobject>
         				</screenshot> 
         			</para>
+        			<para>Uma caixa de mensagem irá aparecer, alertando que os repositórios foram alterados. 
+        			Clique no botão Recarregar, para atualizar as listas.</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/repositoriosAlterados.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/repositoriosAlterados.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Informação de alteração nos repositórios.</phrase>
+								</textobject>
+								<caption>
+									<para>Informação de alteração nos repositórios..</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>O processo de atualização dos repositórios depende da velocidade de usa rede, 
+        			aguarde o processo terminar.</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/baixandoRepo.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/baixandoRepo.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Informação de alteração nos repositórios.</phrase>
+								</textobject>
+								<caption>
+									<para>Informação de alteração nos repositórios..</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Depois disso, um novo repositório deverá aparecer na lista.</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/synapticIncluirRepoListado.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/synapticIncluirRepoListado.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Listagem dos repositórios, Demoiselle incluído.</phrase>
+								</textobject>
+								<caption>
+									<para>Listagem dos repositórios, Demoiselle incluído.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Agora o ambiente já está pronto para começarmos a instalação.
+        			No menu do Synaptic localize o botão: Pesquisar, que está no canto superior direito. Clique nele.</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/botaoPesquisarSynaptic.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/botaoPesquisarSynaptic.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Acionando o botão de pesquisa.</phrase>
+								</textobject>
+								<caption>
+									<para>Acionando o botão de pesquisa.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Na caixa que se abriu, no campo <emphasis>Pesquisar:</emphasis> digite a palavra Demoiselle. 
+        			e no combobox <emphasis>Procurar em:</emphasis> selecione a opção "Nome" para que a pesquisa seja mais rápida e precisa. E clique no botão Pesquisar</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/caixaPesquisarSynaptic.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/caixaPesquisarSynaptic.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Filtrando uma pesquisa no Synaptic.</phrase>
+								</textobject>
+								<caption>
+									<para>Filtrando uma pesquisa no Synaptic.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>O resultado da pesquisa aparecerá em uma lista, onde poderão ser vistos todos os pacotes do Demoiselle disponíveis para instalação</para>
+        			<para>Caso queira, pode selecionar um pacote específico ou escolher um dos Meta-Pacotes que contém o conjunto básico recomendado.</para>
         			
-        			
-				</section>				
+        			<para> Atualmente há dois meta-pacotes que acompanham cada série de versão do Demoiselle:        			
+        				<itemizedlist>
+						<listitem> Demoiselle-1-Infra-"x": Contém o conjunto de softwares para desenvolvimento com Demoiselle versão 1.</listitem>
+						<listitem> Demoiselle-2-Infra-"x": Contém o conjunto de softwares para desenvolvimento com Demoiselle versão 1.</listitem>
+						</itemizedlist>
+					O último número do nome do pacote serve para manter o conjunto estável. Por exemplo: Demoiselle-2-Infra-2 contém um conjunto com base no Eclipse 4.3.
+					Quando é lançada uma nova versão, contendo um outro Eclipse (ex: Demoiselle-2-Infra-3), o desenvolvedor não pederá o ambiente anterior. 
+					E as novas instalações optam pela versão mais recente. Se houver necessidade de trabalhar com versões anteriores do Demoiselle, basta escolher a versão compatível. 
+					Por convenção, se houver mudança de versão principal do Demoiselle haverá um novo pacote com a nomenclatura Demoiselle-X-Infra-X, por exemplo: 
+					numa versão 3 do Demoiselle, teremos Demoiselle-3-Infra-1 e assim consecutivamente.						
+        			</para>
+        			<para>Neste exemplo, vamos instalar o Meta-Pacote: Demoiselle-2-Infra-2</para>
+        			<para>Para proceder com a instalação, selecionamos o pacote e clicando com o botão direito do mouse
+        			abre-se um menu onde escolheremos a opção "Marcar para instalação".</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/selecionandoInstalacao.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/selecionandoInstalacao.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Selecionando o Meta-Pacote: Demoiselle-2-Infra-2 para instalação.</phrase>
+								</textobject>
+								<caption>
+									<para>Selecionando o Meta-Pacote: Demoiselle-2-Infra-2 para instalação.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Logo em seguida, será mostrada uma janela informando os pacotes que serão instalados</para>
+        			<para> Neste caso temos:        			
+        				<itemizedlist>
+						<listitem> demoiselle-eclipse-4.3: Eclipse versão Keppler com plugins recomendados.</listitem>
+						<listitem> demoiselle-jboss-7.1": Conteiner/Servidor de aplicação JEE6 compatível.</listitem>
+						<listitem> demoiselle-maven-3": Apache-Maven versão 3, modo desktop. Não é o mesmo plugin do Eclipse</listitem>
+						<listitem> demoiselle-maven-repo": Repositório local com as bibliotecas do Demoiselle e suas dependências. Atualizado de acordo com a data de criação.</listitem>
+						<listitem> demoiselle-tomcat-7.0": Servidor de aplicação Java-Web..</listitem>
+						<listitem> demoiselle-workspace": Scripts para configuração de workspace para Eclipse.</listitem>
+						</itemizedlist>
+						
+					Clique no botão "Marcar" para continuar a instalação.
+					</para>
+         			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/pacotesDemoiselleInfra.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/pacotesDemoiselleInfra.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Selecionando o Meta-Pacote: Demoiselle-2-Infra-2 para instalação.</phrase>
+								</textobject>
+								<caption>
+									<para>Selecionando o Meta-Pacote: Demoiselle-2-Infra-2 para instalação.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Quando a janela acima fechar, os pacotes a serem instalados estarão marcados e será habilitado
+        			o botão <emphasis>Aplicar</emphasis> conforme mostra a figura abaixo, clique nele para começar o download e instalação </para>
+        				<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/aplicarInstalacaoSynaptic.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/aplicarInstalacaoSynaptic.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Aplicar instalação dos pacotes.</phrase>
+								</textobject>
+								<caption>
+									<para>Aplicar instalação dos pacotes.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Aguarde o processo de Download e instalção dos pacotes. 
+        			O tempo total dependerá da velocidade da rede e de resposta do repositório na UFPR.</para>
+        				<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/baixandoPacotesSynaptic.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/baixandoPacotesSynaptic.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Baixando os pacotes.</phrase>
+								</textobject>
+								<caption>
+									<para>Baixando os pacotes.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        		<para>Terminado o processo de instalação dos pacotes, estes deverão aparecer na listagem com uma marca verde na coluna inicial da linha. 
+        		Caso apareça em outra cor, algum problema pode ter ocorrido. Nestes casos tente instalar novamente ou peça ajuda na lista 
+        		de <ulink url="https://lists.sourceforge.net/lists/listinfo/demoiselle-users/">usuários do Demoiselle</ulink> </para>
+        		<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/pacotesInstaladosSynaptic.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/pacotesInstaladosSynaptic.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Lista com pacotes instalados.</phrase>
+								</textobject>
+								<caption>
+									<para>Lista com pacotes instalados.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       				</para>
+        			 <important><para>Neste ponto os pacotes já estão instalados, mas ainda não estão completamente prontoso para uso, 
+        			pois ainda é preciso executar o script de configuração para o Eclipse. Conforme explicado a seguir. </para></important>
+        			<para>O ultimo passo antes de começar a usar os softwares, é executar o script de configuração de workspace do Eclipse, que também foi instalado pelo meta-pacote Demoiselle-2-Infra.</para>
+        			<para>Para isso, temos que abrir um terminal de linha de comando do Linux, podemos fazer isso usando as teclas de atalho: <keycombo><keycap>Crtl</keycap><keycap>Alt</keycap><keycap>T</keycap></keycombo></para>
+        		</section>				
 		</section>
 </chapter>
