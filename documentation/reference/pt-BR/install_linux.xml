@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
-<chapter id="quickstart" >
-	<abstract><para>Guia de instalação dos softwares fornecidos pelo Demoiselle-Infra</para></abstract>
-	<title>Instalação</title>
-	  <para><caution> Esse guia de instalação é voltado para uso da Comunidade, para funcionários e clientes do SERPRO (fundador e patrocinador do Demoiselle) há procedimento próprio através da Central de Pacotes do SERPRO. </caution></para>
-		<para> São fornecidos instaladores para os seguintes sistemas operacional:	</para>
-		<section id="QS_LX" xreflabel="Instalação Linux">
-			<title>GNU/LINUX</title>
-				<para><important>Para executar essas tarefas é necessário permissões de administração do sistema. No caso do Ubuntu, estar no grupo: sudo </important></para>
-				<para> Nas distribuições baseadas em Debian GNU/Linux, o sistema de gerenciamento de pacotes utilizado é o APT (Advanced Package Tool), 
-				o qual manipula arquivos no formato .DEB e que possui diversas ferramentas para automatizar essa tarefa. 
-				Entre essas ferramentas, gráficas e em modo texto, podemos citar: <ulink url="http://wiki.ubuntu-br.org/AptGet">apt-get</ulink> , <ulink url="https://wiki.debian.org/Aptitude">aptitude</ulink>  e <ulink url="https://wiki.debian.org/Synaptic">synaptic</ulink> .
-				</para>
-				<para>Faremos um exemplo para interface gráfica e outro para linha de comando.</para>
-				<section id="interfacegrafica" xreflabel="Instalação Ubuntu - Interface Gráfica"> 
-					<title>Synaptic</title>
-						<para>Nas distribuições Debian tradicionais e a maioria das derivadas, o Synaptic já é incluído na instalação do sistema operacional, neste exemplo
+<chapter id="install_linux" >
+	<abstract><para>Instruções para instalação dos softwares em ambiente GNU/Linux compatíveis com sistemas de pacotes Debian.</para></abstract>
+	<title>GNU/LINUX</title>
+		<para><important>Para executar essas tarefas é necessário permissões de administração do sistema. No caso do Ubuntu, estar no grupo: sudo </important></para>
+		<para> Nas distribuições baseadas em Debian GNU/Linux, o sistema de gerenciamento de pacotes utilizado é o APT (Advanced Package Tool), 
+			o qual manipula arquivos no formato .DEB e que possui diversas ferramentas para automatizar essa tarefa. 
+			Entre essas ferramentas, gráficas e em modo texto, podemos citar: <ulink url="http://wiki.ubuntu-br.org/AptGet">apt-get</ulink> , <ulink url="https://wiki.debian.org/Aptitude">aptitude</ulink>  e <ulink url="https://wiki.debian.org/Synaptic">synaptic</ulink> .
+		</para>
+		<para>Faremos um exemplo para interface gráfica e outro para linha de comando.</para>
+		<section id="interfacegrafica" xreflabel="Instalação Ubuntu - Interface Gráfica">
+			<title>Instalando com Synaptic</title>
+				<para>Nas distribuições Debian tradicionais e a maioria das derivadas, o Synaptic já é incluído na instalação do sistema operacional, neste exemplo
 						usamos o Ubuntu e é um caso onde o Synaptic não é instalado por padrão, caso esteja usando outra distribuição não é preciso o passo abaixo.</para>
-						<para>Podemos instalar o Synaptic no Ubuntu através da Central de Programas.</para>
-						<para>Para executar a central, na instalação padrão haverá um icone na barra lateral esquerda do sistema. É o ícone de uma sacola da cor laranja com a letra <emphasis>A</emphasis></para>
-						<para>
+				<para>Podemos instalar o Synaptic no Ubuntu através da Central de Programas.</para>
+				<para>Para executar a central, na instalação padrão haverá um icone na barra lateral esquerda do sistema. É o ícone de uma sacola da cor laranja com a letra <emphasis>A</emphasis></para>
+				<para>
 						   <screenshot>
 						      <mediaobject>
 		       					<imageobject role="fo">
 		               				<imagedata fileref="images/centralProgramasMenu.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
 		        				</imageobject>
 		        				<imageobject role="html">
-		  	            			<imagedata fileref="images/centralProgramasMenu.png"  format="PNG" align="center"/>
+		  	            			<imagedata fileref="images/centralProgramasMenu.png"  format="PNG" align="center" scalefit="1" width="100%"/>
 		        				</imageobject>
 	       	    				<textobject>
 									<phrase>Central de Programas do Ubuntu - Menu do sistema.</phrase>
@@ -433,11 +429,188 @@
 								</caption>		        	    
         					</mediaobject>
         				</screenshot> 
-       				</para>
-        			 <important><para>Neste ponto os pacotes já estão instalados, mas ainda não estão completamente prontoso para uso, 
-        			pois ainda é preciso executar o script de configuração para o Eclipse. Conforme explicado a seguir. </para></important>
-        			<para>O ultimo passo antes de começar a usar os softwares, é executar o script de configuração de workspace do Eclipse, que também foi instalado pelo meta-pacote Demoiselle-2-Infra.</para>
-        			<para>Para isso, temos que abrir um terminal de linha de comando do Linux, podemos fazer isso usando as teclas de atalho: <keycombo><keycap>Crtl</keycap><keycap>Alt</keycap><keycap>T</keycap></keycombo></para>
-        		</section>				
-		</section>
+       	</para>
+        <important><para>Neste ponto os pacotes já estão instalados, mas ainda não estão completamente prontoso para uso, 
+       		pois ainda é preciso executar o script de configuração para o Eclipse. Conforme explicado a seguir. </para></important>
+       <para>O ultimo passo antes de começar a usar os softwares, é executar o script de configuração de workspace do Eclipse, que também foi instalado pelo meta-pacote Demoiselle-2-Infra.</para>
+       <para>Para isso, temos que abrir um terminal de linha de comando do Linux, podemos fazer isso usando as teclas de atalho: <keycombo><keycap>Crtl</keycap><keycap>Alt</keycap><keycap>T</keycap></keycombo></para>
+       <para>Ou ainda usando o painel principal de pesquisa do Ubuntu:</para>
+       <para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/abrindoTerminal.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/abrindoTerminal.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Abrindo terminal de linha de comando.</phrase>
+								</textobject>
+								<caption>
+									<para>Abrindo terminal de linha de comando.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+        <para>No terminal que foi aberto, digitamos o comando <command>demoiselle-workspace</command> </para>
+        <para>Se nenhum parâmetro for passado, será criado um diretório chamado workspace/ na pasta home do usuário
+        esse diretório contém as configurações para ambiente de trabalho, como servidor de aplicação e catálogo de arquétipos remotos.</para>		
+       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/criandoWorkspace.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/criandoWorkspace.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Criando workspace padrão para Eclipse.</phrase>
+								</textobject>
+								<caption>
+									<para>Abrindo terminal de linha de comando.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	<para>Para utilizá-lo no Eclipse basta aceitar a sugestão padrão.</para>
+       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/workspaceLauncherDefault.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/workspaceLauncherDefault.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Usando workspace padrão do Eclipse.</phrase>
+								</textobject>
+								<caption>
+									<para>Usando workspace padrão do Eclipse.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	<para>Caso você já possua uma outra instalação de Eclipse, ou já esteja usando o diretório padrão para outros projetos,
+       	é possível passar parâmetros para o comando para que seja usado outro diretório, por exemplo: <command>demoiselle-workspace workspace_novo</command> </para>
+       <para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/criandoWorkspaceNovo.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/criandoWorkspaceNovo.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Criando workspace alternativo para Eclipse.</phrase>
+								</textobject>
+								<caption>
+									<para>Criando workspace alternativo para Eclipse.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	       	<para>Para o novo workspace no Eclipse deve informá-lo no monento de abertura do software.</para>
+       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/workspaceLauncherCustom.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/workspaceLauncherCustom.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Usando workspace padrão do Eclipse.</phrase>
+								</textobject>
+								<caption>
+									<para>Usando workspace padrão do Eclipse.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>       	
+   </section>
+   <section id="linhacomando" xreflabel="Instalação Ubuntu - Linha de comando">
+			<title>Instalando no terminal de linha de comando: APT-GET</title>
+	<para>Para aqueles que preferem a instalação por linha de comando, vamos apresentar um exemplo
+	utilizando o <ulink url="http://wiki.ubuntu-br.org/AptGet">APT-GET</ulink></para>
+	<para>Assim como no modo gráfico, é preciso de permissões de administrador (grupo sudo)</para>
+	<para>Depois de abrir um terminal, o primeiro passo é incluir o repositório do Demoiselle no arquivo: <emphasis>/etc/apt/sources.list</emphasis> </para>
+	<para>Utilize o editor de texto preferido, com a opção sudo, ex: <command> sudo vi /etc/apt/sources.list</command> ou <command>sudo gedit /etc/apt/sources.list</command> </para>
+	<para>Inclua a linha <emphasis>deb http://demoiselle.c3sl.ufpr.br universal stable</emphasis> conforme exemplificado na imagem abaixo.</para>
+	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/incluindoLinhaApt.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/incluindoLinhaApt.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Incluindo entrada do repositório do Demoiselle no arquvo sources.list</phrase>
+								</textobject>
+								<caption>
+									<para>Incluindo entrada do repositório do Demoiselle no arquvo sources.list</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	<para>Em seguida, vamos baixar as chaves públicas, executando os comandos</para>
+       	<para>
+       		<itemizedlist>
+						<listitem>wget http://demoiselle.c3sl.ufpr.br/ComunidadeFrameworkDemoiselle.asc</listitem>
+						<listitem>wget http://demoiselle.c3sl.ufpr.br/public_key.asc</listitem>
+			</itemizedlist>
+		</para>
+	    <para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/baixandoChavesPublicas.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/baixandoChavesPublicas.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Fazendo download das chaves públicas</phrase>
+								</textobject>
+								<caption>
+									<para>Fazendo download das chaves públicas</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	<para>Depois é preciso incluí-las no chaveiro do gerenciador de pacotes, executando os comandos</para>
+       	<para>
+       		<itemizedlist>
+						<listitem>sudo apt-key add ComunidadeFrameworkDemoiselle.asc</listitem>
+						<listitem>sudo apt-key add public_key.asc</listitem>
+			</itemizedlist>
+		</para>
+		<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/adicionandoChavesPublicas.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/adicionandoChavesPublicas.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Adicionando as chaves públicas</phrase>
+								</textobject>
+								<caption>
+									<para>Adicionando as chaves públicas</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>	
+       	<para>Após esse passo é preciso atualizar os indices, com o comando: <command>sudo apt-get update</command></para>
+       	<para></para>
+       	
+   </section>				
 </chapter>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+<chapter id="install">
+	<abstract><para>Instruções de instalação dos softwares fornecidos pelo Demoiselle-Infra de acordo com os sistemas operacionais suportados.</para></abstract>
+	<title>Instalação</title>
+	  <para><caution> Esse guia de instalação é voltado para uso da Comunidade, para funcionários e clientes do SERPRO (fundador e patrocinador do Demoiselle) há procedimento próprio através da Central de Pacotes do SERPRO. </caution></para>	
+</chapter>
