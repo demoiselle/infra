@@ -430,12 +430,14 @@
         					</mediaobject>
         				</screenshot> 
        	</para>
-        <important><para>Neste ponto os pacotes já estão instalados, mas ainda não estão completamente prontoso para uso, 
-       		pois ainda é preciso executar o script de configuração para o Eclipse. Conforme explicado a seguir. </para></important>
-       <para>O ultimo passo antes de começar a usar os softwares, é executar o script de configuração de workspace do Eclipse, que também foi instalado pelo meta-pacote Demoiselle-2-Infra.</para>
-       <para>Para isso, temos que abrir um terminal de linha de comando do Linux, podemos fazer isso usando as teclas de atalho: <keycombo><keycap>Crtl</keycap><keycap>Alt</keycap><keycap>T</keycap></keycombo></para>
-       <para>Ou ainda usando o painel principal de pesquisa do Ubuntu:</para>
-       <para>
+       	<section id="criando_workspace" xreflabel="Criação do Workspace para Eclipse">
+       		<title>Criando o Workspace para Eclipse</title>
+        	<important><para>Neste ponto os pacotes já estão instalados, mas ainda não estão completamente prontos para uso, 
+       			pois ainda é preciso executar o script de configuração para o Eclipse. Conforme explicado a seguir. </para></important>
+       		<para>O ultimo passo antes de começar a usar os softwares, é executar o script de configuração de workspace do Eclipse, que também foi instalado pelo meta-pacote Demoiselle-2-Infra.</para>
+       		<para>Para isso, temos que abrir um terminal de linha de comando do Linux, podemos fazer isso usando as teclas de atalho: <keycombo><keycap>Crtl</keycap><keycap>Alt</keycap><keycap>T</keycap></keycombo></para>
+       		<para>Ou ainda usando o painel principal de pesquisa do Ubuntu:</para>
+       			<para>
 						   <screenshot>
 						      <mediaobject>
 		       					<imageobject role="fo">
@@ -452,11 +454,11 @@
 								</caption>		        	    
         					</mediaobject>
         				</screenshot> 
-       	</para>
-        <para>No terminal que foi aberto, digitamos o comando <command>demoiselle-workspace</command> </para>
-        <para>Se nenhum parâmetro for passado, será criado um diretório chamado workspace/ na pasta home do usuário
-        esse diretório contém as configurações para ambiente de trabalho, como servidor de aplicação e catálogo de arquétipos remotos.</para>		
-       	<para>
+       			</para>
+        	<para>No terminal que foi aberto, digitamos o comando <command>demoiselle-workspace</command> </para>
+        	<para>Se nenhum parâmetro for passado, será criado um diretório chamado workspace/ na pasta home do usuário
+        	esse diretório contém as configurações para ambiente de trabalho, como servidor de aplicação e catálogo de arquétipos remotos.</para>		
+       		<para>
 						   <screenshot>
 						      <mediaobject>
 		       					<imageobject role="fo">
@@ -473,9 +475,9 @@
 								</caption>		        	    
         					</mediaobject>
         				</screenshot> 
-       	</para>
-       	<para>Para utilizá-lo no Eclipse basta aceitar a sugestão padrão.</para>
-       	<para>
+       		</para>
+       		<para>Para utilizá-lo no Eclipse basta aceitar a sugestão padrão.</para>
+       		<para>
 						   <screenshot>
 						      <mediaobject>
 		       					<imageobject role="fo">
@@ -492,10 +494,10 @@
 								</caption>		        	    
         					</mediaobject>
         				</screenshot> 
-       	</para>
-       	<para>Caso você já possua uma outra instalação de Eclipse, ou já esteja usando o diretório padrão para outros projetos,
-       	é possível passar parâmetros para o comando para que seja usado outro diretório, por exemplo: <command>demoiselle-workspace workspace_novo</command> </para>
-       <para>
+       		</para>
+       		<para>Caso você já possua uma outra instalação de Eclipse, ou já esteja usando o diretório padrão para outros projetos,
+       		é possível passar parâmetros para o comando para que seja usado outro diretório, por exemplo: <command>demoiselle-workspace workspace_novo</command> </para>
+       		<para>
 						   <screenshot>
 						      <mediaobject>
 		       					<imageobject role="fo">
@@ -512,9 +514,9 @@
 								</caption>		        	    
         					</mediaobject>
         				</screenshot> 
-       	</para>
+       			</para>
        	       	<para>Para o novo workspace no Eclipse deve informá-lo no monento de abertura do software.</para>
-       	<para>
+       			<para>
 						   <screenshot>
 						      <mediaobject>
 		       					<imageobject role="fo">
@@ -531,7 +533,12 @@
 								</caption>		        	    
         					</mediaobject>
         				</screenshot> 
-       	</para>       	
+       			</para>
+       		</section>
+       	<note><para> Se a sua empresa ou organização possui um número significativo de funcionários, 
+       	pode ser mais produtivo a criação de um repositório local pois isso diminuirá significativamente o tempo de download que é a porção maior do tempo total. 
+       	As instruções para isso estão neste documento: <ulink url="https://github.com/demoiselle/infra/blob/master/Manual.pdf?raw=true">clique aqui para baixar o documento</ulink>
+       	 </para> </note>       	
    </section>
    <section id="linhacomando" xreflabel="Instalação Ubuntu - Linha de comando">
 			<title>Instalando no terminal de linha de comando: APT-GET</title>
@@ -610,7 +617,69 @@
         				</screenshot> 
        	</para>	
        	<para>Após esse passo é preciso atualizar os indices, com o comando: <command>sudo apt-get update</command></para>
-       	<para></para>
-       	
+       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/aptGetUpdate.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/aptGetUpdate.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Atualizando os índices com o comando apt-get update</phrase>
+								</textobject>
+								<caption>
+									<para>Atualizando os índices com o comando apt-get update</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	<para>Para sabermos se os pacotes estão disponíveis para instalação, podemos usar o comando <command> apt-cache search demoiselle </command> que irá listar os pacotes do Demoiselle </para>
+       	       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/aptCacheSearch.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/aptCacheSearch.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Listando os pacotes do Demoiselle com o comando apt-cache search</phrase>
+								</textobject>
+								<caption>
+									<para>Listando os pacotes do Demoiselle com o comando apt-cache search</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	<para>Se os pacotes estão sendo listados, podemos fazer a instalação.</para>
+       	<para>Usamos o comando <command>apt-get install demoiselle-2-infra-2</command> </para>
+       	<para>Depois é preciso aguardar o download do pacote e o processo de instalação, sendo que o tempo total dependerá da velocidade da rede, do tempo de resposta 
+       	do repositório e o poder de processamento do seu computador.</para>
+       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/aptGetInstallInfra.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/aptGetInstallInfra.png"  format="PNG" align="center"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Instalando o meta-pacote demoiselle-2-infra com o comando apt-get install</phrase>
+								</textobject>
+								<caption>
+									<para>Instalando o meta-pacote demoiselle-2-infra com o comando apt-get install</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	<para>Após a instalação, proceda com a <xref linkend="criando_workspace"/></para>
+       	<note><para> Se a sua empresa ou organização possui um número significativo de funcionários, 
+       	pode ser mais produtivo a criação de um repositório local, pois isso diminuirá significativamente o tempo de download que é a porção maior do tempo total. 
+       	As instruções para isso estão neste documento: <ulink url="https://github.com/demoiselle/infra/blob/master/Manual.pdf?raw=true">clique aqui para baixar o documento</ulink>
+       	 </para> </note>
    </section>				
 </chapter>

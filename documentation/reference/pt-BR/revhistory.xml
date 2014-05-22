@@ -2,7 +2,7 @@
 <!DOCTYPE revhistory PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
 <revhistory>
-	<revision>
+	<revision revisionflag="added">
 		<revnumber>1.0.0</revnumber>
 		<date>12/05/2014</date>
 		<authorinitials>ess</authorinitials>
