@@ -2,11 +2,15 @@
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
 <chapter id="install_windows">
-	<abstract>Instalação Windows</abstract>
-	<title>Instalação Windows</title>	
+	<abstract><para>Instruções para instalação dos softwares em ambiente MS-Windows.</para></abstract>
+	<title>Instalação em ambiente Windows</title>
+	<para><important><para>A comunidade Demoiselle recomenda o uso de sistemas operacionais livres sempre que possível. 
+	Os instaladores possuem todos os softwares necessários para o desenvolvimento, mas por restrições do próprio sistema operacional, 
+	não possui todas as facilidades do ambiente Linux.</para></important></para>	
 	<section id="instalador">
-		<title>?</title>
-			<para>bla bla bla</para>
+		<title>Wizard de instalação</title>
+			<para>A forma de distribuição dos softwares é através de um arquivo de instalação que pode ser baixado aqui: <ulink url="http://sourceforge.net/projects/demoiselle/files/infra/">Downloads Infra</ulink>  </para>
+			<para>Escolha o arquivo compatível com a versão do seu sistema operacional</para>
 		
 		<note><para>bla bla</note> 
 	</section>
