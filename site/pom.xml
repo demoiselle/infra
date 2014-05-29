@@ -51,7 +51,7 @@ ou escreva para a Fundação do Software Livre (FSF) Inc., 51 Franklin St, Fifth
 
      <issueManagement>
         <system>JIRA</system>
-        <url>https://demoiselle.atlassian.net/secure/IssueNavigator.jspa</url>
+        <url>http://tracker.frameworkdemoiselle.gov.br</url>
     </issueManagement>
 
     <properties>
@@ -67,7 +67,7 @@ ou escreva para a Fundação do Software Livre (FSF) Inc., 51 Franklin St, Fifth
                 <configuration>
                     <inputEncoding>${encoding.default}</inputEncoding>
                     <outputEncoding>${encoding.default}</outputEncoding>
-                    <locales>pt_BR,en</locales>
+                    <locales>pt_BR</locales>
                 </configuration>
                 <dependencies>
                     <dependency>
@@ -83,7 +83,7 @@ ou escreva para a Fundação do Software Livre (FSF) Inc., 51 Franklin St, Fifth
     <distributionManagement>
         <site>
             <id>demoiselle.sourceforge.net</id>
-            <url>sftp://web.sourceforge.net/home/project-web/demoiselle/htdocs/infra/${version}</url>
+            <url>sftp://web.sourceforge.net/home/project-web/demoiselle/htdocs/infra/reference/${version}</url>
         </site>
     </distributionManagement>
 

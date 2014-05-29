@@ -55,31 +55,18 @@ FAQ (Perguntas mais frequentes)
 
 * Existe dependência externa de algum pacote que tenha de ser instalado antes dos pacotes do Demoiselle Infra?
 
-  Sim, alguns pacotes possuem dependência externa. Todavia, todas essas dependências são referenciadas e devem ser resolvidas de forma automática durante a instalação.
-
-* Como posso colaborar com o Demoiselle Infra?
-
-  A melhor forma de colaborar é se tornando um membro ativo da comunidade. Ou seja, participando das discussões, relatando bugs, sugerindo melhorias, inscrevendo-se na lista, etc.
+  Sim, alguns pacotes possuem dependência externa. Todavia, todas essas dependências são referenciadas e serão resolvidas de forma automática durante a instalação quando em ambiente GNU/LINUX. 
+  As dependências no ambiente windows devem ser resolvidas manualmente, como é caso do Java-JDK.
 
 * Posso colaborar com o projeto incluindo um pacote proprietário?
 
   Não. Uma das premissas do projeto é incluir somente aplicações consideradas Software Livre. Todos são livres para fazer as alterações que quiserem, porém alterações que contemplem software proprietário não serão agregadas ao projeto ou mantidas pela comunidade Demoiselle.
 
-* Novos ambientes de desenvolvimento podem ser incluídos ao projeto?
-
-  Novos ambientes de desenvolvimento podem ser adicionados ao projeto desde que seja comprovado que eles existam, ou seja, casos reais em que tais ambientes sejam utilizados. A melhor forma para isso é apresentar tais situações à comunidade.
-
 * Como posso reportar bugs ou sugerir melhorias nos pacotes?
 
-  Requisições, defeitos, e funcionalidades podem ser submetidas para o seguinte sistema de gerenciamento de requisições: {{https://demoiselle.atlassian.net/}}
+  Requisições, defeitos, e funcionalidades podem ser submetidas para o seguinte sistema de gerenciamento de requisições: {{http://tracker.frameworkdemoiselle.gov.br/}}
 
-* Como posso fazer parte da lista de discussões?
-
-  Primeiramente é necessário ser um usuário cadastrado no SourceForge. Se você ainda não é um usuário cadastrado, cadastre-se aqui: {{https://sourceforge.net/account/registration/}}
-
-  Se você já é um usuário cadastrado, cadastre-se na lista através do link abaixo: {{https://lists.sourceforge.net/lists/listinfo/demoiselle-infra}}
-
-* Estou recebendo erro NO_PUBKEY 698F76A5632038DF, o que eu faço ?
+* Estou recebendo erro NO_PUBKEY, o que eu faço ?
 
   Esse problema é causado por que a chave pública não esta instalada no seu repositório, existem duas maneiras de resolver isso:
 
@@ -106,3 +93,8 @@ $ sudo apt-key add public_key.asc
  $ sudo apt-get update
 +-----------------------------------------------------------------------------+
 
+* Como posso fazer parte da lista de discussões?
+
+  Primeiramente é necessário ser um usuário cadastrado no SourceForge. Se você ainda não é um usuário cadastrado, cadastre-se aqui: {{https://sourceforge.net/account/registration/}}
+
+  Se você já é um usuário cadastrado, cadastre-se na lista através do link abaixo: {{https://lists.sourceforge.net/lists/listinfo/demoiselle-infra}}

@@ -65,6 +65,7 @@
         </links>
         <menu name="${project.name}">
             <item name="Sobre" href="index.html" />
+            <item name="Manual do usuário" href="userguide.html" />
             <item name="Pacotes" href="packages.html">
                 <item name="Demoiselle 1 Infra" href="packages/demoiselle-1-infra.html"/>
                 <item name="Demoiselle 2 Infra" href="packages/demoiselle-2-infra.html"/>
