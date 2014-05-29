@@ -538,7 +538,8 @@
        	<note><para> Se a sua empresa ou organização possui um número significativo de funcionários, 
        	pode ser mais produtivo a criação de um repositório local pois isso diminuirá significativamente o tempo de download que é a porção maior do tempo total. 
        	As instruções para isso estão neste documento: <ulink url="https://github.com/demoiselle/infra/blob/master/Manual.pdf?raw=true">clique aqui para baixar o documento</ulink>
-       	 </para> </note>       	
+       	 </para> </note>
+       	 <para>Neste link uma demonstração em vídeo deste procedimento: <ulink url="http://www.youtube.com/playlist?list=PL_d_K3c7ts5LGsI8IAkG4SEi1GRoYS8on">Demonstração (youtube)</ulink> </para>       	
    </section>
    <section id="linhacomando" xreflabel="Instalação Ubuntu - Linha de comando">
 			<title>Instalando no terminal de linha de comando: APT-GET</title>

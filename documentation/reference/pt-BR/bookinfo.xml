@@ -3,10 +3,10 @@
    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
 <bookinfo>
 	<title>Demoiselle Infra</title>
-	<subtitle>Guia do Usuário</subtitle>
+	<subtitle>Manual do Usuário</subtitle>
 
-	<abstract>Guia de utilização do Demoiselle Infra</abstract>
-	<titleabbrev>Demoiselle Infra - Guia do usuário</titleabbrev>
+	<abstract>Guia de utilização/instalação do Demoiselle Infra</abstract>
+	<titleabbrev>Demoiselle Infra - Manual do usuário</titleabbrev>
 
 	<xi:include href="revhistory.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="authorgroup.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />

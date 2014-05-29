@@ -6,7 +6,7 @@
 	<xi:include href="bookinfo.xml"/>
 
 	<preface>
-		<title>Guia do Usuário</title>
+		<title>Manual do Usuário</title>
 		<para>
 			Apresentamos o guia do usuário do Demoiselle-Infra, que é um projeto que tem o o objetivo de fornecer o conjunto básico de softwares necessários para desenvolvimento com  <emphasis>Demoiselle Framework</emphasis>.
 		</para>
@@ -24,5 +24,6 @@
 	<xi:include href="about.xml"/>
 	<xi:include href="install.xml"/>
 	<xi:include href="install_linux.xml"/>
+	<xi:include href="install_windows.xml"/>
 
 </book>

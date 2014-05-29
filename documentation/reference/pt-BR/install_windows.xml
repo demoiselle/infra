@@ -6,13 +6,199 @@
 	<title>Instalação em ambiente Windows</title>
 	<para><important><para>A comunidade Demoiselle recomenda o uso de sistemas operacionais livres sempre que possível. 
 	Os instaladores possuem todos os softwares necessários para o desenvolvimento, mas por restrições do próprio sistema operacional, 
-	não possui todas as facilidades do ambiente Linux.</para></important></para>	
+	não possui todas as facilidades do ambiente Linux. Uma boa alternativa gratuíta para equipamentos com bom poder de processamento e memória RAM é utilizar o
+ 	<ulink url="https://www.virtualbox.org/">Virtual Box</ulink> e criar um ambiente virtual com Linux.</para></important></para>	
 	<section id="instalador">
-		<title>Wizard de instalação</title>
+		<title>Assistente de instalação</title>
 			<para>A forma de distribuição dos softwares é através de um arquivo de instalação que pode ser baixado aqui: <ulink url="http://sourceforge.net/projects/demoiselle/files/infra/">Downloads Infra</ulink>  </para>
 			<para>Escolha o arquivo compatível com a versão do seu sistema operacional</para>
 		
-		<note><para>bla bla</note> 
-	</section>
-	
+		<warning><para>Antes de instalar o Demoiselle Infra, verifique se o JAVA JDK está instalado em seu equipamento, caso não esteja acesse este link <ulink url="http://www.oracle.com/technetwork/java/javase/downloads/"> Download JDK</ulink> 
+		e faça a instalação.</para>
+		<para>Se tentar instalar o Demoiselle Infra, sem o Java, aparecerá essa mensagem:</para>
+		  <para>
+			   <screenshot>
+			      <mediaobject>
+					<imageobject role="fo">
+		   				<imagedata fileref="images/install_w_java.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+				    </imageobject>
+		 		    <imageobject role="html">
+		  	    	     <imagedata fileref="images/install_w_java.png"  format="PNG" align="center" scalefit="1" width="100%"/>
+		        	</imageobject>
+	       	    	<textobject>
+						<phrase>JDK - Requisito para instalação.</phrase>
+					</textobject>
+					<caption>
+						<para>JDK - Requisito para instalação.</para>
+					</caption>		        	    
+        		</mediaobject>
+        	 </screenshot> 
+          </para>
+		</warning>
+			<para>Com o JDK instalado, e o arquivo de instalação Demoiselle-Infra baixado, pode ser iniciado o processo de instalação.</para>
+			<para>Depois de clicar no arquivo de instalação a primeira opção é a escolha do idioma para as instruções de instalação. 
+			Lembrando que essa opção não define o idoma para os softwares que serão instalados, pois cada um deles tem suas próprias definições
+			e configurações. O Eclipse, por exemplo, só tem interface em lingua inglesa.</para>
+			<para>Neste exemplo, vamos utilizar o Português (Brasil)</para>
+			<para>
+			   <screenshot>
+			      <mediaobject>
+					<imageobject role="fo">
+		   				<imagedata fileref="images/install_w_00_idioma.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+				    </imageobject>
+		 		    <imageobject role="html">
+		  	    	     <imagedata fileref="images/install_w_00_idioma.png"  format="PNG" align="center" scalefit="1" width="100%"/>
+		        	</imageobject>
+	       	    	<textobject>
+						<phrase>Escolha do idioma para instalação.</phrase>
+					</textobject>
+					<caption>
+						<para>Escolha do idioma para instalação.</para>
+					</caption>		        	    
+        		</mediaobject>
+        	 </screenshot> 
+          </para>
+          <para>Para continuar, clique no botão <emphasis>OK</emphasis></para>
+          <para>A próxima tela, é uma apresentação do instalador informando a versão.</para>
+              <para>
+			   <screenshot>
+			      <mediaobject>
+					<imageobject role="fo">
+		   				<imagedata fileref="images/install_w_01.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+				    </imageobject>
+		 		    <imageobject role="html">
+		  	    	     <imagedata fileref="images/install_w_01.png"  format="PNG" align="center" scalefit="1" width="100%"/>
+		        	</imageobject>
+	       	    	<textobject>
+						<phrase>Apresentação da versão.</phrase>
+					</textobject>
+					<caption>
+						<para>Apresentação da versão.</para>
+					</caption>		        	    
+        		</mediaobject>
+        	 </screenshot> 
+          </para>
+          <para>Para continuar clique no botão  <emphasis>Avançar</emphasis>".</para>
+    	<para>Na tela seguinte, pode ser informado o nome do grupo de programas que será incluído no menu Iniciar.</para>     
+          <para>
+			   <screenshot>
+			      <mediaobject>
+					<imageobject role="fo">
+		   				<imagedata fileref="images/install_w_02_pasta_menu.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+				    </imageobject>
+		 		    <imageobject role="html">
+		  	    	     <imagedata fileref="images/install_w_02_pasta_menu.png"  format="PNG" align="center" scalefit="1" width="100%"/>
+		        	</imageobject>
+	       	    	<textobject>
+						<phrase>Escolha o nome do Grupo de Programas para o menu Iniciar.</phrase>
+					</textobject>
+					<caption>
+						<para>Escolha o nome do Grupo de Programas para o menu Iniciar.</para>
+					</caption>		        	    
+        		</mediaobject>
+        	 </screenshot> 
+          </para>
+          <para>Para continuar, clique no botão <emphasis>Avançar</emphasis> </para>           
+          <para>Na tela seguinte, caso queira, marque a opção para criar um icone de atalho na área de trabalho.</para>          
+          <para>
+			   <screenshot>
+			      <mediaobject>
+					<imageobject role="fo">
+		   				<imagedata fileref="images/install_w_03_icone_area.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+				    </imageobject>
+		 		    <imageobject role="html">
+		  	    	     <imagedata fileref="images/install_w_03_icone_area.png"  format="PNG" align="center" scalefit="1" width="100%"/>
+		        	</imageobject>
+	       	    	<textobject>
+						<phrase>Opção para criação de icone de atalho na área de trabalho.</phrase>
+					</textobject>
+					<caption>
+						<para>Opção para criação de icone de atalho na área de trabalho.</para>
+					</caption>		        	    
+        		</mediaobject>
+        	 </screenshot> 
+          </para>
+      <para>Para continuar, clique no botão  <emphasis>Avançar</emphasis> </para>      		 
+    <para>Depois, confira as opções de instalação, caso queira fazer alguma modificação clique no botão <emphasis>Voltar</emphasis> .</para>
+       <para>
+			   <screenshot>
+			      <mediaobject>
+					<imageobject role="fo">
+		   				<imagedata fileref="images/install_w_04_pronto.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+				    </imageobject>
+		 		    <imageobject role="html">
+		  	    	     <imagedata fileref="images/install_w_04_pronto.png"  format="PNG" align="center" scalefit="1" width="100%"/>
+		        	</imageobject>
+	       	    	<textobject>
+						<phrase>Conferindo as opções de instalação.</phrase>
+					</textobject>
+					<caption>
+						<para>Conferindo as opções de instalação.</para>
+					</caption>		        	    
+        		</mediaobject>
+        	 </screenshot> 
+          </para>
+          <para>Para continuar, clique no botão  <emphasis>Instalar</emphasis> </para>
+          <para>Aguarde o procedimento de instalação terminar.</para>
+          <para>
+			   <screenshot>
+			      <mediaobject>
+					<imageobject role="fo">
+		   				<imagedata fileref="images/install_w_05_instalando.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+				    </imageobject>
+		 		    <imageobject role="html">
+		  	    	     <imagedata fileref="images/install_w_05_instalando.png"  format="PNG" align="center" scalefit="1" width="100%"/>
+		        	</imageobject>
+	       	    	<textobject>
+						<phrase>Aguardando o processo de instalação.</phrase>
+					</textobject>
+					<caption>
+						<para>Aguardando o processo de instalação.</para>
+					</caption>		        	    
+        		</mediaobject>
+        	 </screenshot> 
+          </para>
+          <para>No final do processamento, o ambiente estará pronto para ser utilizado. 
+          E se a opção "Executar Demoiselle 2 Infra, estiver marcada o Eclipse será executado.</para>
+          <para>
+			   <screenshot>
+			      <mediaobject>
+					<imageobject role="fo">
+		   				<imagedata fileref="images/install_w_06_instalado_executar.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+				    </imageobject>
+		 		    <imageobject role="html">
+		  	    	     <imagedata fileref="images/install_w_06_instalado_executar.png"  format="PNG" align="center" scalefit="1" width="100%"/>
+		        	</imageobject>
+	       	    	<textobject>
+						<phrase>Finalizando o assistente de instalação.</phrase>
+					</textobject>
+					<caption>
+						<para>Finalizando o assistente de instalação.</para>
+					</caption>		        	    
+        		</mediaobject>
+        	 </screenshot> 
+          </para>
+      <para>Para finalizar, clique no botão  <emphasis>Concluir</emphasis> </para>
+      <para>Caso tenha sido escolhida a opção para criar um ícone na área de trabalho, procure a figura abaixo para executar o Eclipse quando precisar.  </para>
+          <para>
+			   <screenshot>
+			      <mediaobject>
+					<imageobject role="fo">
+		   				<imagedata fileref="images/install_w_07_atalho_criado.png"  format="PNG" align="center" scalefit="1" width="50%"/> 
+				    </imageobject>
+		 		    <imageobject role="html">
+		  	    	     <imagedata fileref="images/install_w_07_atalho_criado.png"  format="PNG" align="center" scalefit="1" width="100%"/>
+		        	</imageobject>
+	       	    	<textobject>
+						<phrase>Icone do Eclipse na área de trabalho.</phrase>
+					</textobject>
+					<caption>
+						<para>Icone do Eclipse na área de trabalho.</para>
+					</caption>		        	    
+        		</mediaobject>
+        	 </screenshot> 
+          </para>
+          <para>Os arquivos serão instalados no diretório c:/demoiselle/ </para>
+          <para>Diferente do ambiente Linux, ainda não há script para criação de wokspace.</para>
+	</section>	
 </chapter>
