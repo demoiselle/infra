@@ -2,13 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>demoiselle-eclipse-4.3.2</artifactId>
+	<artifactId>demoiselle-eclipse-4.4</artifactId>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
-	<url>http://www.frameworkdemoiselle.gov.br</url>
-	<description>
-        Eclipse IDE for Java Developers with plugins and features
+	<url>http://demoiselle.sourceforge.net/infra</url>
+	<description>Eclipse IDE for Java Developers with plugins and features
         Eclipse is a multi-language software development environment comprising an
         integrated development environment (IDE) and an extensible plug-in system.
         It is written primarily in Java and can be used to develop applications in
@@ -16,14 +15,13 @@
         including C, C++, COBOL, Python, Perl, PHP, and others.
         Additional Plugins
         SVN
-        Nimble
-        Jboss Tools Indigo
+        Demoiselle Nimble
+        Jboss Tools
         Groovy
-        M2E Integration
         Vaddin
         Findbugs
-        Homepage: http://www.frameworkdemoiselle.gov.br/
-    </description>
+        CVS connector
+        Homepage: http://www.frameworkdemoiselle.gov.br/</description>
 
 	<parent>
 		<groupId>br.gov.frameworkdemoiselle.infra.i386</groupId>
@@ -66,5 +64,5 @@
 
 		</plugins>
 	</build>	
-	<version>4.3.2</version>
+	<version>4.4.0</version>
 </project>

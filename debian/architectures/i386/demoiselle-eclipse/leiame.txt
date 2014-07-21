@@ -8,3 +8,5 @@ Para geração de pacotes:
    - Caso tenha mudado, substituir o demoiselle-eclipse.xpm
 - No diretório /src/deb/control/
    - Editar no arquivo control: Version, e depends
+
+- Executar Maven Build -> package
