@@ -4,3 +4,5 @@ Para geração de pacotes:
 - Incluir os arquivos de instalação do Tomcat (ex: /tomcat-x.x) no diretório /src/data/opt/demoiselle/server/
 - No diretório /src/deb/control/
    - Editar no arquivo control: Version, e depends
+
+- Executar Maven Build -> package
