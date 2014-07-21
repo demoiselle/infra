@@ -8,3 +8,5 @@ Para geração de pacotes:
    - Caso tenha mudado, substituir o demoiselle-nimble.png
 - No diretório /src/deb/control/
    - Editar no arquivo control: Version, e depends
+
+- Executar Maven Build -> package
