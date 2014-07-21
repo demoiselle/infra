@@ -4,4 +4,6 @@
 - Atualizar em /src/deb/control/control, 
      - a dependência com o Eclipse correspondente
      - Version
-- Atualizar em /src/data/opt/demoiselle/tool/workspace/bin/demoiselle-workspace o P_VERSION para o número da versão do template padrão que é o mais recente (ex=4.3.2)
+- Atualizar em /src/data/opt/demoiselle/tool/workspace/bin/demoiselle-workspace o P_VERSION para o número da versão do template padrão que é o mais recente (ex=4.4.0)
+
+- Executar Maven Build -> package
