@@ -1,5 +1,6 @@
 - Artefato Parent que contém informações de buld comum a todos os outros projetos.
-- Contém as propriedades para definir se os pacote gerados serão do tipo: stable ou unstable.
-  e também as informações de segurança de acesso. É preciso editar as propriedades de acesso neste arquivo.
+- O POM.XML Contém as propriedades para definir se os pacote gerados serão do tipo: stable ou unstable.
+  e também as informações de segurança de acesso para cada servidor (local ou UFPR). 
+- É preciso editar as propriedades de acesso neste arquivo de acordo com cada geração.
  
   

@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=Demoiselle Eclipse 4.3.2
+Name=Demoiselle Eclipse 4.4.0
 Comment=Eclipse IDE (64Bits) for Java Developers with plugins and features needed by Demoiselle Framework
-# Exec=/opt/demoiselle/ide/eclipse-4.3/eclipse
-Exec=env UBUNTU_MENUPROXY=0 /opt/demoiselle/ide/eclipse-4.3.2/eclipse
-Icon=demoiselle-eclipse.xpm
+Exec=/opt/demoiselle/ide/eclipse-4.4.0/eclipse
+# Exec=env UBUNTU_MENUPROXY=0 /opt/demoiselle/ide/eclipse-4.4.0/eclipse
+Icon=/opt/demoiselle/ide/eclipse-4.4.0/icon.xpm
 Terminal=false
 Type=Application
 Categories=Development;IDE;Java
 StartupNotify=true
-Name[pt_BR]=Demoiselle Eclipse 4.3.2-SR2
+Name[pt_BR]=Demoiselle Eclipse 4.4.0
