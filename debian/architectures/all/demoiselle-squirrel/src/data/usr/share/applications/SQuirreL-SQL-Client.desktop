@@ -1,0 +1,22 @@
+[Desktop Entry]
+Categories=Development;
+Comment=An ISQL tool
+Comment[pt]=Ferramenta SQL Gráfica
+Encoding=UTF-8
+Exec=/opt/demoiselle/tool/squirrel-sql-3.5.3/squirrel-sql.sh 
+GenericName=
+GenericName[pt]=
+Icon=/opt/demoiselle/tool/squirrel-sql-3.5.3/icons/acorn.ico
+MimeType=
+Name=SQuirreL SQL Client
+Name[pt]=SQuirreL SQL Client
+Path=/opt/demoiselle/tool/squirrel-sql-3.5.3
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+URL=
+X-KDE-SubstituteUID=false
+X-KDE-Username=root
