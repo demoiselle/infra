@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PKGDIR="./opt/demoiselle/tool/nimble-1.1.0/"
+PKGDIR="./opt/demoiselle/tool/nimble-1.2.0/"
 
 if [ ! -d $PKGDIR ]; then
 	echo "Diretório não encontrado: $PKGDIR"
