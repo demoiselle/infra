@@ -4,7 +4,5 @@ Para geração de pacotes:
 - Incluir os arquivos de instalação do SoapUI (ex: soapui-x.x) no diretório /src/data/opt/demoiselle/tool/
 - No diretório /src/data/usr/share/applications/
    - Editar no arquivo demoiselle-soapui.desktop: modifique as propriedades relativas à versão.
-- No diretório /src/data/usr/share/pixmaps/   
-   - Caso tenha mudado, substituir o demoiselle-soapui.png
 - No diretório /src/deb/control/
    - Editar no arquivo control: Version, e depends
