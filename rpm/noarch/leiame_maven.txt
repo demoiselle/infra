@@ -1,0 +1,8 @@
+Para gerar um novo pacote para o Maven
+
+1- Renomeie o diretório maven/opt/demoiselle/tool/mavenX para a nova versão do Maven, ex: maven3
+2- Copie os arquivos de instalação do Maven no diretório renomeado.
+3- Excute o comando: ./dir2rpm_noarch.sh maven demoiselle-maven-N-V.V.V, sendo N no número da versão do Maven e V.V.V o número da versão do pacote a ser gerado ex:(./dir2rpm_noarch.sh maven demoiselle-maven-3-3.0.0)
+4 - Antes de sincronizar o repositorio Git, verifique o arquivo .gitignore e edite a entrada
+  /maven/opt/demoiselle/tool/mavenX conforme o item 1 para que os arquivos de instalação do Maven não sejam incluídos no repositório.
+

@@ -1,0 +1,8 @@
+Para gerar um novo pacote para o SoapUI
+
+1- Edite o arquivo: soapui/usr/share/applications/Demoiselle soapUI.desktop e modifique as informações de versão
+2- Renomeie o diretório soapui/opt/demoiselle/tool/soapui-x.x para a nova versão do SoapUI, ex: soapui-4.5
+3- Copie os arquivos de instalação do SoapUI no diretório renomeado.
+4- Excute o comando: ./dir2rpm_noarch.sh soapui demoiselle-soapui-N.N-V.V.V, sendo N.N no número da versão do SoapUI e V.V.V o número da versão do pacote a ser gerado ex:(./dir2rpm_noarch.sh soapui demoiselle-soapui-4.5-4.5.1)
+5- Antes de sincronizar o repositorio Git, verifique o arquivo .gitignore e edite a entrada
+  /soapui/opt/demoiselle/tool/soapui-x.x conforme o item 2 para que os arquivos de instalação do SoapUI não sejam incluídos no repositório.

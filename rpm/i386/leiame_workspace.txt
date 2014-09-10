@@ -1,0 +1,9 @@
+Para gerar um novo pacote para o Demoiselle-workspace
+
+1- Edite o arquivo: workspace/usr/local/bin/demoiselle-workspace e modifique as informações de versão
+2- Renomeie o diretório  workspace/opt/demoiselle/tool/workspace/template/eclipse-x.x para a nova versão do Eclipse, ex: eclipse-4.4
+3- Copie os arquivos de configuração de workspace (conforme a versão do Eclipse) no diretório renomeado.
+4- Excute o comando: ./dir2rpm.sh workspace demoiselle-workspace-V.V.V , sendo V.V.V o número da versão do pacote a ser gerado ex:(./dir2rpm.sh eclipse demoiselle-workspace-2.0.0)
+5 - Antes de sincronizar o repositorio Git, verifique o arquivo .gitignore e edite a entrada
+  /workspace/opt/demoiselle/tool/workspace/template/eclipse-x.x conforme o item 2 para que os arquivos de configuração do eclipse não sejam incluídos no repositório.
+

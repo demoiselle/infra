@@ -1,0 +1,8 @@
+Para gerar um novo pacote para o Tomcat
+
+1- Renomeie o diretório wildfly/opt/demoiselle/server/wildfly-x.x para a nova versão do WildFly, ex: wildfly-8.0
+2- Copie os arquivos de instalação do WildFly no diretório renomeado.
+3- Excute o comando: ./dir2rpm_noarch.sh wildfly demoiselle-wildfly-N.N-V.V.V, sendo N.N no número da versão do WildFly e V.V.V o número da versão do pacote a ser gerado ex:(./dir2rpm_noarch.sh wildfly demoiselle-wildfly-8.0-8.0.0)
+4- Antes de sincronizar o repositorio Git, verifique o arquivo .gitignore e edite a entrada
+  /wildfly/opt/demoiselle/server/wildfly-x.x conforme o item 1 para que os arquivos de instalação do WildFly não sejam incluídos no repositório.
+

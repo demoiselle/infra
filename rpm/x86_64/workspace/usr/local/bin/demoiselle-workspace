@@ -1,0 +1,71 @@
+#!/bin/bash
+
+TEMPLATES_DIR="/opt/demoiselle/tool/workspace/template"
+
+until [[ ! "$*" ]]; do
+   if [[ ${1:0:2} = '--' ]]; then
+      PAIR=${1:2}
+      PARAMETER=`echo ${PAIR%=*} | tr [:lower:] [:upper:]`
+      eval P_$PARAMETER=${PAIR##*=}
+   else
+      if [ "x$P_WORKSPACE" = "x" ]; then
+         P_WORKSPACE=${1:0}
+      #else
+         # Deve avisar que a sintaxe está errada, pois foram passados
+         # dois parametros como workspace
+      fi
+   fi
+   shift
+done
+
+perform ()
+{
+   echo "Workspace: " ${P_WORKSPACE}
+   echo "Version: " ${P_VERSION}
+
+   mkdir -p ${P_WORKSPACE}
+   rm -rf ${P_WORKSPACE}/.metadata
+   rm -rf ${P_WORKSPACE}/Servers
+   cp -r $TEMPLATES_DIR/eclipse-${P_VERSION}/.metadata ${P_WORKSPACE}
+   if [ -e $TEMPLATES_DIR/eclipse-${P_VERSION}/Servers ]
+     then
+     cp -r $TEMPLATES_DIR/eclipse-${P_VERSION}/Servers ${P_WORKSPACE}
+   fi
+   echo 'Workspace criado com sucesso!'
+}
+
+help()
+{
+   echo "USO: demoiselle-workspace [OPÇÃO]... [WORKSPACE]"
+   echo "Cria ou atualiza um Workspace com a configuração padrão do Demoiselle Eclipse."
+   echo
+   echo "[WORKSPACE] Define o local do workspace a ser criado ou atualizado, caso não seja informado será utilizado o valor padrão do Demoiselle Eclipse."
+   echo
+   echo "[OPÇÃO] Os seguintes parâmetros são opcionais, caso não sejam informados serão utilizados os valores padrão do Demoiselle Eclipse"
+   echo "  --version=VERSÃO Cria o workspace tomando como base uma determinada versão do Eclipse"
+   echo
+   echo "  --help Exibe esta tela de ajuda"
+   echo
+   echo "Exemplos para criação ou atualização de workspaces:"
+   echo "  $ demoiselle-workspace                                 # pasta padrão para a versão padrão do Eclipse"
+   echo "  $ demoiselle-workspace /tmp/workspace                  # pasta '/tmp/workspace'"
+   echo "  $ demoiselle-workspace ~/workspace                     # pasta 'workspace' no home do usuário"
+   echo "  $ demoiselle-workspace --version=4.3                   # pasta padrão para a versão 4.3 do Eclipse"
+   echo "  $ demoiselle-workspace /tmp/workspace --version=4.4    # pasta '/tmp/workspace' para a versão 4.4 do Eclipse"
+   echo
+   echo "Comunicar 'bugs' em <http://tracker.frameworkdemoiselle.gov.br>"
+}
+
+if [ "x$P_VERSION" = "x" ]; then
+   P_VERSION=4.4
+fi
+
+if [ "x$P_WORKSPACE" = "x" ]; then
+   P_WORKSPACE=~/workspace
+fi
+
+if [ "x$P_HELP" == "x" ]; then
+   perform
+else
+   help
+fi

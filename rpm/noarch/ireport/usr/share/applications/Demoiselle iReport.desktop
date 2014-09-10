@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Demoiselle iReport 3.0
+Comment=iReport is the free, open source report designer for JasperReports. packaged by Demoiselle Infra.
+Exec=/opt/demoiselle/tool/ireport-3.0/iReport.sh
+Icon=/usr/share/pixmaps/demoiselle-ireport.png
+Terminal=false
+Type=Application
+Categories=Development;
+StartupNotify=true
+Name[pt_BR]=Demoiselle iReport

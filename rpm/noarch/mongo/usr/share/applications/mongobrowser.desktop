@@ -1,0 +1,21 @@
+[Desktop Entry]
+Categories=Development;
+Comment=A graphical application for viewing, editing and administering MongoDB databases
+Comment[pt_BR]=Interface para visualização, edição e administração de base de dados MongoDB
+Encoding=UTF-8
+Exec=/opt/demoiselle/tool/mongobrowser-0.1/mongobrowser.sh
+GenericName= A graphical UI for MongoDB
+GenericName[pt_BR]=Interface gráfica para MongoDB
+Icon=/usr/share/pixmaps/demoiselle-mongobrowser.png
+Name=Demoiselle MongoBrowser 0.1
+Name[pt_BR]=Demoiselle MongoBrowser 0.1
+Path=/opt/demoiselle/tool/mongobrowser-0.1
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+URL=
+X-KDE-SubstituteUID=false
+X-KDE-Username=root

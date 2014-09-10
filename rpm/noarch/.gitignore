@@ -1,0 +1,11 @@
+/cassandra/opt/demoiselle/tool/cassandra-gui-0.6
+/ireport/opt/demoiselle/tool/ireport-3.0
+/jboss/opt/demoiselle/server/jboss-7.0
+/maven/opt/demoiselle/tool/maven3
+/maven-repo/opt/demoiselle/tool/maven-repo
+/mongo/opt/demoiselle/tool/mongobrowser-1.0
+/nimble/opt/demoiselle/tool/nimble-1.2.0
+/soapui/opt/demoiselle/tool/soapui-4.5
+/squirrel/opt/demoiselle/tool/squirrel-sql-3.5.0
+/tomcat/opt/demoiselle/server/tomcat-7.0
+/wildfly/opt/demoiselle/server/wildfly-8.0

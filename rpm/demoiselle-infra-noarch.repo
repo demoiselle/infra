@@ -1,0 +1,4 @@
+[Demoiselle-Infra]
+name=Repository for Demoiselle-Frameworks's Developement Enviroment 
+baseurl=http://10.200.24.49/rpm/noarch/demoiselle
+gpgcheck=1

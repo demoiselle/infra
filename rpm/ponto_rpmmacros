@@ -1,0 +1,4 @@
+%_signature gpg
+%_gpg_path /home/<usuario>/.gnupg
+%_gpg_name Comunidade Framework Demoiselle (Chave para assinatura de pacotes para o projeto Demoiselle Infra.) <demoiselle.framework@gmail.com>
+%_gpgbin /usr/bin/gpg

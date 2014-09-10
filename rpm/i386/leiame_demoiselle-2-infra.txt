@@ -1,0 +1,6 @@
+Para gerar um novo Metapacote Infra 32 bits
+
+- Edite o arquivo: demoiselle-2-infra_32.spec
+- Altere as propriedades: Name, Version, Release, Requires, description e changelog. Conforme a nova versão do pacote a ser gerado.
+- Excute o comando: rpmbuild -bb demoiselle-2-infra_32.spec
+

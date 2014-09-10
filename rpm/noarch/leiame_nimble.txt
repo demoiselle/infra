@@ -1,0 +1,8 @@
+Para gerar um novo pacote para o Demoiselle Nimble
+
+1- Edite o arquivo: nimble/usr/share/applications/Demoiselle Nimble.desktop e modifique as informações de versão
+2- Renomeie o diretório  nimble/opt/demoiselle/tool/nimble-x.x.x para a nova versão do Nimble, ex: nimble-1.2.0
+3- Copie os arquivos do Demoiselle Nimble (bin, lib, templates) no diretório renomeado.
+4- Excute o comando: ./dir2rpm_noarch.sh nimble demoiselle-nimble-V.V.V, sendo V.V.V o número da versão do pacote a ser gerado ex:(./dir2rpm_noarch.sh nimble demoiselle-nimble-1.2.0)
+5- Antes de sincronizar o repositorio Git, verifique o arquivo .gitignore e edite a entrada
+  /nimble/opt/demoiselle/tool/nimble-x.x.x conforme o item 2 para que os arquivos de instalação do Nimble não sejam incluídos no repositório.

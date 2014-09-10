@@ -1,0 +1,9 @@
+Para gerar um novo pacote para o MongoBrowser
+
+1- Edite o arquivo: mongo/usr/share/applications/mongobrowser.desktop e modifique as informações de versão
+2- Renomeie o diretório mongo/opt/demoiselle/tool/mongobrowser-x.x para a nova versão do MongoBrowser, ex: mongobrowser-1.0
+3- Copie os arquivos de instalação do Mongobrowser no diretório renomeado.
+4- Excute o comando: ./dir2rpm_noarch.sh mongo demoiselle-mongobrowser-V.V.V, sendo V.V.V o número da versão do pacote a ser gerado ex:(./dir2rpm_noarch.sh mongo demoiselle-mongobrowser-1.0.0)
+5- Antes de sincronizar o repositorio Git, verifique o arquivo .gitignore e edite a entrada
+  /mongo/opt/demoiselle/tool/mongobrowser-x.x conforme o item 2 para que os arquivos de instalação do MongoBrowser não sejam incluídos no repositório.
+

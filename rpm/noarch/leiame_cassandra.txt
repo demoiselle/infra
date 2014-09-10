@@ -1,0 +1,10 @@
+Para gerar um novo pacote para o Cassandra GUI
+
+1- Edite o arquivo: cassandra/usr/share/applications/demoiselle-cassandra-gui.desktop e modifique as informações de versão
+2- Renomeie o diretório  cassandra/opt/demoiselle/tool/cassandra-gui-x.x para a nova versão do Cassandra, ex: cassandra-gui-0.6
+3- Copie os arquivos do cassandra Gui (.jar e .sh) no diretório renomeado.
+4- Excute o comando: ./dir2rpm_noarch.sh cassandra demoiselle-cassandra-N.N-V.V.V, sendo N.N no número da versão do cassandra GUI e V.V.V o número da versão do pacote a ser gerado ex:(./dir2rpm_noarch.sh cassandra demoiselle-cassandra-0.6-0.6.1)
+5- Antes de sincronizar o repositorio Git, verifique o arquivo .gitignore e edite a entrada
+  /cassandra/opt/demoiselle/tool/cassandra-gui-x.x conforme o item 2 para que os arquivos de instalação do cassandra GUI não sejam incluídos no repositório.
+
+

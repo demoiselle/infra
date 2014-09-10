@@ -1,0 +1,5 @@
+Para gerar um novo pacote para o Maven-Repo, que é o repositório local da bibliotecas do Maven para o Demoiselle.
+
+- Copie os arquivos da bibliotecas do repositório local (atualizado) no diretório maven-repo/opt/demoiselle/tool/maven-repo.
+- Excute o comando: ./dir2rpm_noarch.sh maven-repo demoiselle-maven-repo-V.V.V, sendo V.V.V o número da versão do pacote a ser gerado ex:(./dir2rpm_noarch.sh maven-repo demoiselle-maven-repo-3.1.0)
+

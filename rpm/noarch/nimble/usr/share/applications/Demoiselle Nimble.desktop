@@ -1,0 +1,22 @@
+[Desktop Entry]
+Categories=Development;
+Comment=Template processing tool for generate Code for Demoiselle Framework
+Comment[pt_BR]=Processador de templates para geração de código para o Demoiselle Framework.
+Encoding=UTF-8
+Exec=/opt/demoiselle/tool/nimble/bin/nimble-gui.sh
+GenericName=Demoiselle Nimble
+GenericName[pt_BR]=Demoiselle Nimble
+Icon=/usr/share/pixmaps/demoiselle-nimble.png
+MimeType=
+Name=Demoiselle Nimble 1.2.0
+Name[pt_BR]=Demoiselle Nimble
+Path=/tmp
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+URL=
+X-KDE-SubstituteUID=false
+X-KDE-Username=root

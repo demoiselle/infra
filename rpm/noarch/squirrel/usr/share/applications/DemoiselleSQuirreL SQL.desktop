@@ -1,0 +1,24 @@
+[Desktop Entry]
+Categories=Development;
+Comment=A Java SQL client program for any JDBC compliant database
+Comment[pt_BR]=Cliente SQL Java Genérico para administração de Bases de dados compatíveis com JDBC
+Encoding=UTF-8
+Exec=/opt/demoiselle/tool/squirrel-3.5/squirrel-sql.sh
+GenericName=SQuireeL SQL 3.5
+GenericName[pt_BR]=SQuireeL SQL 3.5
+Icon=/opt/demoiselle/tool/squirrel-sql-3.5.3/icons/acorn.xpm
+MimeType=
+Name=Demoiselle SQuirreL SQL 3.5
+Name[pt]=Demoiselle SQuirreL SQL 3.5
+Path=/opt/demoiselle/tool/squirrel-3.5
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+URL=
+X-KDE-SubstituteUID=false
+X-KDE-Username=root
+
+Name[pt_BR]=DemoiselleSQuirreL SQL

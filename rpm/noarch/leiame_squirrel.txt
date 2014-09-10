@@ -1,0 +1,8 @@
+Para gerar um novo pacote para o SoapUI
+
+1- Edite o arquivo: squirrel/usr/share/applications/DemoiselleSQuirreLSQL.desktop e modifique as informações de versão
+2- Renomeie o diretório squirrel/opt/demoiselle/tool/squirrel-sql-x.x.x para a nova versão do SQuirreLSQL, ex: squirrel-3.5.0
+3- Copie os arquivos de instalação do SquirrelSql no diretório renomeado.
+4- Excute o comando: ./dir2rpm_noarch.sh squirrel demoiselle-squirrel-N.N-V.V.V, sendo N.N no número da versão do SQuirreLSQL e V.V.V o número da versão do pacote a ser gerado ex:(./dir2rpm_noarch.sh squirrel demoiselle-squirrel-3.5-3.5.0)
+5- Antes de sincronizar o repositorio Git, verifique o arquivo .gitignore e edite a entrada
+  /squirrel/opt/demoiselle/tool/squirrel-sql-x.x.x conforme o item 2 para que os arquivos de instalação do Squirrel não sejam incluídos no repositório.
