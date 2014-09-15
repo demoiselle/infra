@@ -1,5 +1,5 @@
-[Demoiselle-Infra]
-name=Repository for Demoiselle-Frameworks's Developement Enviroment 
+[Demoiselle-Infra-noarch]
+name=Repository for Demoiselle-Frameworks's Developement Enviroment NoArch
 baseurl=http://demoiselle.c3sl.ufpr.br/rpm/noarch/demoiselle
 enabled=1
 gpgcheck=1

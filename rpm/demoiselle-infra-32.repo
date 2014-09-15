@@ -1,5 +1,5 @@
-[Demoiselle-Infra]
-name=Repository for Demoiselle-Frameworks's Developement Enviroment 
+[Demoiselle-Infra-i386]
+name=Repository for Demoiselle-Frameworks's Developement Enviroment i386 architecture 
 baseurl=http://demoiselle.c3sl.ufpr.br/rpm/i386/demoiselle
 enabled=1
 gpgcheck=1
