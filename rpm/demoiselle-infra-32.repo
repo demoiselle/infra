@@ -1,4 +1,6 @@
 [Demoiselle-Infra]
 name=Repository for Demoiselle-Frameworks's Developement Enviroment 
-baseurl=http://10.200.24.49/rpm/i386/demoiselle
+baseurl=http://demoiselle.c3sl.ufpr.br/rpm/i386/demoiselle
+enabled=1
 gpgcheck=1
+gpgkey=http://demoiselle.c3sl.ufpr.br/rpm/i386/demoiselle/repodata/repomd.xml.key
