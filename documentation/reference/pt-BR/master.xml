@@ -24,6 +24,7 @@
 	<xi:include href="about.xml"/>
 	<xi:include href="install.xml"/>
 	<xi:include href="install_linux.xml"/>
+	<xi:include href="install_linux_rpm.xml"/>
 	<xi:include href="install_windows.xml"/>
 
 </book>

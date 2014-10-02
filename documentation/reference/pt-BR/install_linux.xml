@@ -3,7 +3,7 @@
    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
 <chapter id="install_linux" >
 	<abstract><para>Instruções para instalação dos softwares em ambiente GNU/Linux compatíveis com sistemas de pacotes Debian.</para></abstract>
-	<title>GNU/LINUX</title>
+	<title>GNU/LINUX - DEB </title>
 		<para><important>Para executar essas tarefas é necessário permissões de administração do sistema. No caso do Ubuntu, estar no grupo: sudo </important></para>
 		<para> Nas distribuições baseadas em Debian GNU/Linux, o sistema de gerenciamento de pacotes utilizado é o APT (Advanced Package Tool), 
 			o qual manipula arquivos no formato .DEB e que possui diversas ferramentas para automatizar essa tarefa. 

@@ -1,0 +1,16 @@
+sudo yum-config-manager --add-repo https://raw.githubusercontent.com/demoiselle/infra/master/rpm/demoiselle-infra-noarch.repo
+
+sudo yum-config-manager --add-repo https://raw.githubusercontent.com/demoiselle/infra/master/rpm/demoiselle-infra-64.repo
+
+sudo yum-config-manager --add-repo https://raw.githubusercontent.com/demoiselle/infra/master/rpm/demoiselle-infra-32.repo
+
+
+sudo yum-config-manager --enable Demoiselle\*
+
+sudo rpm --import http://demoiselle.c3sl.ufpr.br/rpm/x86_64/demoiselle/repodata/repomd.xml.key
+
+sudo yum update
+
+
+
+yumex_add_repos_fedora.png

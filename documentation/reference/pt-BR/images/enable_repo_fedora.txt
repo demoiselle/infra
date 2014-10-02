@@ -1,0 +1,117 @@
+sudo yum-config-manager --enable Demoiselle\*
+[sudo] password for demoiselle: 
+Plugins carregados: langpacks, refresh-packagekit
+========================================== repo: Demoiselle-Infra-64 ===========================================
+[Demoiselle-Infra-64]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/20
+baseurl = http://demoiselle.c3sl.ufpr.br/rpm/x86_64/demoiselle
+cache = 0
+cachedir = /var/cache/yum/x86_64/20/Demoiselle-Infra-64
+cost = 1000
+deltarpm_percentage = 75
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+gpgcadir = /var/lib/yum/repos/x86_64/20/Demoiselle-Infra-64/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/20/Demoiselle-Infra-64/gpgdir
+gpgkey = http://demoiselle.c3sl.ufpr.br/rpm/x86_64/demoiselle/repodata/repomd.xml.key
+hdrdir = /var/cache/yum/x86_64/20/Demoiselle-Infra-64/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = 
+mirrorlist_expire = 86400
+name = Repository for Demoiselle-Frameworks's Developement Enviroment x86_64 architecture
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/20/Demoiselle-Infra-64
+pkgdir = /var/cache/yum/x86_64/20/Demoiselle-Infra-64/packages
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+retries = 10
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 30.0
+ui_id = Demoiselle-Infra-64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+
+======================================== repo: Demoiselle-Infra-noarch =========================================
+[Demoiselle-Infra-noarch]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/20
+baseurl = http://demoiselle.c3sl.ufpr.br/rpm/noarch/demoiselle
+cache = 0
+cachedir = /var/cache/yum/x86_64/20/Demoiselle-Infra-noarch
+cost = 1000
+deltarpm_percentage = 75
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+gpgcadir = /var/lib/yum/repos/x86_64/20/Demoiselle-Infra-noarch/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/20/Demoiselle-Infra-noarch/gpgdir
+gpgkey = http://demoiselle.c3sl.ufpr.br/rpm/noarch/demoiselle/repodata/repomd.xml.key
+hdrdir = /var/cache/yum/x86_64/20/Demoiselle-Infra-noarch/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = 
+mirrorlist_expire = 86400
+name = Repository for Demoiselle-Frameworks's Developement Enviroment NoArch
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/20/Demoiselle-Infra-noarch
+pkgdir = /var/cache/yum/x86_64/20/Demoiselle-Infra-noarch/packages
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+retries = 10
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 30.0
+ui_id = Demoiselle-Infra-noarch
+ui_repoid_vars = releasever,
+   basearch
+username = 
+[demoiselle@localhost ~]$

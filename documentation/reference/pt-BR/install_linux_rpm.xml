@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+<chapter id="install_linux_rpm" >
+	<abstract><para>Instruções para instalação dos softwares para desenvolvimento com Demoiselle em ambiente GNU/Linux compatíveis com sistemas de pacotes RPM.</para></abstract>
+	<title>GNU/LINUX - RPM</title>
+		<para><important>Para executar essas tarefas é necessário que o usuário tenha permissões de administração do sistema. </important></para>
+		<para> Nas distribuições que utilizam o formato de empacotamento do tipo RPM (ex: Fedora, OpenSuse),
+				o sistema de gerenciamento de pacotes utilizado é o YUM (Yellowdog Updater, Modified), 
+			o qual manipula arquivos no formato .rpm e que também possui algumas ferramentas para automatizar essa tarefa. 
+			Entre essas ferramentas gráficas, podemos citar: <ulink url="http://www.yumex.dk/">Yumex (Fedora)</ulink> 
+			 e <ulink url="https://pt.opensuse.org/Portal:YaST">Yast (OpenSuse)</ulink> .
+		</para>
+		<para>Mostraremos um exemplo para o YAST (padrão do OpenSuse) e outro para o Yumex (Fedora).</para>
+		<section id="install_yast" xreflabel="Instalação no OpenSuse (Yast) - Interface Gráfica">
+			<title>Instalando com Yast no OpenSuse</title>
+				<para>A versão do OpenSuse utilizada para criar esta documentação foi a <emphasis>13.1</emphasis> </para>
+				<para>Nas distribuições OpenSuse, o programa que oferece uma interface gráfica para instalação de programas é o YAST.</para>
+				<para>Utilizaremos esse aplicativo para demonstrar a instalação do ambiente de desenvolvimento Demoiselle.</para>
+        			<para>Antes de usar o YAST, vamos baixar um arquivo necessário para o procedimento. 
+        			É a chave pública correspondente ao certificado que foi usado para assinar os pacotes. 
+        			 </para>
+        			<para> Faça o download desse arquivo:
+        				<itemizedlist>
+						<listitem> <ulink url="http://demoiselle.c3sl.ufpr.br/rpm/noarch/demoiselle/repodata/repomd.xml.key">Chave Pública da Comunidade</ulink> </listitem>
+						</itemizedlist>
+        			</para>
+        			<para>Grave o arquivo em uma área acessível do seu computador.</para>
+        			<para>Faça uma busca no item atividades, pela palavar <emphasis>YAST</emphasis> que deverá apresentar o ícone do programa. 
+        			Conforme mostrado na figura abaixo:</para>
+        			<para>Clique no ícone para acionar o programa</para>       			
+        				<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/procura_yast.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/procura_yast.png"  format="PNG" align="center" scalefit="1" width="60%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Acionando o programa YAST.</phrase>
+								</textobject>
+								<caption>
+									<para>Acionando o programa YAST.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Será preciso informar a senha do usuário com permissões de administração do sistema</para>
+        				<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/senha_yast.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="senha_yast.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Informando a senha de administrador.</phrase>
+								</textobject>
+								<caption>
+									<para>Informando a senha de administrador.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			
+        			<para>Na tela seguinte selecione a opção Repositórios de softwares</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/rpm_yast_repositorios.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/rpm_yast_repositorios.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Selecionando repositórios de softwares.</phrase>
+								</textobject>
+								<caption>
+									<para>Selecionando repositórios de softwares.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Na tela seguinte clique no botão <guibutton>Chaves GPG...</guibutton> </para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yast_adicionar_chave_01.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yast_adicionar_chave_01.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Clicando no botão Chaves GPG...</phrase>
+								</textobject>
+								<caption>
+									<para>Clicando no botão Chaves GPG...</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			
+        			<para>Em seguida clique no botão <guibutton>+ Adicionar</guibutton> </para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yast_adicionar_chave_02.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yast_adicionar_chave_02.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Clicando no botão + Adicionar</phrase>
+								</textobject>
+								<caption>
+									<para>Clicando no botão + Adicionar</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			
+        			<para>Vamos então incluir o arquivo de chave pública, baixado no inicio do tópico, usando o botão  <guibutton>Pesquisar...</guibutton>,
+        			conforme exemplificado nas figuras abaixo: </para>
+        			
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yast_adicionar_chave_03.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yast_adicionar_chave_03.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Clicando no botão Pesquisar...</phrase>
+								</textobject>
+								<caption>
+									<para>Clicando no botão Pesquisar...</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yast_adicionar_chave_04.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yast_adicionar_chave_04.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Chave pública selecionada.</phrase>
+								</textobject>
+								<caption>
+									<para>Chave pública selecionada.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			
+        			<para>A entrada para chave do Demoiselle deverá ser listada na tela </para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yast_adicionar_chave_05.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yast_adicionar_chave_05.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Chave pública do Demoiselle, incluída.</phrase>
+								</textobject>
+								<caption>
+									<para>Chave pública do Demoiselle, incluída.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Clique no botão <guibutton>OK</guibutton> para concluir esta parte. </para>
+        			
+        			<para>De volta a tela de configuração dos repositórios, vamos executar os procedimentos para inclusão dos repositórios do Demoiselle.</para>
+        			<para>Por questões de organização e seguindo o padrão das principais distribuições, os repositórios foram divididos por arquitetura.</para>
+        			<para>Assim, há um repositório para a arquitetura i386 (32 bits), um para x86_64 (64 bits) e um independente (noArch).</para>
+        			<para>Essa divisão existe por há programas, como o Eclipse por exemplo, que têm pacotes diferentes para cada arquitetura.</para>
+        			
+        			<para>Clique no botão <guibutton>+ Adicionar</guibutton> </para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yast_adicionar_repo_01.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yast_adicionar_repo_01.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Clicando no botão + Adicionar</phrase>
+								</textobject>
+								<caption>
+									<para>Clicando no botão + Adicionar</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			
+        			<para>Na próxima tela, marque a opção <emphasis>Especificar a URL</emphasis> e clique depois no botão <guibutton>Próximo</guibutton> </para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yast_adicionar_repo_02.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yast_adicionar_repo_02.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Especificando URL do repositório.</phrase>
+								</textobject>
+								<caption>
+									<para>Especificando URL do repositório.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			
+        			<para>Em seguida, informe o  <emphasis>Nome do repositório</emphasis>(ex: Demoiselle_noarch) e a  <emphasis>URL</emphasis>  (ex: http://demoiselle.c3sl.ufpr.br/rpm/noarch/demoiselle/)</para>
+        			<para>Neste caso estamos indicando o repositório <emphasis>noarch</emphasis> que possui os programas que não dependem da arquitetura.</para>
+        			<para>Depois de informar os dados clique no botão <guibutton> Próximo</guibutton>.</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yast_adicionar_repo_03.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yast_adicionar_repo_03.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Especificando nome e URL do repositório.</phrase>
+								</textobject>
+								<caption>
+									<para>Especificando nome e URL do repositório.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			
+        			<para>Ao final do processamento dos índices o novo repositório deverá ser listado.</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yast_adicionar_repo_04.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yast_adicionar_repo_04.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Repositório adicionado.</phrase>
+								</textobject>
+								<caption>
+									<para>Repositório adicionado</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para> 
+        				<note> <para> Repita os passos para inclusão do repositório, indicando a URL conforme a arquitetura do seu sistema: </para>
+        					<para><itemizedlist>
+								<listitem> <para>32 bits: <emphasis>http://demoiselle.c3sl.ufpr.br/rpm/i386/demoiselle/</emphasis>  </para>  </listitem>
+								<listitem> <para>64 bits:  <emphasis>http://demoiselle.c3sl.ufpr.br/rpm/x86_64/demoiselle/</emphasis></para>  </listitem>
+								</itemizedlist></para> 
+        				</note>
+        			</para>
+        			
+        			<para>Agora podemos executar a instalação dos softwares.</para>
+        			<para>Com os repositórios configurados, retornamos ao painel de gerencimento e clicamos no ícone <guiicon>Gerenciamento de Software</guiicon> </para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/rpm_yast_gerenciamento_software.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/rpm_yast_gerenciamento_software.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Acionando o painel de gerenciamento de software.</phrase>
+								</textobject>
+								<caption>
+									<para>Acionando o painel de gerenciamento de software.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			
+        			<para>Aguarde a atualização dos indices para abertura da tela do gerenciador de softwares.</para>
+        			<para>Na tela do gerenciador na listagem de pacotes execute os seguintes passos: </para>
+        			
+        			<para>
+        					<itemizedlist>
+								<listitem> <para> procure a caixa chamada <emphasis>Procurar</emphasis> e digite nela a palavra
+        									<emphasis>demoiselle</emphasis>. Isso filtrará os pacotes do Demoiselle. </para>
+								   </listitem>
+								<listitem> <para>Depois marque o item <emphasis>demoiselle-2-infra-3</emphasis> </para> </listitem>
+								<listitem> <para>E clique no botão <guibutton>Apply</guibutton> </para> </listitem>
+						</itemizedlist> 
+        			 </para>
+        			
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yast_procurar_demoiselle.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yast_procurar_demoiselle.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Selecionando pacote Demosielle 2 infra 3.</phrase>
+								</textobject>
+								<caption>
+									<para>Selecionando pacote Demosielle 2 infra 3.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Na sequência será apresentada uma tela com o resumo dos softwares que serão instalados</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yast_resumo_instalacao.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yast_resumo_instalacao.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Resumo da instalação do pacote Demosielle 2 infra 3.</phrase>
+								</textobject>
+								<caption>
+									<para>Resumo da instalação do pacote Demosielle 2 infra 3.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>
+        			<para>Para continuar, clique no botão <guibutton>Apply</guibutton> </para>
+        			<para>Aguarde o download e instalação dos pacotes.</para>
+        			<para>O tempo total dependerá da qualidade e velocidade da rede.</para>
+        			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yast_executar_instalacao.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yast_executar_instalacao.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Execução da instalação do pacote Demosielle 2 infra 3.</phrase>
+								</textobject>
+								<caption>
+									<para>Execução da instalação do pacote Demosielle 2 infra 3.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+        			</para>	
+        			
+        			
+       	<section id="criando_workspace_rpm" xreflabel="Criação do Workspace para Eclipse">
+       		<title>Criando o Workspace para Eclipse</title>
+        	<important><para>Neste ponto os pacotes já estão instalados, mas ainda não estão completamente prontos para uso, 
+       			pois ainda é preciso executar o script de configuração para o Eclipse. Conforme será explicado a seguir. </para></important>
+       		<para>O ultimo passo antes de começar a usar os softwares, é executar o script de configuração de workspace do Eclipse, que também foi instalado pelo meta-pacote Demoiselle-2-Infra.</para>
+       		<para>Para isso, temos que abrir um terminal de linha de comando do Linux, podemos fazer isso acionamos o Menu  <emphasis>Atividades</emphasis> e
+       			digitamos a palavra "terminal Gnome", clicando sobre o icone que será apresentado logo abaixo da caixa de pesquisa será aberto o terminal de linha de comando. </para>
+       				<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/rpm_terminal.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/rpm_terminal.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Abrindo terminal de linha de comando.</phrase>
+								</textobject>
+								<caption>
+									<para>Abrindo terminal de linha de comando.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       			</para>
+       			
+       			
+       			
+        	<para>No terminal que foi aberto, digitamos o comando <command>demoiselle-workspace</command> </para>
+        	<para>Se nenhum parâmetro for passado, será criado um diretório chamado workspace/ na pasta home do usuário
+        	esse diretório contém as configurações para ambiente de trabalho, como servidor de aplicação e catálogo de arquétipos remotos.</para>		
+       		<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/criandoWorkspace.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/criandoWorkspace.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Criando workspace padrão para Eclipse.</phrase>
+								</textobject>
+								<caption>
+									<para>Criando workspace padrão para Eclipse.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       		</para>
+       		<para>Para utilizá-lo no Eclipse basta aceitar a sugestão padrão.</para>
+       		<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/workspaceLauncherDefault.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/workspaceLauncherDefault.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Usando workspace padrão do Eclipse.</phrase>
+								</textobject>
+								<caption>
+									<para>Usando workspace padrão do Eclipse.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       		</para>
+       		<para>Caso você já possua uma outra instalação de Eclipse, ou já esteja usando o diretório padrão para outros projetos,
+       		é possível passar parâmetros para o comando para que seja usado outro diretório, por exemplo: <command>demoiselle-workspace workspace_novo</command> </para>
+       		<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/criandoWorkspaceNovo.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/criandoWorkspaceNovo.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Criando workspace alternativo para Eclipse.</phrase>
+								</textobject>
+								<caption>
+									<para>Criando workspace alternativo para Eclipse.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       			</para>
+       	       	<para>Para o novo workspace no Eclipse deve informá-lo no monento de abertura do software.</para>
+       			<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/workspaceLauncherCustom.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/workspaceLauncherCustom.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Usando workspace padrão do Eclipse.</phrase>
+								</textobject>
+								<caption>
+									<para>Usando workspace padrão do Eclipse.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       			</para>
+       		</section>
+       	<note><para> Se a sua empresa ou organização possui um número significativo de funcionários, 
+       	pode ser mais produtivo a criação de um repositório local pois isso diminuirá significativamente o tempo de download que é a porção maior do tempo total. 
+       	As instruções para isso estão neste documento: <ulink url="https://github.com/demoiselle/infra/blob/master/Manual.pdf?raw=true">clique aqui para baixar o documento</ulink>
+       	 </para> </note>
+       	 <para>Neste link uma demonstração em vídeo deste procedimento: <ulink url="http://www.youtube.com/playlist?list=PL_d_K3c7ts5LGsI8IAkG4SEi1GRoYS8on">Demonstração (youtube)</ulink> </para>       	
+   </section>
+   
+   <section id="install_yumex" xreflabel="Instalação no Fedora (Yumex) - Interface Gráfica">
+		<title>Instalando com YUmex no Fedora</title>
+		
+		<para>Nas distribuições Fedora, o programa que oferece uma interface gráfica para instalação de programas é o <ulink url="http://www.yumex.dk/">YUMEX</ulink>  </para>
+		<para>Utilizaremos esse aplicativo para demonstrar a instalação do ambiente de desenvolvimento Demoiselle.</para>
+   		<para>Antes de instalar e utilizar o Yumex é preciso configurar os resitórios de programas,
+   		para isso abra um terminal de linha de comando, como exemplificado no inicio das instruções <xref linkend="criando_workspace_rpm"/></para>
+		<para>No terminal execute os comandos para inclusão dos repositórios do Demoiselle:</para>	
+		<para>Primeiro inclua o repositório independente de arquitetura: <command> sudo yum-config-manager --add-repo https://raw.githubusercontent.com/demoiselle/infra/master/rpm/demoiselle-infra-noarch.repo </command>  </para>
+		<para>Depois o repositório conforme a arquitetura do seu sistema operacional.</para>
+		<para>Para 64 bits o comando é: <command>sudo yum-config-manager --add-repo https://raw.githubusercontent.com/demoiselle/infra/master/rpm/demoiselle-infra-64.repo</command> </para>
+		<para>Para 32 bits o comando é: <command>sudo yum-config-manager --add-repo https://raw.githubusercontent.com/demoiselle/infra/master/rpm/demoiselle-infra-32.repo</command> </para>
+		
+		
+		<para>Na figura abaixo o exemplo da execução na arquitetura 64 bits.</para>
+		<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yumex_add_repos_fedora.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yumex_add_repos_fedora.png"  format="PNG" align="center" scalefit="1" width="90%" />
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Incluindo entrada dos repositórios do Demoiselle</phrase>
+								</textobject>
+								<caption>
+									<para>Incluindo entrada dos repositórios do Demoiselle</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	<para>Depois executamos um comando para ativar os repositórios: </para>
+       	<para> <emphasis> <command>sudo yum-config-manager --enable Demoiselle\* </command> </emphasis></para>
+       	
+       	<para>Agora podemo proceder com a instalação do YUMEX</para>
+       	<para>Acione o menu <emphasis>Atividades</emphasis> e na caixa de pesquisa digite: <emphasis> softwares </emphasis> que irá apresentar o ícone
+       	do gerenciador de programas (softwares). Clique nele.</para>
+       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/install_yumex_fedora_01.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/install_yumex_fedora_01.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Procurando e executando o gerenciador de softwares</phrase>
+								</textobject>
+								<caption>
+									<para>Procurando e executando o gerenciador de softwares</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	<para>Já na tela do gerenciador de programas, digite a palavra <emphasis>yumex</emphasis> e tecle "ENTER" para executar a busca.</para>
+       	<para>O ícone do Yumex deverá aparecer do lado esquedo e no lado direito um botão para instalar.</para>
+       	<para>Clique no botão instalar.</para>
+       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/install_yumex_fedora_02.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/install_yumex_fedora_02.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Procurando e instalando o YUMEX</phrase>
+								</textobject>
+								<caption>
+									<para>Procurando e instalando o YUMEX</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>	
+       	<para>Após esse passo execute novamente o menu Atividade e no campo de pesquisa digite a palavra <emphasis>yumex</emphasis></para>
+       	<para>Clique no ícone do programa Yumex, que aparecerá abaixo do campo de pesquisa.</para>
+       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yumex_search_exec.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yumex_search_exec.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Procurando e executando o YUMEX</phrase>
+								</textobject>
+								<caption>
+									<para>procurando e executando o YUMEX</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	<para>Quando o Yumex terminar de carregar, será apresentada uma tela onde serão listados os pacotes disponíveis. </para>
+       	<para>Nesta tela há um campo de pesquisa, identificado por uma lupa do lado esquerdo, e neste campo digite a palavra: <emphasis>demoiselle</emphasis> 
+       	e depois pressione a tecla ENTER </para>
+       	       	<para>Se os pacotes estão sendo listados, podemos fazer a instalação.</para>
+       	       	<para>Clique no CheckBox (lado esquerdo) da linha com o pacote: <emphasis>demoiselle-2-infra-3</emphasis> para selecioná-la</para>
+       	       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yumex_install_demoiselle_1.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yumex_install_demoiselle_1.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Listando os pacotes do Demoiselle no Yumex</phrase>
+								</textobject>
+								<caption>
+									<para>Listando os pacotes do Demoiselle no Yumex</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+
+       	<para>Para executar a instalação clique no botão  <guibutton>Aplicar</guibutton> </para>
+       	
+       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yumex_install_demoiselle_11.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yumex_install_demoiselle_11.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Aplicar instalação do meta-pacote demoiselle-2-infra </phrase>
+								</textobject>
+								<caption>
+									<para>Aplicar instalação do meta-pacote demoiselle-2-infra</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	<para>Na próxima tela, será apresentada a lista com os pacotes que serão instalados,
+       	para continuar clique no botão  <guibutton>OK</guibutton> </para>
+       	
+       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yumex_install_demoiselle_2.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yumex_install_demoiselle_2.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Confirmando instalação do meta-pacote demoiselle-2-infra</phrase>
+								</textobject>
+								<caption>
+									<para>Confirmando instalação do meta-pacote demoiselle-2-infra</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	
+       	<para>Será preciso informar a senha de administrador, para continuar.</para>
+       	
+       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yumex_install_demoiselle_22.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yumex_install_demoiselle_22.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Informando a senha de administrador, para instalador Yumex</phrase>
+								</textobject>
+								<caption>
+									<para>Informando a senha de administrador, para instalador Yumex</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	
+       	<para>Em seguida, o Yumex irá processar as informações dos pacotes, aguarde.</para>
+       	
+       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yumex_install_demoiselle_3.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yumex_install_demoiselle_3.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Processamento pré-instalação pelo YUmex</phrase>
+								</textobject>
+								<caption>
+									<para>Processamento pré-instalação pelo YUmex</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	
+       	<para>Caso, não haja nenhuma inconsistência nos pacotes, será pedido para confirmar novamente a instalação. 
+       	Para continuar clique no botão  <guibutton>OK</guibutton></para>
+       	
+       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yumex_install_demoiselle_4.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yumex_install_demoiselle_4.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Confirmando a instalação pelo YUmex</phrase>
+								</textobject>
+								<caption>
+									<para>Confirmando a instalação pelo YUmex</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	
+       	<para>Depois é preciso aguardar o download do pacote e o processo de instalação, sendo que o tempo total dependerá da velocidade da rede, do tempo de resposta 
+       	do repositório e o poder de processamento do seu computador.</para>       	
+       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yumex_install_demoiselle_5.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yumex_install_demoiselle_5.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Aguardando download e instalação</phrase>
+								</textobject>
+								<caption>
+									<para>Aguardando download e instalação</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>
+       	<para>Ao final do processo os itens instalados deverão aparecer na cor verde.</para>       	
+       	<para>
+						   <screenshot>
+						      <mediaobject>
+		       					<imageobject role="fo">
+		               				<imagedata fileref="images/yumex_install_demoiselle_6.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
+		        				</imageobject>
+		        				<imageobject role="html">
+		  	            			<imagedata fileref="images/yumex_install_demoiselle_6.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		        				</imageobject>
+	       	    				<textobject>
+									<phrase>Lista com os pacotes Demoiselle instalados.</phrase>
+								</textobject>
+								<caption>
+									<para>Lista com os pacotes Demoiselle instalados.</para>
+								</caption>		        	    
+        					</mediaobject>
+        				</screenshot> 
+       	</para>       	
+       	<para>Após a instalação, proceda com a <xref linkend="criando_workspace_rpm"/></para>
+       	<note><para> Se a sua empresa ou organização possui um número significativo de funcionários, 
+       	pode ser mais produtivo a criação de um repositório local, pois isso diminuirá significativamente o tempo de download que é a porção maior do tempo total. 
+       	As instruções para isso estão neste documento: <ulink url="https://github.com/demoiselle/infra/blob/master/Manual.pdf?raw=true">clique aqui para baixar o documento</ulink>
+       	 </para> </note>
+   </section>				
+</chapter>
