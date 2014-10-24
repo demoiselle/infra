@@ -184,7 +184,7 @@
 			   <screenshot>
 			      <mediaobject>
 					<imageobject role="fo">
-		   				<imagedata fileref="images/install_w_07_atalho_criado.png"  format="PNG" align="center" scalefit="1" width="50%"/> 
+		   				<imagedata fileref="images/install_w_07_atalho_criado.png"  format="PNG" align="center"/> 
 				    </imageobject>
 		 		    <imageobject role="html">
 		  	    	     <imagedata fileref="images/install_w_07_atalho_criado.png"  format="PNG" align="center" scalefit="1" width="100%"/>
