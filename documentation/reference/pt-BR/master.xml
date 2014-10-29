@@ -8,13 +8,14 @@
 	<preface>
 		<title>Manual do Usuário</title>
 		<para>
-			Apresentamos o guia do usuário do Demoiselle-Infra, que é um projeto que tem o objetivo de fornecer o conjunto básico de softwares necessários para desenvolvimento com  <emphasis>Demoiselle Framework</emphasis>.
+			Apresentamos o guia do usuário do Demoiselle-Infra, que é um projeto que tem o o objetivo de fornecer o conjunto básico de softwares necessários para desenvolvimento com  <emphasis>Demoiselle Framework</emphasis>.
 		</para>
 		<important>
 			<para>
 				O Demoiselle-Infra está disponível para o usuário final nos seguintes sistemas operacionais :
 				<itemizedlist>
-					<listitem>GNU/LINUX: Distribuição <ulink url="https://www.debian.org/index.pt.html">Debian</ulink>  e derivadas como por exemplo <ulink url="http://ubuntu-br.org/">Ubuntu</ulink> e <ulink url="http://www.linuxmint.com.br/">Mint</ulink>. </listitem>
+					<listitem>GNU/LINUX: Pacotes do tipo <ulink url="https://www.debian.org/distrib/packages.pt.html">DEB</ulink> Nas distribuições <ulink url="https://www.debian.org/index.pt.html">Debian</ulink> e derivadas como por exemplo <ulink url="http://ubuntu-br.org/">Ubuntu</ulink> e <ulink url="http://www.linuxmint.com.br/">Mint</ulink>. </listitem>
+					<listitem>GNU/LINUX: Pacotes do tipo <ulink url="http://www.rpm.org/">RPM</ulink> para distribuições como <ulink url="https://pt.opensuse.org">OpenSuse</ulink>, <ulink url="http://fedoraproject.org/pt/">Fedora</ulink> ou <ulink url="http://www.mandriva.com/br/">Mandriva</ulink> por exemplo. </listitem>
 					<listitem>MS-Windows®: Algumas versões foram testadas: XP, 7 e 8</listitem>
 				</itemizedlist>
 			</para>

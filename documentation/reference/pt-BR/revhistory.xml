@@ -8,4 +8,10 @@
 		<authorinitials>ess</authorinitials>
 		<revremark>Criação da documentação.</revremark>
 	</revision>	
+	<revision revisionflag="added">
+		<revnumber>1.1.0</revnumber>
+		<date>29/11/2014</date>
+		<authorinitials>ess</authorinitials>
+		<revremark>Inclusão das instruções para RPM.</revremark>
+	</revision>
 </revhistory>
