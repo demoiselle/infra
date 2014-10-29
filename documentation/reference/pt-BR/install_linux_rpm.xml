@@ -55,7 +55,7 @@
 		               				<imagedata fileref="images/senha_yast.png"  format="PNG" align="center" scalefit="1" width="90%"/> 
 		        				</imageobject>
 		        				<imageobject role="html">
-		  	            			<imagedata fileref="senha_yast.png"  format="PNG" align="center" scalefit="1" width="90%"/>
+		  	            			<imagedata fileref="images/senha_yast.png"  format="PNG" align="center" scalefit="1" width="90%"/>
 		        				</imageobject>
 	       	    				<textobject>
 									<phrase>Informando a senha de administrador.</phrase>
@@ -527,7 +527,7 @@
        	<para>Depois executamos um comando para ativar os repositórios: </para>
        	<para> <emphasis> <command>sudo yum-config-manager --enable Demoiselle\* </command> </emphasis></para>
        	
-       	<para>Agora podemo proceder com a instalação do YUMEX</para>
+       	<para>Agora podemos proceder com a instalação do YUMEX</para>
        	<para>Acione o menu <emphasis>Atividades</emphasis> e na caixa de pesquisa digite: <emphasis> softwares </emphasis> que irá apresentar o ícone
        	do gerenciador de programas (softwares). Clique nele.</para>
        	<para>

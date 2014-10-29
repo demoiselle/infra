@@ -20,7 +20,7 @@
 						   <screenshot>
 						      <mediaobject>
 		       					<imageobject role="fo">
-		               				<imagedata fileref="images/centralProgramasMenu.png"  format="PNG" align="center" scalefit="1" width="75%"/> 
+		               				<imagedata fileref="images/centralProgramasMenu.png"  format="PNG" align="center"/> 
 		        				</imageobject>
 		        				<imageobject role="html">
 		  	            			<imagedata fileref="images/centralProgramasMenu.png"  format="PNG" align="center" scalefit="1" width="100%"/>
