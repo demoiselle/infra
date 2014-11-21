@@ -1,11 +1,12 @@
 [Desktop Entry]
 Name=Demoiselle Eclipse 4.4.0
-Comment=Eclipse IDE for Java Developers with plugins and features needed by Demoiselle Framework
-Exec=/opt/demoiselle/ide/eclipse-4.4.0/eclipse
-# Exec=env UBUNTU_MENUPROXY=0 /opt/demoiselle/ide/eclipse-4.4.0/eclipse
+Comment=Eclipse Luna: IDE  for Java Developers with plugins and features needed by Demoiselle Framework
+# Exec=/opt/demoiselle/ide/eclipse-4.4.0/eclipse
+Exec=sh /opt/demoiselle/ide/eclipse-4.4.0/exec_eclipse.sh
 Icon=demoiselle-eclipse.xpm
 Terminal=false
 Type=Application
 Categories=Development;IDE;Java;
 StartupNotify=true
+MimeType=text/html;
 Name[pt_BR]=Demoiselle Eclipse 4.4.0

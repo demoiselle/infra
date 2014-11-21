@@ -21,6 +21,9 @@ find $PKGDIR/ -name "br.gov.demoiselle.eclipse.*" -exec rm -rf {} \;
 
 # dar permissão de leitura e escrita a todos no eclipse.ini
 chmod a+r+w $PKGDIR/eclipse.ini
+
 chmod a+x $PKGDIR/eclipse
+
+chmod a+x $PKGDIR/exec_eclipse.sh
 
 exit 0
