@@ -4,22 +4,21 @@
 
     <groupId>br.gov.frameworkdemoiselle.infra</groupId>
     <artifactId>demoiselle-infra-parent-build</artifactId>
-    <version>1.0</version>
+    <version>2.0</version>
     <packaging>pom</packaging>
 
     <name>Parent Build Aggregator</name>
 
-    <properties>
+<properties>
         <phaseDeploy>package</phaseDeploy>
         <verbose>false</verbose>
         <versionJdeb>1.0.1</versionJdeb>
         <sshUser>usuario</sshUser>
         <sshKeyFile>./.ssh/demoinfra_rsa</sshKeyFile>
-    	<sshPassword>senha</sshPassword>
-    	<sshHost>end_host</sshHost>
-    	<sshDirCopyTo>diretorio_remoto(unstable/stable)</sshDirCopyTo>
-    	<sshCommand>/home/usu_remoto/repository/gerarepo_unstable.sh</sshCommand>
+     <sshPassword>senha</sshPassword>
+     <sshHost>end_host</sshHost>
+     <sshDirCopyTo>diretorio_remoto(unstable/stable)</sshDirCopyTo>
+     <sshCommand>/home/usu_remoto/repository/(gerarepo_unstable.sh/gerarepo_stable.sh)</sshCommand>
     </properties>
-
 </project>
 
