@@ -39,8 +39,6 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>demoiselle-infra-reference</artifactId>
-	<packaging>jdocbook</packaging>
-	<version>1.0.0-SNAPSHOT</version>
 
 	<parent>
 		<groupId>br.gov.frameworkdemoiselle</groupId>
@@ -75,4 +73,5 @@
 	<properties>
 		<project.context>infra/reference</project.context>
 	</properties>
+	<version>2.0.1-SNAPSHOT</version>
 </project>

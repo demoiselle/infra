@@ -55,25 +55,21 @@ Demoiselle 2 Infra
 
   O Eclipse é um ambiente de desenvolvimento altamente plugável e de código aberto mantido pelo grupo {{{http://www.eclipse.org}Eclipse}}
 
-   * <<{demoiselle-eclipse-4.3}>>
+   * <<{demoiselle-eclipse-4.4}>>
 
-  O pacote <<demoiselle-eclipse-4.3>> embarca a IDE Eclipse 4.3 (Kepler) com os seguintes plugins configurados:
+  O pacote <<demoiselle-eclipse-4.4>> embarca a IDE Eclipse 4.4 (Luna) com os seguintes plugins configurados:
 
-    * {{{http://www.jboss.org/tools.html}JBoss Tools 4.1 }}
-
-    * {{{http://www.eclipse.org/m2e/}Maven Integration for Eclipse 1.4 }}
+    * {{{http://www.jboss.org/tools.html}JBoss Tools 4.2.0 }}
 
     * {{{http://www.eclipse.org/subversive/}Subversive 1.1.1}}
 
     * {{{http://findbugs.sourceforge.net/}FindBugs 2.0.2}}
 
-    * {{{http://www.eclipse.org/egit/}Eclipse EGit 3.0.1}}
+    * {{{http://demoiselle.sourceforge.net/tools/nimble/}Demoiselle Nimble 1.2.0}}
 
-    * {{{http://demoiselle.sourceforge.net/tools/nimble/}Demoiselle Nimble 1.1.1}}
+    * {{{http://groovy.codehaus.org/Eclipse+Plugin}Groovy Plugin for Eclipse 2.9.1}}
 
-    * {{{http://groovy.codehaus.org/Eclipse+Plugin}Groovy Plugin for Eclipse 3.0.0}}
-
-    * {{{http://vaadin.com/eclipse/}Vaadin Plugin for Eclipse 2.1}}
+    * {{{http://vaadin.com/eclipse/}Vaadin Plugin for Eclipse 2.3.0}}
 
 
       []
@@ -91,9 +87,7 @@ Demoiselle 2 Infra
   * <<{demoiselle-jboss}>>
 
   Famoso servidor de aplicação de código aberto conhecido como JBoss AS do grupo {{{http://www.jboss.org/jbossas}JBoss}} \
-  As versões do JBoss AS distribuídas pelo <<Demoiselle Infra>> são:
-
-    * JBoss AS 6.1.0
+  A versão do JBoss AS distribuída pelo <<Demoiselle Infra>> é:
 
     * JBoss AS 7.1.1
 
@@ -156,11 +150,11 @@ Demoiselle 2 Infra
   Uma opção prática para instalar o ambiente completo é utilizar os metapacotes, que são agrupamentos de
   pacotes.
 
-  * <<{demoiselle-2-infra-2}>>
+  * <<{demoiselle-2-infra-3}>>
 
   Pacote que instala o ambiente de desenvolvimento com a IDE Eclipse, Maven, Servidores Tomcat e JBoss e o script <<demoiselle-workspace>>
 
-[../images/demoiselle-2-infra-2.png]
+[../images/demoiselle-2-infra-3.png]
 
   * <<{demoiselle-2-infra-extra}>>
 

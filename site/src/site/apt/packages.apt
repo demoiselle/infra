@@ -35,9 +35,9 @@
 
 Pacotes
 
-  O projeto Demoiselle Framework evolui da versão 1.x para a versão 2.x e naturalmente seus pacotes também evoluíram.
+  O projeto Demoiselle Framework possui as versões 1.x.x e versão 2.x.x, cada série possui pacotes de desenvolvimento específicos.
 
-  Para manter o histórico das versões e seus pacotes, foram criadas duas sessões para serem tratadas separadamentes.
+  Para manter o histórico das versões e seus pacotes, foram criadas duas sessões que são tratadas separadamentes.
 
   * {{{./packages/demoiselle-1-infra.html}Demoiselle 1 Infra}} - trata de todos os pacotes utilizados na versão 1.x do <<Demoiselle Framework>>.
    

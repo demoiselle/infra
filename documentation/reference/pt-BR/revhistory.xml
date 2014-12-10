@@ -14,4 +14,10 @@
 		<authorinitials>ess</authorinitials>
 		<revremark>Inclusão das instruções para RPM.</revremark>
 	</revision>
+	<revision revisionflag="added">
+		<revnumber>1.1.1</revnumber>
+		<date>08/12/2014</date>
+		<authorinitials>ess</authorinitials>
+		<revremark>Atualização das informações para versão 3 do pacote.</revremark>
+	</revision>
 </revhistory>

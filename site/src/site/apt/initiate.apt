@@ -33,57 +33,16 @@
 ~~ ou escreva para a Fundação do Software Livre (FSF) Inc.,
 ~~ 51 Franklin St, Fifth Floor, Boston, MA 02111-1301, USA.
 
-Como Iniciar
+Usando as Ferramentas extras
 
 %{toc|section=1|fromDepth=1|toDepth=3}
 
-~~* {Desenvolvimento}
+ Ao instalar o pacote demoiselle-2-infra-extra algumas ferramentas de apoio ao desenvolvimento com demoiselle serão instaladas.
+ Confira nas instruções abaixo como executá-las.
 
-~~  Os pacotes de ambientes de desenvolvimento são instalados no diretório </opt/demoiselle/ide/> para a plataforma <<Debian GNU/Linux>> e <C:\Demoiselle\ide\\> para plataforma <<Windows>>,
-~~  tal como ilustrado abaixo:
-
-~~+- -+
-~~<local_de_instalação>
-~~`- - ide
-~~    `- - eclipse-3.6
-~~    `- - eclipse-4.3
-~~+- -+
-
-~~  Para iniciar o Eclipse, basta acessar o menu <Aplicativos>, <Desenvolvimento> ou executar
-~~  diretamente o comando através de um terminal (ex: </opt/demoiselle/ide/eclipse-4.3/eclipse>) para a plataforma <<Debian GNU/Linux>> ou executar o programa
-~~  (ex: <C:\Demoiselle\ide\eclipse-4.3\eclipse.exe>) para plataforma <<Windows>>.
-
-~~* <<{demoiselle-wizard}>>
-~~
-~~O plug-in do Demoiselle Wizard é instalado no diretório </plugins> da respectiva IDE Eclipse. Para acessá-lo,
-~~basta clicar com o botão direito em um projeto na visão <Package Explorer> e acessar o menu <Demoiselle>.
-
-~~* {Servidores}
-
-~~  Os pacotes de servidores Web e de aplicação Java EE são instalados no diretório </opt/demoiselle/server/> na plataforma <<Debian GNU/Linux>> e <C:\Demoiselle\server\\> na plataforma <<Windows>>,
-~~  tal como ilustrado abaixo:
-~~
-~~+- -+
-~~<local_de_instalação>
-~~`- - server
-~~    `- - jboss-7.1
-~~    `- - tomcat-7.0
-~~+- -+
-~~
-~~  * <<{demoiselle-jboss}>>
-~~
-~~  O JBoss AS pode ser executado em modo runtime a partir da IDE Eclipse, após devidamente configurado
-~~  (menu <Window> > <Preferences> > <Server> > <Runtime Environments>) ou então executado diretamente via
-~~  terminal (ex: </opt/demoiselle/server/jboss-6.1/bin/run.sh>) para a plataforma <<Debian GNU/Linux>> ou (ex: <C:\Demoiselle\server\jboss-7.1\bin\run.bat>) para plataforma <<Windows>>.
-~~
-~~  * <<{demoiselle-tomcat}>>
-~~
-~~  O Apache Tomcat, tal como o JBoss AS, pode ser executado em modo runtime pelo Eclipse ou diretamente
-~~  via terminal (ex: </opt/demoiselle/server/tomcat-7.0/bin/startup.sh>) na plataforma <<Debian GNU/Linux>> e (ex: <C:\Demoiselle\server\tomcat-7.0\bin\Tomcat7.exe>) na plataforma <<Windows>>.
-~~
 * {Ferramentas}
 
-  Os pacotes referentes a ferramentas opcionais para o desenvolvimento são instalados no diretório </opt/demoiselle/tool/> na plataforma <<Debian GNU/Linux>> e <C:\Demoiselle\tool\\> na plataforma <<Windows>>,
+  Os pacotes referentes a ferramentas opcionais para o desenvolvimento são instalados no diretório </opt/demoiselle/tool/> na plataforma <<GNU/Linux>> e <C:\Demoiselle\tool\\> na plataforma <<Windows>>,
   tal como ilustrado abaixo:
 
 +---------------------------------------------------------------------+

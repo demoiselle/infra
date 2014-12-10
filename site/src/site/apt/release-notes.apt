@@ -35,6 +35,27 @@
 
 Notas de Versão
 
+
+* {v2.0.0}
+
+	* {{{http://demoiselle.atlassian.net/browse/DIII-16}[DIII-16]}} - [Improvement] Atualizar Site maven.
+	
+	* {{{http://demoiselle.atlassian.net/browse/DIII-20}[DIII-20]}} - [Improvement] Pacotes para Eclipse Luna
+	
+	* {{{http://demoiselle.atlassian.net/browse/DIII-24}[DIII-24]}} - [Improvement] Pacote da versão 1.2.0 do Demoiselle Nimble  
+ 
+    * {{{http://demoiselle.atlassian.net/browse/DIII-13}[DIII-13]}} - [New Feature] Desacoplar o processo de pacotes UFPR X SERPRO.
+    
+    * {{{http://demoiselle.atlassian.net/browse/DIII-14}[DIII-14]}} - [New Feature] Alterar configurações MAVEN
+    
+    * {{{http://demoiselle.atlassian.net/browse/DIII-15}[DIII-15]}} - [New Feature] Criar documentação do processo
+    
+    * {{{http://demoiselle.atlassian.net/browse/DIII-17}[DIII-17]}} - [New Feature] Criar documentação em DocBook
+    
+    * {{{http://demoiselle.atlassian.net/browse/DIII-18}[DIII-18]}} - [New Feature] Pacotes RPM      
+
+
+
 * v1.3.0
 
   * Inclusão do pacote demoiselle-eclipse-4.3
