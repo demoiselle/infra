@@ -1,0 +1,12 @@
+Para geração de pacotes:
+
+- Alterar Artifact Id e Version no POM.XML
+- Incluir os arquivos de instalação do SoapUI (ex: soapui-x.x) no diretório /src/data/opt/demoiselle/tool/
+- No diretório /src/data/usr/share/applications/
+   - Editar no arquivo demoiselle-soapui.desktop: modifique as propriedades relativas à versão.
+- No diretório /src/deb/control/
+   - Editar no arquivo control: Version, e depends
+   
+   
+ - Verificar as configurações (stable/unstable e servidor) em /git/infra/debian/parent/pom.xml
+ - Executar Maven Build -> package
