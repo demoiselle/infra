@@ -4,3 +4,6 @@ Para geração de pacotes:
 - Incluir o diretório do repositório (/maven-repo) do Maven em /src/data/opt/demoiselle/tool/
 - No diretório /src/deb/control/
    - Editar no arquivo control: Version, e depends (se necessário)
+   
+- Verificar as configurações (stable/unstable e servidor) em /git/infra/debian/parent/pom.xml
+ - Executar Maven Build -> package
