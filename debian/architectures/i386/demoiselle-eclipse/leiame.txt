@@ -10,4 +10,5 @@ Para geração de pacotes:
    - Editar no arquivo control: Version, e depends
    - Editar no arquivo postinst: PKGDIR
 
-- Executar Maven Build -> package
+- Verificar as configurações (stable/unstable e servidor) em /git/infra/debian/parent/pom.xml
+ - Executar Maven Build -> package

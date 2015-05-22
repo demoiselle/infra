@@ -16,6 +16,7 @@
         <module>demoiselle-eclipse</module>
         <module>demoiselle-workspace</module>
         <module>demoiselle-2-infra</module>
+	<module>demoiselle-soapui</module>
     </modules>
     <groupId>br.gov.frameworkdemoiselle.infra</groupId>
 </project>

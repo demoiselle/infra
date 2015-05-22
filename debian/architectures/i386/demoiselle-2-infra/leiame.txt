@@ -2,4 +2,5 @@
 - No diretório /src/deb/control/
    - Editar no arquivo control: Version e Depends(de acordo com os novos pacotes)
 
-- Executar Maven Build -> package
+- Verificar as configurações (stable/unstable e servidor) em /git/infra/debian/parent/pom.xml
+ - Executar Maven Build -> package

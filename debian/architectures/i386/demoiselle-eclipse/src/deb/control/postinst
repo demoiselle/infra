@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PKGDIR="/opt/demoiselle/ide/eclipse-4.4.0"
+PKGDIR="/opt/demoiselle/ide/eclipse-4.4.2"
 
 if [ ! -d $PKGDIR ]; then
 	echo "Diretório não encontrado: $PKGDIR"
@@ -23,7 +23,5 @@ find $PKGDIR/ -name "br.gov.demoiselle.eclipse.*" -exec rm -rf {} \;
 chmod a+r+w $PKGDIR/eclipse.ini
 
 chmod a+x $PKGDIR/eclipse
-
-chmod a+x $PKGDIR/exec_eclipse.sh
 
 exit 0
