@@ -50,14 +50,14 @@ help()
    echo "  $ demoiselle-workspace                                 # pasta padrão para a versão padrão do Eclipse"
    echo "  $ demoiselle-workspace /tmp/workspace                  # pasta '/tmp/workspace'"
    echo "  $ demoiselle-workspace ~/workspace                     # pasta 'workspace' no home do usuário"
-   echo "  $ demoiselle-workspace --version=4.3                   # pasta padrão para a versão 4.3 do Eclipse"
+   echo "  $ demoiselle-workspace --version=4.4                   # pasta padrão para a versão 4.4 do Eclipse"
    echo "  $ demoiselle-workspace /tmp/workspace --version=4.4    # pasta '/tmp/workspace' para a versão 4.4 do Eclipse"
    echo
-   echo "Comunicar 'bugs' em <http://sourceforge.net/apps/mantisbt/demoiselle>"
+   echo "Comunicar 'bugs' em <http://tracker.frameworkdemoiselle.gov.br>"
 }
 
 if [ "x$P_VERSION" = "x" ]; then
-   P_VERSION=4.4
+   P_VERSION=4.4.2
 fi
 
 if [ "x$P_WORKSPACE" = "x" ]; then
