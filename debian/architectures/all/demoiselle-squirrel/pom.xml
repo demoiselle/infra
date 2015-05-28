@@ -2,8 +2,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>demoiselle-squirrel</artifactId>
-	<version>3.5.3</version>
+	<artifactId>demoiselle-squirrel-3.6</artifactId>
+	<version>3.6.0</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>

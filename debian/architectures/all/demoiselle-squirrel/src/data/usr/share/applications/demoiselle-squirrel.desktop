@@ -1,16 +1,16 @@
 [Desktop Entry]
 Categories=Development;
-Comment=A Java SQL client program for any JDBC compliant database
-Comment[pt]=A Java SQL client program for any JDBC compliant database
+Comment=A Java SQL client program for any JDBC compliant database - package by Demoiselle Framework Project
+Comment[pt_BR]=Ferramenta Gráfica de cliente SQL para banco de dados compativeis com JDBC
 Encoding=UTF-8
-Exec=/opt/demoiselle/tool/squirrel-3.5/squirrel-sql.sh
-GenericName=
-GenericName[pt]=
-Icon=demoiselle-squirrel-3.5.png
+Exec=/opt/demoiselle/tool/squirrel-sql-3.6/squirrel-sql.sh 
+GenericName= SQuirreL SQL Client by Demoiselle Framework Project
+GenericName[pt_BR]= SQuirrel SQL empacotado pelo Framework Demoiselle
+Icon=/opt/demoiselle/tool/squirrel-sql-3.6/icons/acorn.ico
 MimeType=
-Name=Demoiselle SQuirreL SQL 3.5
-Name[pt]=Demoiselle SQuirreL SQL 3.5
-Path=/opt/demoiselle/tool/squirrel-3.5
+Name=SQuirreL SQL Client by Demoiselle Framework Project
+Name[pt_BR]=SQuirrel SQL empacotado pelo Framework Demoiselle
+Path=/opt/demoiselle/tool/squirrel-sql-3.6
 ServiceTypes=
 SwallowExec=
 SwallowTitle=
@@ -20,4 +20,3 @@ Type=Application
 URL=
 X-KDE-SubstituteUID=false
 X-KDE-Username=root
-
