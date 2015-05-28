@@ -4,7 +4,4 @@ Para gerar um novo pacote para o Eclipse
 2- Renomeie o diretório eclipse/opt/demoiselle/ide/eclipse-x.x.x para a nova versão do Eclipse, ex: eclipse-4.4.0
 3- Copie os arquivos de instalação do Eclipse (previamente baixados e com os plugins instalados) no diretório renomeado.
 4- Excute o comando: ./dir2rpm.sh eclipse demoiselle-eclipse-N.N-V.V.V , sendo N.N o número da versão do Eclipse e V.V.V o número da versão do pacote a ser gerado ex:(./dir2rpm.sh eclipse demoiselle-eclipse-4.4-4.4.0)
-5 - Antes de sincronizar o repositorio Git, verifique o arquivo .gitignore e edite a entrada
-  /eclipse/opt/demoiselle/ide/eclipse-x.x.x conforme o item 2 para que os arquivos de instalação do eclipse não sejam incluídos no repositório.
-
 

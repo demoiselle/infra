@@ -1,0 +1,2 @@
+- incluir neste diretório os arquivos de configuração de workspace do eclipse.
+- renomerar com o numero da versão.
