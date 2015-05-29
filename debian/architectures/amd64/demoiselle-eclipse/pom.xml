@@ -2,8 +2,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>demoiselle-eclipse-4.4</artifactId>
-    <version>4.4.0_64</version>
+    <artifactId>demoiselle-eclipse-4.4.2</artifactId>
+    <version>4.4.2</version>
     <packaging>pom</packaging>
 
     <name>${project.artifactId}</name>
