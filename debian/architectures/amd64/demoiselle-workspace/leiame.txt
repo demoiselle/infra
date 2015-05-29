@@ -1,7 +1,6 @@
 - Alterar o versão no POM.XML
 - Criar em /src/data/opt/demoiselle/tool/workspace/template o diretório para configuração do workspace do eclipse correspondente (eclipse-x.x.x) contendo os diretórios: Servers, .metadata e RemoteSystemsTempFiles
-- Deve conter as versões compatíveis com a versão do Demoiselle (ex: Demoiselle 2= 3.7, 4.3, 4.3.2)
+- Deve conter as versões compatíveis com a versão do Demoiselle (ex: Demoiselle 2= 4.3, 4.4, 4.4.2)
 - Atualizar em /src/deb/control/control, 
-     - a dependência com o Eclipse correspondente
      - Version
 - Atualizar em /src/data/opt/demoiselle/tool/workspace/bin/demoiselle-workspace o P_VERSION para o número da versão do template padrão que é o mais recente (ex=4.3.2)

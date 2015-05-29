@@ -1,8 +1,7 @@
 Package: [[name]]
-Version: 2.0
+Version: 2.1
 Section: universe/devel
 Priority: optional
 Architecture: amd64
-Depends: demoiselle-eclipse-4.4
 Maintainer: Demoiselle Framework <demoiselle-users@lists.sourceforge.net>
 Description: [[description]]
