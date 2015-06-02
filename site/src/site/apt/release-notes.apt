@@ -35,6 +35,21 @@
 
 Notas de Versão
 
+* {v2.1.0}
+
+	* {{{http://demoiselle.atlassian.net/browse/DIII-21}[DIII-21]}} - [Improvement] Versão nova do Tomcat 7.
+	
+	* {{{http://demoiselle.atlassian.net/browse/DIII-22}[DIII-22]}} - [Improvement] Nova versão do SoapUI
+	
+	* {{{http://demoiselle.atlassian.net/browse/DIII-23}[DIII-23]}} - [Improvement] Nova versão do SquireelSQL  
+ 
+    * {{{http://demoiselle.atlassian.net/browse/DIII-26}[DIII-26]}} - [New Feature] Nova versão do Eclipse (4.4.2)
+    
+    * {{{http://demoiselle.atlassian.net/browse/DIII-27}[DIII-27]}} - [Improvement] Atualizar repositório Maven
+    
+    * {{{http://demoiselle.atlassian.net/browse/DIII-28}[DIII-28]}} - [Improvement] Atualizar pacotes de instalação para versão 1.2.1 do Demoiselle Nimble
+    
+
 
 * {v2.0.0}
 

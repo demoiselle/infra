@@ -55,21 +55,24 @@ Demoiselle 2 Infra
 
   O Eclipse é um ambiente de desenvolvimento altamente plugável e de código aberto mantido pelo grupo {{{http://www.eclipse.org}Eclipse}}
 
-   * <<{demoiselle-eclipse-4.4}>>
+   * <<{demoiselle-eclipse-4.4.2}>>
 
-  O pacote <<demoiselle-eclipse-4.4>> embarca a IDE Eclipse 4.4 (Luna) com os seguintes plugins configurados:
+  O pacote <<demoiselle-eclipse-4.4>> embarca a IDE Eclipse 4.4.2 (Luna SR2) com os seguintes plugins compatíveis com a versão
+  e pré-configurados:
 
-    * {{{http://www.jboss.org/tools.html}JBoss Tools 4.2.0 }}
+    * {{{http://www.jboss.org/tools.html}JBoss Tools}}
 
-    * {{{http://www.eclipse.org/subversive/}Subversive 1.1.1}}
+    * {{{http://www.eclipse.org/subversive/}Subversive}}
 
-    * {{{http://findbugs.sourceforge.net/}FindBugs 2.0.2}}
+    * {{{http://findbugs.sourceforge.net/}FindBugs}}
 
-    * {{{http://demoiselle.sourceforge.net/tools/nimble/}Demoiselle Nimble 1.2.0}}
+    * {{{http://demoiselle.sourceforge.net/tools/nimble/}Demoiselle Nimble}}
 
-    * {{{http://groovy.codehaus.org/Eclipse+Plugin}Groovy Plugin for Eclipse 2.9.1}}
+    * {{{http://groovy.codehaus.org/Eclipse+Plugin}Groovy Plugin for Eclipse}}
 
-    * {{{http://vaadin.com/eclipse/}Vaadin Plugin for Eclipse 2.3.0}}
+    * {{{http://vaadin.com/eclipse/}Vaadin Plugin for Eclipse}}
+    
+    * {{{http://www.soapui.org/soapui-for-ide/eclipse/eclipse-plugin.html} SoapUI eclipse-plugin }}
 
 
       []
@@ -105,7 +108,7 @@ Demoiselle 2 Infra
 
   Todos os pacotes aqui descritos são opcionais para a preparação do ambiente de desenvolvimento.
 
-  * <<{demoiselle-ireport-5.1}>>
+  * <<{demoiselle-ireport}>>
 
   Ferramenta bastante utilizada pelos programadores Java para criar relatórios para suas aplicações.
 
@@ -122,13 +125,13 @@ Demoiselle 2 Infra
   Repositório Maven local contendo diversos artefatos comumente utilizados pelos projetos baseados no
   <<Demoiselle Framework>>.
 
-  * <<{demoiselle-soapui-4.5}>>
+  * <<{demoiselle-soapui}>>
 
   Provê uma interface prática para acessar <Web Services>. Muito útil para testar serviços.
 
 [../images/soapui-logo.png]
 
-  * <<{demoiselle-squirrel-3.5}>>
+  * <<{demoiselle-squirrel}>>
 
   Use o SQuirreL para executar comandos, fazer consultas e gerenciar as estruturas dos bancos de dados
   de sua aplicação.
@@ -150,11 +153,11 @@ Demoiselle 2 Infra
   Uma opção prática para instalar o ambiente completo é utilizar os metapacotes, que são agrupamentos de
   pacotes.
 
-  * <<{demoiselle-2-infra-3}>>
+  * <<{demoiselle-2-infra-4}>>
 
   Pacote que instala o ambiente de desenvolvimento com a IDE Eclipse, Maven, Servidores Tomcat e JBoss e o script <<demoiselle-workspace>>
 
-[../images/demoiselle-2-infra-3.png]
+[../images/demoiselle-2-infra-4.png]
 
   * <<{demoiselle-2-infra-extra}>>
 

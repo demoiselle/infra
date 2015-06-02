@@ -73,9 +73,7 @@ FAQ (Perguntas mais frequentes)
   1) executar o seguinte comando no terminal
 
 +----------------------------------------------------------------------------+
-$ gpg --keyserver pgp.mit.edu --recv-keys 632038DF
-$ gpg --export --armor 632038DF > public_key.asc
-$ sudo apt-key add public_key.asc
+$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys B32B7170
 +----------------------------------------------------------------------------+
 
   ou
@@ -83,8 +81,8 @@ $ sudo apt-key add public_key.asc
   2) executar o seguinte comando no terminal
 
 +----------------------------------------------------------------------------+
- $ wget http://demoiselle.c3sl.ufpr.br/public_key.asc -O public_key.asc
- $ sudo apt-key add public_key.asc
+ $ wget http://demoiselle.c3sl.ufpr.br/ComunidadeFrameworkDemoiselle.asc -O pComunidadeFrameworkDemoiselle.asc
+ $ sudo apt-key add ComunidadeFrameworkDemoiselle.asc
 +----------------------------------------------------------------------------+
 
   Após o comando escolhido for executado, execute a atualização do repositório

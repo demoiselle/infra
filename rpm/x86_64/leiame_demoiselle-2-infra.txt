@@ -4,3 +4,4 @@ Para gerar um novo Metapacote para 64 bits
 - Altere as propriedades: Name, Version, Release, Requires, description e changelog. Conforme a nova versão do pacote a ser gerado.
 - Excute o comando: rpmbuild -bb demoiselle-2-infra_64.spec
 
+O arquivo será criado em rpmbuilds/RPMS/x86_64/
