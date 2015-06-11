@@ -61,7 +61,7 @@
 
         <links>
             <item name="Projeto" href="http://sourceforge.net/projects/demoiselle/" />
-            <item name="Portal" href="http://www.frameworkdemoiselle.gov.br" />
+            <item name="Portal" href="http://www.demoiselle.org" />
         </links>
         <menu name="${project.name}">
             <item name="Sobre" href="index.html" />

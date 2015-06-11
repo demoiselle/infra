@@ -145,7 +145,7 @@ Demoiselle 2 Infra
 
   * <<{demoiselle-nimble}>>
 
-  O Demoiselle Nimble é um processador automatizado de templates, sendo estes genéricos e podendo inclusive ser criados pelo próprio utilizador. Podemos considerá-lo como uma evolução da ferramenta Demoiselle Wizard Eclipse Plugin que como o próprio nome já diz é um especificamente um plugin para a IDE Eclipse leia mais a repeito do nimble no {{{http://demoiselle.sourceforge.net/docs/tools/nimble/1.1.1/}Guia do Usuário}}.
+  O Demoiselle Nimble é um processador automatizado de templates, sendo estes genéricos e podendo inclusive ser criados pelo próprio utilizador. Podemos considerá-lo como uma evolução da ferramenta Demoiselle Wizard Eclipse Plugin que como o próprio nome já diz é um especificamente um plugin para a IDE Eclipse leia mais a repeito do nimble no {{{http://demoiselle.sourceforge.net/docs/tools/nimble/}Guia do Usuário}}.
 
 
 * {Metapacotes}
@@ -158,10 +158,4 @@ Demoiselle 2 Infra
   Pacote que instala o ambiente de desenvolvimento com a IDE Eclipse, Maven, Servidores Tomcat e JBoss e o script <<demoiselle-workspace>>
 
 [../images/demoiselle-2-infra-4.png]
-
-  * <<{demoiselle-2-infra-extra}>>
-
-  Pacote que instala ferramentas adicionais para o ambiente de desenvolvimento.
-
-[../images/demoiselle-2-infra-extra-2.png]
 
