@@ -317,7 +317,7 @@
 					Por convenção, se houver mudança de versão principal do Demoiselle haverá um novo pacote com a nomenclatura Demoiselle-X-Infra-X, por exemplo: 
 					numa versão 3 do Demoiselle, teremos Demoiselle-3-Infra-1 e assim consecutivamente.						
         			</para>
-        			<para>Neste exemplo, vamos instalar o Meta-Pacote: Demoiselle-2-Infra-3</para>
+        			<para>Neste exemplo, vamos instalar o Meta-Pacote: Demoiselle-2-Infra-4</para>
         			<para>Para proceder com a instalação, selecionamos o pacote e clicando com o botão direito do mouse
         			abre-se um menu onde escolheremos a opção "Marcar para instalação".</para>
         			<para>
@@ -330,10 +330,10 @@
 		  	            			<imagedata fileref="images/selecionandoInstalacao.png"  format="PNG" align="center"/>
 		        				</imageobject>
 	       	    				<textobject>
-									<phrase>Selecionando o Meta-Pacote: Demoiselle-2-Infra-3 para instalação.</phrase>
+									<phrase>Selecionando o Meta-Pacote: Demoiselle-2-Infra-4 para instalação.</phrase>
 								</textobject>
 								<caption>
-									<para>Selecionando o Meta-Pacote: Demoiselle-2-Infra-3 para instalação.</para>
+									<para>Selecionando o Meta-Pacote: Demoiselle-2-Infra-4 para instalação.</para>
 								</caption>		        	    
         					</mediaobject>
         				</screenshot> 
@@ -341,7 +341,7 @@
         			<para>Logo em seguida, será mostrada uma janela informando os pacotes que serão instalados</para>
         			<para> Neste caso temos:        			
         				<itemizedlist>
-						<listitem> demoiselle-eclipse-4.4: Eclipse versão Luna com plugins recomendados.</listitem>
+						<listitem> demoiselle-eclipse-4.4.2: Eclipse versão Luna SR2 com plugins recomendados.</listitem>
 						<listitem> demoiselle-jboss-7.1": Conteiner/Servidor de aplicação JEE6 compatível.</listitem>
 						<listitem> demoiselle-maven-3": Apache-Maven versão 3, modo desktop. Não é o mesmo plugin do Eclipse</listitem>
 						<listitem> demoiselle-maven-repo": Repositório local com as bibliotecas do Demoiselle e suas dependências. Atualizado de acordo com a data de criação.</listitem>
@@ -361,10 +361,10 @@
 		  	            			<imagedata fileref="images/pacotesDemoiselleInfra.png"  format="PNG" align="center"/>
 		        				</imageobject>
 	       	    				<textobject>
-									<phrase>Selecionando o Meta-Pacote: Demoiselle-2-Infra-3 para instalação.</phrase>
+									<phrase>Selecionando o Meta-Pacote: Demoiselle-2-Infra-4 para instalação.</phrase>
 								</textobject>
 								<caption>
-									<para>Selecionando o Meta-Pacote: Demoiselle-2-Infra-3 para instalação.</para>
+									<para>Selecionando o Meta-Pacote: Demoiselle-2-Infra-4 para instalação.</para>
 								</caption>		        	    
         					</mediaobject>
         				</screenshot> 
@@ -656,7 +656,7 @@
         				</screenshot> 
        	</para>
        	<para>Se os pacotes estão sendo listados, podemos fazer a instalação.</para>
-       	<para>Usamos o comando <command>sudo apt-get install demoiselle-2-infra-3</command> </para>
+       	<para>Usamos o comando <command>sudo apt-get install demoiselle-2-infra-4</command> </para>
        	<para>Depois é preciso aguardar o download do pacote e o processo de instalação, sendo que o tempo total dependerá da velocidade da rede, do tempo de resposta 
        	do repositório e o poder de processamento do seu computador.</para>
        	<para>
@@ -669,10 +669,10 @@
 		  	            			<imagedata fileref="images/aptGetInstallInfra.png"  format="PNG" align="center"/>
 		        				</imageobject>
 	       	    				<textobject>
-									<phrase>Instalando o meta-pacote demoiselle-2-infra-3 com o comando apt-get install</phrase>
+									<phrase>Instalando o meta-pacote demoiselle-2-infra-4 com o comando apt-get install</phrase>
 								</textobject>
 								<caption>
-									<para>Instalando o meta-pacote demoiselle-2-infra-3 com o comando apt-get install</para>
+									<para>Instalando o meta-pacote demoiselle-2-infra-4 com o comando apt-get install</para>
 								</caption>		        	    
         					</mediaobject>
         				</screenshot> 

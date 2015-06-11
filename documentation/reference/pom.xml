@@ -74,4 +74,5 @@
 		<project.context>infra/reference</project.context>
 	</properties>
 	<version>2.1.0</version>
+	<packaging>jdocbook</packaging>
 </project>

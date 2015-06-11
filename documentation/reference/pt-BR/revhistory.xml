@@ -20,4 +20,10 @@
 		<authorinitials>ess</authorinitials>
 		<revremark>Atualização das informações para versão 3 do pacote.</revremark>
 	</revision>
+	<revision revisionflag="added">
+		<revnumber>1.1.2</revnumber>
+		<date>01/06/2015</date>
+		<authorinitials>ess</authorinitials>
+		<revremark>Atualização das informações para versão 4 dos pacotes.</revremark>
+	</revision>
 </revhistory>

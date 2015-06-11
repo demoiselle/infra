@@ -311,7 +311,7 @@
 								<listitem> <para> procure a caixa chamada <emphasis>Procurar</emphasis> e digite nela a palavra
         									<emphasis>demoiselle</emphasis>. Isso filtrará os pacotes do Demoiselle. </para>
 								   </listitem>
-								<listitem> <para>Depois marque o item <emphasis>demoiselle-2-infra-3</emphasis> </para> </listitem>
+								<listitem> <para>Depois marque o item <emphasis>demoiselle-2-infra-4</emphasis> </para> </listitem>
 								<listitem> <para>E clique no botão <guibutton>Apply</guibutton> </para> </listitem>
 						</itemizedlist> 
         			 </para>
@@ -326,10 +326,10 @@
 		  	            			<imagedata fileref="images/yast_procurar_demoiselle.png"  format="PNG" align="center" scalefit="1" width="90%"/>
 		        				</imageobject>
 	       	    				<textobject>
-									<phrase>Selecionando pacote Demosielle 2 infra 3.</phrase>
+									<phrase>Selecionando pacote Demosielle 2 infra 4.</phrase>
 								</textobject>
 								<caption>
-									<para>Selecionando pacote Demosielle 2 infra 3.</para>
+									<para>Selecionando pacote Demosielle 2 infra 4.</para>
 								</caption>		        	    
         					</mediaobject>
         				</screenshot> 
@@ -345,10 +345,10 @@
 		  	            			<imagedata fileref="images/yast_resumo_instalacao.png"  format="PNG" align="center" scalefit="1" width="90%"/>
 		        				</imageobject>
 	       	    				<textobject>
-									<phrase>Resumo da instalação do pacote Demosielle 2 infra 3.</phrase>
+									<phrase>Resumo da instalação do pacote Demosielle 2 infra 4.</phrase>
 								</textobject>
 								<caption>
-									<para>Resumo da instalação do pacote Demosielle 2 infra 3.</para>
+									<para>Resumo da instalação do pacote Demosielle 2 infra 4.</para>
 								</caption>		        	    
         					</mediaobject>
         				</screenshot> 
