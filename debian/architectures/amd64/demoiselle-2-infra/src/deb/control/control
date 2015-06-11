@@ -1,9 +1,8 @@
 Package: [[name]]
-Version: 1.0
+Version: 1.0.0-1
 Section: universe/devel
 Priority: standard
 Architecture: amd64
 Depends: demoiselle-eclipse-4.4.2(>=4.4.2), maven(>=3.0.4) | demoiselle-maven-3 (>=3.0.5), demoiselle-maven-repo (>=3.2.0), demoiselle-workspace (>=2.1), demoiselle-tomcat-7.0 (>=7.0), demoiselle-jboss-7.1 (>=7.1.1)
-Suggests: demoiselle-2-infra-extra (>=2.0)
 Maintainer: Demoiselle Framework <demoiselle-users@lists.sourceforge.net>
 Description: [[description]]
