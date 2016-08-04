@@ -2,23 +2,19 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>demoiselle-soapui-5.1</artifactId>
+	<artifactId>demoiselle-soapui-5</artifactId>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
 	<url>http://www.frameworkdemoiselle.gov.br</url>
-	<description>
-        Desktop application for inspecting Web Services
-        SoapUI is the leading desktop application for inspecting, invoking, monitoring, simulating/mocking and functional/load/compliance/surveillance testing of REST/WADL and SOAP/WSDL-based Web Services over HTTP.
-        Homepage: http://www.soapui.org/
-    </description>
+	<description>Desktop application for inspecting Web Services  SoapUI is  desktop application for inspecting, invoking, monitoring, simulating, mocking and functional,load,compliance, surveillance testing of REST/WADL and SOAP WSDL-based Web Services over HTTP. Packaged by Demoiselle Framework community.</description>
 
-    <parent>
-        <groupId>br.gov.frameworkdemoiselle.infra.amd64</groupId>
-        <artifactId>demoiselle-infra-amd64-parent</artifactId>
-        <version>1.0</version>
-        <relativePath>../../../parent/amd64/pom.xml</relativePath>
-     </parent>
+	<parent>
+		<groupId>br.gov.frameworkdemoiselle.infra.i386</groupId>
+		<artifactId>demoiselle-infra-i386-parent</artifactId>
+		<version>1.0</version>
+		<relativePath>../../../parent/i386/pom.xml</relativePath>
+	</parent>
 
 	<build>
 		<plugins>
@@ -55,5 +51,5 @@
 
 		</plugins>
 	</build>
-	<version>5.1.3</version>
+	<version>5.2.1</version>
 </project>

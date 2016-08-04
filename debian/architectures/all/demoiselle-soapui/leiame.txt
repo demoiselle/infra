@@ -1,5 +1,6 @@
 Para geração de pacotes:
 
+- O Pacote de instalação do SoapUI tem diferença de arquitetura, mas a opção .tar.gz sem Java é independente de arquitetura.
 - Alterar Artifact Id e Version no POM.XML
 - Incluir os arquivos de instalação do SoapUI (ex: soapui-x.x) no diretório /src/data/opt/demoiselle/tool/
 - No diretório /src/data/usr/share/applications/

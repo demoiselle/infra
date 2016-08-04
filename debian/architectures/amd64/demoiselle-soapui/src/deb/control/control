@@ -1,8 +1,0 @@
-Package: [[name]]
-Version: 5.1.3
-Section: universe/devel
-Priority: standard
-Architecture: all
-Depends: openjdk-7-jdk | openjdk-6-jdk | sun-java6-jdk | sun-java6-jdk | serpro-java6-jdk | oracle-jdk7-installer | sun-java5-jdk  
-Maintainer: Demoiselle Framework <demoiselle-users@lists.sourceforge.net>
-Description: [[description]]

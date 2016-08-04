@@ -1,8 +1,8 @@
 Package: [[name]]
-Version: 5.2.1-1
+Version: 5.2.1
 Section: universe/devel
 Priority: standard
-Architecture: i386
+Architecture: all
 Depends: openjdk-7-jdk | openjdk-8-jdk | oracle-jdk7-installer | java-7-serpro | oracle-jdk8-installer | oracle-jdk7-installer | serpro-oracle-jdk-7u79 | serpro-oracle-jdk-8u92
 Maintainer: Demoiselle Framework <demoiselle-users@lists.sourceforge.net>
 Description: [[description]]
