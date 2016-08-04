@@ -1,0 +1,16 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Categories=Development;
+Comment=A tool for inspecting Web Services over HTTP
+Comment[pt]=Ferramenta para testes de web services via HTTP
+Encoding=UTF-8
+Type=Application
+Name=SoapUI-5.2.1
+Exec=/opt/demoiselle/tool/SoapUI-5.2.1/bin/soapui.sh
+Icon=/opt/demoiselle/tool/SoapUI-5.2.1/SoapUI-5.2.1.png
+GenericName=SoapUI 5.2.1
+GenericName[pt]=SoapUI 5.2.1
+Name=SoapUI 5.2.1
+Name[pt]=SoapUI 5.2.1
+Terminal=false
+Categories=Application;
